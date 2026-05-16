@@ -21,7 +21,7 @@ export default function Footer() {
       </a>
 
       {/* Book Site Visit Button */}
-      <div
+      {/* <div
         style={{
           padding: "7px 10px 23px",
           transform: "rotate(-90deg)",
@@ -35,10 +35,10 @@ export default function Footer() {
         onClick={toggleForm}
       >
         Book A Site Visit
-      </div>
+      </div> */}
 
       {/* Modal Form */}
-      {showForm && (
+      {/* {showForm && (
         <div
           className="fixed top-0 left-0 z-[230] font1 flex flex-col items-center justify-center bg-black/70"
           style={{ width: "100vw", height: "104vh" }}
@@ -104,7 +104,7 @@ export default function Footer() {
             </div>
           </form>
         </div>
-      )}
+      )} */}
 
       {/* Footer Section */}
       <footer className="md:p-8 s p-6 w-full z-20 text-white bg-zinc-900 relative">
