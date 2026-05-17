@@ -15,7 +15,7 @@ export default function Partners() {
       <div className="relative text-center mb-7 sm:mb-12">
        
         <h2 className="font-black  text-zinc-900 text-3xl md:text-4xl tracking-tight">
-          150+{" "}
+          50+{" "}
           <span className="text-color3">Tie Ups</span>{" "}
           Across The World
         </h2>
@@ -43,7 +43,7 @@ export default function Partners() {
                 `}
               >
                 {/* Logo */}
-                <div className="relative w-full max-w-36 h-14 sm:h-20 transition-all duration-300 group-hover:scale-105 sm:filter grayscale group-hover:grayscale-0 opacity-60 group-hover:opacity-100">
+                <div className="relative w-full max-w-36 h-14 sm:h-20 transition-all duration-300 group-hover:scale-105 ">
                   <Image
                     src={partner}
                     alt={`partner-${index}`}

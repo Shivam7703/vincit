@@ -2,10 +2,10 @@
 import CountUp from "react-countup";
 
 const stats = [
-  { value: 60000, suffix: "+", separator: ",", label: "Successful Admist" },
-  { value: 70000, suffix: "+", separator: ",", label: "Programs" },
-  { value: 1225,  suffix: "+", separator: ",", label: "Partners Schools" },
-  { value: 70,    suffix: "+", separator: "",  label: "Countries" },
+  { value: 5, suffix: "+ yrs", separator: ",", label: "experience" },
+  { value: 1200, suffix: "+", separator: ",", label: "Students Counselled" },
+  { value: 50,  suffix: "+", separator: ",", label: "Tie Ups" },
+  { value: 500,    suffix: "+", separator: "",  label: "Students Admission" },
 ];
 
 export default function Count2() {

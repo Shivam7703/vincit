@@ -1,42 +1,42 @@
 "use client";
 import CountUp from "react-countup";
 import { LiaAwardSolid } from "react-icons/lia";
-import { PiHandCoins, PiChartLineUp, PiIdentificationCard } from "react-icons/pi";
+import { PiHandCoins, PiChartLineUp, PiIdentificationCard, PiChatsCircle, PiHandshake, PiStudent } from "react-icons/pi";
 
 const statsData = [
   {
     id: 1,
     icon: <LiaAwardSolid />,
-    value: 20,
-    suffix: " K+",
-    label: "Successful Admits",
+    value: 5,
+    suffix: "+ Yrs",
+    label: "Experience",
     prefix: "",
   },
   {
     id: 2,
-    icon: <PiHandCoins />,
-    value: 2,
-    suffix: " M+",
-    label: "Achieved Scholarships",
-    prefix: "$",
+    icon: <PiChatsCircle />,
+    value: 1200,
+    suffix: "+",
+    label: "Students Counselled",
+    prefix: "",
   },
   {
     id: 3,
-    icon: <PiChartLineUp />,
-    value: 3500,
-    suffix: " CR+",
-    label: "Representing Over 800 INS.",
+    icon: <PiHandshake />,
+    value: 50,
+    suffix: "+",
+    label: "Tie Ups",
     prefix: "",
   },
   {
     id: 4,
-    icon: <PiIdentificationCard />,
-    value: 98,
-    suffix: "%",
-    label: "Visa Success Rate",
+    icon: <PiStudent />,
+    value: 500,
+    suffix: "+",
+    label: "Students Admission",
     prefix: "",
   },
-];
+]
 
 export default function StatsBanner() {
   return (

@@ -68,7 +68,7 @@ function HomeBannerCard({
   btntext, link
 }: any) {
   return (
-    <div className="relative w-full overflow-hidden font1 text-white md:h-[98vh] min-h-[520px]">
+    <div className="relative w-full overflow-hidden font1 max-h-[700px] text-white md:h-[98vh] min-h-[520px]">
       {/* Full-size image */}
       <Image
         src={img} // Use the dynamic image passed in
@@ -78,7 +78,7 @@ function HomeBannerCard({
       />
  
 
-    <div className="absolute inset-0 z-10 flex items-center justify-center bg-gradient-to-b from-black/30 to-black/70">
+    <div className="absolute inset-0 z-10 flex items-center justify-center bg-gradient-to-b from-black/40 to-black/80">
       <motion.div
         variants={sliderText}
         initial="initial"
