@@ -1,5 +1,4 @@
 import AboutSection from "@/components/home/AboutSection";
-import Blogs from "@/components/home/blog";
 import BannerSlider from "@/components/home/HomeBanner";
 import ServiceSlider from "@/components/home/services";
 import WhyChoose from "@/components/home/whychoose";
