@@ -31,20 +31,20 @@ export default function Contactform() {
               {
                 icon: <MdOutlineLocationOn />,
                 label: "Our Location",
-                lines: ["123 Visa Lane, New Delhi", "India – 110001"],
+                lines: ["714, Plot No A26, Block B, alt f Mohan Cooperative Industrial Estate, New Delhi - 110044"],
                 href: null,
               },
               {
                 icon: <MdOutlinePhone />,
                 label: "Phone Number",
-                lines: ["+91 98765 43210"],
-                href: "tel:+919876543210",
+                lines: ["+91 8595078896"],
+                href: "tel:+918595078896",
               },
               {
                 icon: <MdOutlineEmail />,
                 label: "Email Address",
-                lines: ["support@megamind.com"],
-                href: "mailto:info@megamind.com",
+                lines: ["info@vincitedupath.com"],
+                href: "mailto:info@vincitedupath.com",
               },
             ].map((item, i) => (
               <div
@@ -64,10 +64,10 @@ export default function Contactform() {
                   {item.lines.map((line, j) => (
                     item.href
                       ? <a key={j} href={item.href}
-                           className=" text-zinc-700 hover:text-color3 
+                        className=" text-zinc-700 hover:text-color3 
                                       transition-colors leading-relaxed">
-                          {line}
-                        </a>
+                        {line}
+                      </a>
                       : <p key={j} className="text-sm text-gray-600 leading-relaxed">{line}</p>
                   ))}
                 </div>
@@ -119,7 +119,7 @@ export default function Contactform() {
                 className="w-full px-4 py-2.5 border border-gray-200 rounded-lg text-sm
                            bg-white outline-none focus:border-color3  placeholder:text-gray-400
                            transition-colors" />
-             <input type="text" name="subject" placeholder="Course" required
+              <input type="text" name="subject" placeholder="Course" required
                 className="w-full px-4 py-2.5 border border-gray-200 rounded-lg text-sm
                            bg-white outline-none focus:border-color3  placeholder:text-gray-400
                            transition-colors" />

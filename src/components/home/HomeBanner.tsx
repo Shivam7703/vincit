@@ -117,7 +117,7 @@ function HomeBannerCard({
 
           {/* Secondary */}
           <a
-            href="tel:087654321"
+            href="tel:+918595078896"
             className="inline-flex items-center gap-3 bg-white/90 hover:bg-white text-black font-bold uppercase tracking-[0.14em] text-sm sm:text-base px-7 py-3.5 rounded-[4px] transition-all duration-200 hover:-translate-y-px font-['Barlow_Condensed',sans-serif]"
           >
             Get Details

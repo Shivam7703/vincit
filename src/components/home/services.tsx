@@ -55,11 +55,7 @@ export default function ServiceSlider() {
         >
           {data?.service?.map((service, index) => (
             <SwiperSlide key={index} >
-              <Link
-                href={`/services/${service?.title
-                  ?.trim().toLowerCase()
-                  .replace(/[^a-z0-9]+/g, "-")
-                  .replace(/^-+|-+$/g, "")}`}
+              <div 
                 className="group block h-full"
               >
                 <div className="bg-white rounded-xl m-2 shadow-md hover:-translate-y-1 transition-all duration-300 overflow-visible">
@@ -81,7 +77,7 @@ export default function ServiceSlider() {
                     <div className="absolute -top-4 sm:-top-7 right-4 w-9 h-9 sm:h-14 sm:w-14 bg-[#00BFFF]
                                     rounded-full flex items-center justify-center
                                     border-[3px] border-white z-10 text-white text-lg sm:text-2xl">
-                      <MdSchool />
+                      {service?.icon}
                     </div>
                     <h3 className="font-bold  text-lg text-gray-900 mb-4 group-hover:text-[#00BFFF] transition-colors">
                       {service?.title}
@@ -90,17 +86,10 @@ export default function ServiceSlider() {
                       {service?.text}
                     </p>
 
-                    {/* Read More pill button */}
-                    <div className="flex items-center justify-between bg-zinc-100 hover:bg-zinc-300
-                                    rounded-lg sm:p-3 px-6 p-2 shadow-sm transition-colors duration-200">
-                      <span className="text-base font-medium text-gray-900">Read More</span>
-                      <span className="w-5 h-5 bg-white rounded-full flex items-center justify-center flex-shrink-0">
-                        <IoIosArrowRoundForward className="text-gray-700 text-lg" />
-                      </span>
-                    </div>
+                   
                   </div>
                 </div>
-              </Link>
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>

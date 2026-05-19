@@ -4,10 +4,10 @@ import { FaFacebookF, FaInstagram, FaYoutube, FaLinkedinIn } from "react-icons/f
 import { cl1, cl2, cl3, cl4 } from "@/assets";
 
 const team = [
-  { name: "Ritu Ratia",    role: "Consultant", img: cl1  },
-  { name: "Devid Miller",  role: "Consultant", img: cl2 },
-  { name: "Sonsil Macron", role: "Consultant", img: cl3 },
-  { name: "Shikhon Islam", role: "Consultant", img: cl4 },
+  { name: "Shekhar",    role: "Founder & CEO", img: cl1  },
+  { name: "Tushar",  role: "Administrator", img: cl2 },
+  { name: "Zaid", role: "Admission Counsellor", img: cl3 },
+  { name: "Pranav", role: "Performance Marketer", img: cl4 },
 ];
 
 const socials = [
@@ -25,7 +25,7 @@ export default function TeamSection() {
       <h4 className="text-color3  text-sm tracking-[0.22em]  font-bold mb-2">Professional People</h4>
       <h2 className="font-black uppercase text-black text-2xl md:text-4xl sm:mb-14 mb-6
                     max-w-2xl mx-auto">
-        Meet Our Expert Visa<br />Consultants
+        Meet Our Expert Team
       </h2>
 
       {/* Cards grid */}

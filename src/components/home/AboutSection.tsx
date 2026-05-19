@@ -159,7 +159,7 @@ function AboutSection() {
 
           {/* CTA Button */}
           <Link
-            href="/about-us"
+            href="#about"
             className="inline-flex items-center gap-2 bg-color1 hover:bg-[#00a8e0] text-white font-semibold text-sm px-6 py-3 rounded-md transition-colors duration-200"
           >
             About Us <span>›</span>

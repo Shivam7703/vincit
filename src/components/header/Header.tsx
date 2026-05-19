@@ -74,7 +74,7 @@ const Header = ({ header }: any) => {
       >
         <div className="max-md:hidden">
           <div className="md:flex md:py-7 bg-white uppercase items-center justify-between  h-24  px-5 py-3 lg:px-20">
-            <Link href={header?.href || "/"}>
+            <Link href={"/"}>
               <Image
                 src={logo}
                 alt="logo"
@@ -84,19 +84,19 @@ const Header = ({ header }: any) => {
             <div className="flex md:gap-4 text-sm">
               <a
                 className="flex items-center  hover:scale-105 duration-300"
-                href="mailto:info@vincitedupath.in"
+                href="mailto:info@vincitedupath.com"
               >
                 <MdAttachEmail className="text-2xl mr-2 " />
-                <p className="font-semibold text-zinc-700">
-                  <span className="text-zinc-400">Mail On </span>
+                <p className="font-semibold text-zinc-700 lowercase">
+                  <span className="text-zinc-400 uppercase">Mail On </span>
                   <br />
-                  info@vincitedupath.in
+                  info@vincitedupath.com
                 </p>
               </a>
               <div className="h-10 w-[1px] bg-black/30"></div>
               <a
                 className="flex  max-lg:hidden  hover:scale-105 duration-300"
-                href="tel:+91 1234567890"
+                href="tel:+91 8595078896"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -105,7 +105,7 @@ const Header = ({ header }: any) => {
                   {" "}
                   <span className="text-zinc-400">Call On </span>
                   <br />
-                  +91 1234567890
+                  +91 8595078896
                 </p>
               </a>
             </div>
@@ -126,7 +126,7 @@ const Header = ({ header }: any) => {
           className={`flex md:hidden w-screen items-center  justify-between h-20 px-3 bg-white`}
         >
           <div className="flex items-center relative cursor-pointer text-3xl justify-between w-full">
-            <Link href={header?.href || "/"}>
+            <Link href={"/"}>
               <Image
                 src={logo}
                 alt="logo"
@@ -168,7 +168,7 @@ export default Header;
 function RightSide(onTop: any) {
   return (
     <div className=" p-2 px-4 hover:bg-zinc-800 hover:text-white duration-300 transition-all text-zinc-900 rounded-lg my-1 bg-white ">
-      <a href={"tel:+911234567890"} className="w-max">
+      <a href={"tel:+918595078896"} className="w-max">
         <p className="font-semibold">CALL NOW</p>
       </a>
     </div>
