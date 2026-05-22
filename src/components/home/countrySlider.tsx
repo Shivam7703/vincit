@@ -109,7 +109,7 @@ export default function Countryslider({data, uniqueId}:any) {
           {/* ── Nav arrows ── */}
         <button
                 className={`${uniqueId}-next absolute z-30 right-2 md:right-6 top-[62%] -translate-y-1/2
-                  w-12 h-12 rounded-full bg-white/70  hover:bg-color1
+                  w-12 h-12 rounded-full bg-white/70  hover:bg-color5
                   flex items-center justify-center text-black hover:text-white shadow-sm border 
                   transition-all duration-300 hover:scale-110`}
               >
@@ -117,7 +117,7 @@ export default function Countryslider({data, uniqueId}:any) {
               </button>
               <button
                 className={`${uniqueId}-prev absolute z-30 left-2 md:left-6 top-[62%] -translate-y-1/2
-                  w-12 h-12 rounded-full bg-white/70 hover:bg-color1
+                  w-12 h-12 rounded-full bg-white/70 hover:bg-color5
                   flex items-center justify-center text-black hover:text-white shadow-sm border
                   transition-all duration-300 hover:scale-110`}
               >
