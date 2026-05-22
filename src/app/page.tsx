@@ -24,7 +24,7 @@ export default function Home() {
       <ServiceSlider />
       <OfferCountry />
       <Partners />
-      {/* <Count2 />
+      {/* 
       <div className="w-full">
         <Image
           src={world}

@@ -121,21 +121,21 @@ export default function WhyChoose() {
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
-          className="relative rounded-2xl overflow-hidden min-h-[300px] md:w-[24%] max-h-[560px] w-[48%] md:min-h-0 group cursor-pointer shadow-xl hover:shadow-2xl transition-all duration-500"
+          className="relative  min-h-[300px] md:w-[24%] w-[48%] md:min-h-0 space-y-4 sm:space-y-9 group cursor-pointer "
         >
+<div className="relative h-[60%] w-full rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500">
           <Image
             src={choose3}
             alt="Student"
             fill
-            className="object-cover group-hover:scale-110 transition-transform duration-700"
+            className="object-cover h-full w-full group-hover:scale-110 transition-transform duration-700"
           />
           
-          {/* Dark overlay on hover */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-          
+
+          </div>
           {/* Premium trust badge */}
           <div 
-            className="absolute bottom-0 left-0 right-0 bg-gradient-to-r from-color4 to-color5 px-6 py-5"
+            className="rounded-2xl group-hover:-translate-y-6 duration-300 bg-gradient-to-r from-color4 to-color5 px-6 py-5"
           >
               <p className="font-black mb-3 text-white texl-sm sm:text-2xl leading-tight">
                 10K+ Trusted Students
@@ -180,10 +180,6 @@ export default function WhyChoose() {
                 className="object-cover group-hover:scale-110 transition-transform duration-700" 
               />
               
-              {/* Overlay with text on hover */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-4">
-                
-              </div>
             </motion.div>
           ))}
         </div>
