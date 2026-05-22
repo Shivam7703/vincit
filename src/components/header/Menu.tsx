@@ -6,9 +6,9 @@ import { navItemsArray } from "@/data/homeData";
 
 const Menu = ({ activeItemId, onItemClick , onTop}: any) => {
   return (
-    <ul className={`hidden items-center xl:gap-x-3 w-max md:gap-x-0 text-white md:flex`}>
+    <ul className={`hidden items-center xl:gap-x-1 w-max md:gap-x-0 text-zinc-100 md:flex`}>
       {navItemsArray?.map((item: any) => (
-        <li key={item?.id} className="group relative transition-all px-2 py-1 border-r border-white/60 last:border-none">
+        <li key={item?.id} className="group relative transition-all ">
           <Link
             href={item?.href || "#"}
             className={` ${activeItemId === item.href ? " rounded-2xl bg-opacity-90"
@@ -16,7 +16,7 @@ const Menu = ({ activeItemId, onItemClick , onTop}: any) => {
             onClick={() => onItemClick(item.id, item.href)}
           >
             <span
-              className={` transition-all hover:text-orange-200 text-lg hover:scale-105 duration-300 
+              className={` transition-all hover:text-color2 text-sm font-semibold hover:scale-105 duration-300 
              
               `}>              {item?.label}
             </span>
@@ -31,7 +31,7 @@ const Menu = ({ activeItemId, onItemClick , onTop}: any) => {
                 <Link
                   key={nav.id}
                   href={nav.href || "#"}
-                  className={`hover:bg-white bg-opacity-30 flex cursor-pointer items-center py-1 pl-2 pr-8 hover:text-color2 
+                  className={`hover:bg-white bg-opacity-30 flex cursor-pointer items-center py-1 pl-2 pr-8 hover:text-orange-600 
                    `}
                   onClick={() => onItemClick(nav.id, nav.href)}
                 >

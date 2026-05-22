@@ -22,7 +22,7 @@ export default function TeamSection() {
     <section className="bg-[#f3f4f6] py-14 px-6 md:px-16 font1 text-center">
 
       {/* Header */}
-      <h4 className="text-color3  text-sm tracking-[0.22em]  font-bold mb-2">Professional People</h4>
+      <h4 className="text-color2 text-xs tracking-[0.22em]  font-bold mb-2">Professional People</h4>
       <h2 className="font-black uppercase text-black text-2xl md:text-4xl sm:mb-14 mb-6
                     max-w-2xl mx-auto">
         Meet Our Expert Team

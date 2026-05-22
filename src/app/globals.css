@@ -30,11 +30,11 @@ body {
 h2 ,h1{
   line-height: 1.25!important;
 }
-h2{
+h2, h1, a, li{
   font-family: "Barlow Condensed", sans-serif;
   
 }
-h3{  font-family: "Rubik", sans-serif;}
+h3,p{  font-family: "Rubik", sans-serif;}
 
 
 h4 {

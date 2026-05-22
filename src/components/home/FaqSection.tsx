@@ -47,14 +47,15 @@ export default function FaqSection() {
 
         {/* ── Left ── */}
         <div className="flex flex-col gap-4">
-          <h4 className="text-color3 text-sm font-bold tracking-[0.22em]">{data.label}</h4>
+          <h4 className="text-color2 text-xs font-bold tracking-[0.22em]">{data.label}</h4>
 
           <h2 className="font-black uppercase text-zinc-900 text-2xl md:text-4xl leading-tight
                          ">
             {data.title}
           </h2>
 
-          <p className="text-gray-700 leading-relaxed">{data.para}</p>
+          <p className="text-gray-800 leading-relaxed">{data.para}
+          </p>
 
           <ul className="flex flex-col gap-2 mt-1">
             {data.points.map((p, i) => (
@@ -70,7 +71,6 @@ export default function FaqSection() {
         <div className="">
         <Faq data={data.faqs}/>
         </div>
-
       </div>
     </section>
   );

@@ -32,14 +32,10 @@ export default function Countryslider({data, uniqueId}:any) {
             {data?.cards?.map((card: any, index: number) => (
 
 <SwiperSlide key={index}>
-  <div
-    className="group relative my-6 bg-white rounded-xl overflow-hidden
-    shadow-xl shadow-zinc-600/50 hover:shadow-2xl 
-    transition-all duration-500"
-  >
+ <div className="group relative my-6 bg-white rounded-xl overflow-hidden shadow-lg shadow-zinc-600/50 hover:shadow-xl transition-all duration-500">
+  <Link href={card.heading || "#"} className="block h-full">
     {/* IMAGE */}
     <div className="relative h-48 overflow-hidden">
-
       {/* Image */}
       <Image
         src={card.img}
@@ -67,7 +63,7 @@ export default function Countryslider({data, uniqueId}:any) {
       <div
         className="relative w-16 h-16 rounded-full border-4 border-white
         shadow-lg overflow-hidden transition-transform duration-500
-        group-hover:scale-110"
+        group-hover:scale-110 group-hover:rotate-6"
       >
         <Image
           src={card.flag}
@@ -81,20 +77,31 @@ export default function Countryslider({data, uniqueId}:any) {
 
     {/* CONTENT */}
     <div className="text-center px-5 pt-3 pb-6">
-
-      <h3 className="text-zinc-900 font-bold text-lg mb-2">
+      <h3 className="text-zinc-900 font-bold text-lg mb-2 group-hover:text-color4 transition-colors duration-300">
         {card.heading ?? card.name}
       </h3>
 
-      <p className="text-zinc-800  leading-relaxed mx-auto">
+      <p className="text-zinc-600 leading-relaxed mx-auto mb-5 text-sm line-clamp-2">
         {card.text ?? "Lorem Ipsum Has Been The Industry's Standard"}
       </p>
 
-      {/* Learn More */}
-
+      {/* Get Details Button */}
+      <div className="inline-block w-full">
+        <div className="group/btn inline-flex items-center justify-center gap-2 w-full bg-gradient-to-r from-color2 to-color4 hover:from-color4 hover:to-color5 text-white font-semibold text-sm px-4 py-2.5 rounded-lg transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-0.5">
+          <span>Get Details</span>
+          <svg 
+            className="w-4 h-4 transition-transform duration-300 group-hover/btn:translate-x-1" 
+            fill="none" 
+            stroke="currentColor" 
+            viewBox="0 0 24 24"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+          </svg>
+        </div>
+      </div>
     </div>
-
-  </div>
+  </Link>
+</div>
 </SwiperSlide>
             ))}
           </Swiper>

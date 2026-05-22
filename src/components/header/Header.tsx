@@ -10,6 +10,7 @@ import Image from "next/image";
 import { logo } from "@/assets";
 import { usePathname } from "next/navigation";
 import { MdAttachEmail, MdCall } from "react-icons/md";
+import { FiArrowRight } from "react-icons/fi";
 
 const Header = ({ header }: any) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
@@ -67,59 +68,48 @@ const Header = ({ header }: any) => {
 
   return (
     <>
-      <div className="h-20 md:h-32 w-full "></div>
+      <div className="h-20 w-full "></div>
       <header
-        className={`fixed top-0 left-0 w-screen z-50 transition-all font1 duration-300 
+        className={`fixed top-0 left-0 w-screen z-50 transition-all shadow-md duration-300 
         ${isVisible ? "translate-y-0 " : "-translate-y-full"}`}
       >
-        <div className="max-md:hidden">
-          <div className="md:flex md:py-7 bg-white uppercase items-center justify-between  h-24  px-5 py-3 lg:px-20">
-            <Link href={"/"}>
-              <Image
-                src={logo}
-                alt="logo"
-                className="w-[25vw] max-w-40 m-4 object-contain "
-              />
-            </Link>
-            <div className="flex md:gap-4 text-sm">
-              <a
-                className="flex items-center  hover:scale-105 duration-300"
-                href="mailto:info@vincitedupath.com"
-              >
-                <MdAttachEmail className="text-2xl mr-2 " />
-                <p className="font-semibold text-zinc-700 lowercase">
-                  <span className="text-zinc-400 uppercase">Mail On </span>
-                  <br />
-                  info@vincitedupath.com
-                </p>
-              </a>
-              <div className="h-10 w-[1px] bg-black/30"></div>
-              <a
-                className="flex  max-lg:hidden  hover:scale-105 duration-300"
-                href="tel:+91 8595078896"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <MdCall className="text-2xl mr-2 mt-1" />
-                <p className="font-semibold text-zinc-700">
-                  {" "}
-                  <span className="text-zinc-400">Call On </span>
-                  <br />
-                  +91 8595078896
-                </p>
-              </a>
-            </div>
-          </div>
-          <div className="mx-auto w-full flex justify-center flex-row gap-4 bg-[#00aaff]">
-            <Menu
-              navItemsArray={navItems}
-              activeItemId={activeItem}
-              onTop={isAtTop}
-              onItemClick={handleNavItemClick}
-            />{" "}
-            <RightSide />
-          </div>
-        </div>
+       <div className="max-md:hidden">
+  <div className="md:flex md:py-7 bg-white items-center justify-between h-24 px-5 py-3 lg:px-20">
+    <Link href={"/"}>
+      <Image
+        src={logo}
+        alt="logo"
+        className="w-[25vw] max-w-36 m-4 object-contain"
+      />
+    </Link>
+    
+             
+                  <RightSide />
+
+    
+  </div>
+  
+  {/* Bottom Navigation Bar - Like the image showing secondary nav items */}
+  <div className="mx-auto w-full bg-gradient-to-r from-blue-900 via-indigo-900 to-purple-900">
+    <div className="container mx-auto px-5 lg:px-20">
+      <div className="flex items-center justify-between py-3 text-white">
+        <Menu
+      navItemsArray={navItems}
+      activeItemId={activeItem}
+      onTop={isAtTop}
+      onItemClick={handleNavItemClick}
+    />
+        
+        <Link 
+          href="/apply"
+          className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-md text-sm font-semibold transition-all duration-200 shadow-lg hover:shadow-xl uppercase transform hover:scale-105"
+        >
+          Apply Now
+        </Link>
+      </div>
+    </div>
+  </div>
+</div>
 
         {/* Mobile Section */}
         <div
@@ -167,9 +157,89 @@ export default Header;
 
 function RightSide(onTop: any) {
   return (
-    <div className=" p-2 px-4 hover:bg-zinc-800 hover:text-white duration-300 transition-all text-zinc-900 rounded-lg my-1 bg-white ">
-      <a href={"tel:+918595078896"} className="w-max">
-        <p className="font-semibold">CALL NOW</p>
+    <div className="flex items-center gap-5">
+      
+      {/* Email */}
+      <a
+        className="group relative"
+        href="mailto:info@vincitedupath.com"
+      >
+        <div className="relative flex items-center gap-3">
+          
+          {/* Icon */}
+          <div className="flex h-11 w-11 items-center justify-center rounded-full bg-color2 text-white transition-all duration-300 group-hover:scale-110 group-hover:rotate-6">
+            <MdAttachEmail className="text-lg" />
+          </div>
+
+          {/* Text */}
+          <div>
+            <p className="text-[11px] font-medium uppercase tracking-[2px] text-zinc-500">
+              Mail On
+            </p>
+
+            <p className="text-sm font-bold text-zinc-900 transition-colors duration-300 group-hover:text-color2 lowercase">
+              info@vincitedupath.com
+            </p>
+          </div>
+        </div>
+      </a>
+
+      {/* Divider */}
+      <div className="h-10 w-[1px] bg-zinc-300"></div>
+
+      {/* Call */}
+      <a
+        className="group relative max-lg:hidden"
+        href="tel:+918595078896"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className="relative flex items-center gap-3">
+          
+          {/* Icon */}
+          <div className="flex h-11 w-11 items-center justify-center rounded-full bg-color2 text-white transition-all duration-300 group-hover:scale-110 group-hover:rotate-6">
+            <MdCall className="text-lg" />
+          </div>
+
+          {/* Text */}
+          <div>
+            <p className="text-[11px] font-medium uppercase tracking-[2px] text-zinc-500">
+              Call On
+            </p>
+
+            <p className="text-sm font-bold text-zinc-900 transition-colors duration-300 group-hover:text-color2">
+              +91 8595078896
+            </p>
+          </div>
+        </div>
+      </a>
+
+      {/* Divider */}
+      <div className="h-10 w-[1px] bg-zinc-300"></div>
+
+      {/* Apply Now */}
+      <a
+        href="/apply-now"
+        className="group relative"
+      >
+        <div className="relative flex items-center gap-3">
+          
+          {/* Icon */}
+          <div className="flex h-11 w-11 items-center justify-center rounded-full bg-color2 text-white transition-all duration-300 group-hover:scale-110 group-hover:rotate-6">
+            <FiArrowRight className="text-lg" />
+          </div>
+
+          {/* Text */}
+          <div>
+            <p className="text-[11px] font-medium uppercase tracking-[2px] text-zinc-500">
+              Start Journey
+            </p>
+
+            <p className="text-sm font-bold text-zinc-900 transition-colors duration-300 group-hover:text-color2">
+              Book A Consultation
+            </p>
+          </div>
+        </div>
       </a>
     </div>
   );

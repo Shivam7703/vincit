@@ -80,7 +80,7 @@ export default function OfferCountry() {
         {/* Header text */}
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6 pt-9 pb-28 md:pt-12 md:pb-32">
           {data?.title1 && (
-            <h4 className="text-sm font-bold tracking-[0.22em] text-color3 mb-5">
+            <h4 className="text-sm font-bold tracking-[0.22em] text-color2 mb-5">
               {data.title1}
             </h4>
           )}

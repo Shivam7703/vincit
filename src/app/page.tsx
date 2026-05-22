@@ -24,7 +24,7 @@ export default function Home() {
       <ServiceSlider />
       <OfferCountry />
       <Partners />
-      <Count2 />
+      {/* <Count2 />
       <div className="w-full">
         <Image
           src={world}
@@ -33,7 +33,7 @@ export default function Home() {
           width={1920}
           height={600}
         />
-      </div>
+      </div> */}
       <WorkProcess />
       <WhyChoose />
       <FaqSection />

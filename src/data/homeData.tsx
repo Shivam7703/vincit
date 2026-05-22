@@ -1,38 +1,131 @@
 import {
-  banner, banner2, banner3, logo2, 
+  banner, banner2, banner3, 
    
    uni,
    admission,
    visa,
-   kyrg,
-   rus,
-   geor,
   
 } from "@/assets";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
-import { FaFacebookSquare, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { GrLocation, GrVisa } from "react-icons/gr";
+import { GrVisa } from "react-icons/gr";
 
-import { LuPhone } from "react-icons/lu";
-import { MdOutlineAltRoute, MdOutlineStickyNote2 } from "react-icons/md";
+import { MdOutlineStickyNote2 } from "react-icons/md";
 
-import { RiCommunityFill, RiMailSendLine } from "react-icons/ri";
+import { RiCommunityFill } from "react-icons/ri";
 
 // homepage
 export const navItemsArray = [
   { id: 1, label: "Home", href: "/" },
-  { id: 2, label: "About Us", href: "#about" },
+
+  { id: 2, label: "About Us", href: "/about-us" },
+
   {
     id: 3,
     label: "Our Services",
-    href: "#services",
-  
+    href: "/our-services",
+    subNav: [
+      {
+        id: 1,
+        label: "University & Course Selection",
+        href: "/our-services/university-and-course-selection",
+      },
+      {
+        id: 2,
+        label: "Country Selection",
+        href: "/our-services/country-selection",
+      },
+      {
+        id: 3,
+        label: "Selection & Profile Applications",
+        href: "/our-services/selection-and-profile-applications",
+      },
+      {
+        id: 4,
+        label: "Interview Preparation",
+        href: "/our-services/interview-preparation",
+      },
+      {
+        id: 5,
+        label: "Visa Assistance",
+        href: "/our-services/visa-assistance",
+      },
+    ],
   },
-  { id: 4, label: "MBBS Abroad", href: "#abroad" },
-  
-  // { id: 6, label: "Blogs", href: "/blogs" },
-  { id: 7, label: "Contact Us", href: "#contact" },
+
+  {
+    id: 4,
+    label: "MBBS Abroad",
+    href: "/mbbs-abroad",
+    subNav: [
+      {
+        id: 1,
+        label: "MBBS in Russia",
+        href: "/mbbs-abroad/mbbs-in-russia",
+      },
+      {
+        id: 2,
+        label: "MBBS in Georgia",
+        href: "/mbbs-abroad/mbbs-in-georgia",
+      },
+      {
+        id: 3,
+        label: "MBBS in Uzbekistan",
+        href: "/mbbs-abroad/mbbs-in-uzbekistan",
+      },
+      {
+        id: 4,
+        label: "MBBS in Kazakhstan",
+        href: "/mbbs-abroad/mbbs-in-kazakhstan",
+      },
+      {
+        id: 5,
+        label: "MBBS in Kyrgyzstan",
+        href: "/mbbs-abroad/mbbs-in-kyrgyzstan",
+      },
+    ],
+  },
+
+  {
+    id: 5,
+    label: "MBBS in India",
+    href: "/mbbs-in-india",
+  },
+
+  {
+    id: 6,
+    label: "Blogs",
+    href: "/blogs",
+  },
+
+  {
+    id: 7,
+    label: "More",
+    href: "#",
+    subNav: [
+      {
+        id: 1,
+        label: "Privacy Policy",
+        href: "/privacy-policy",
+      },
+      {
+        id: 2,
+        label: "Terms & Conditions",
+        href: "/terms-and-conditions",
+      },
+      {
+        id: 3,
+        label: "Careers",
+        href: "/careers",
+      },
+    ],
+  },
+
+  {
+    id: 8,
+    label: "Contact Us",
+    href: "/contact-us",
+  },
 ];
 
 
@@ -90,6 +183,169 @@ export const Servicedata = {
       img: visa,
       icon: <GrVisa />,
     },
+     {
+      title: "University Selection",
+      text: "Choose from globally recognized medical universities based on your budget, career goals, academic profile, and preferred country for MBBS abroad studies.",
+      img: uni,
+      icon: <RiCommunityFill />,
+    },
+    {
+      title: "Admission Assistance",
+      text: "Complete support with applications, documentation, eligibility verification, and admission procedures to make your MBBS abroad process smooth and stress-free.",
+      img: admission,
+      icon: <MdOutlineStickyNote2 />,
+    },
+    {
+      title: "Visa Support",
+      text: "Professional guidance for visa filing, travel preparation, and pre-departure assistance to help students confidently begin their international medical education journey.",
+      img: visa,
+      icon: <GrVisa />,
+    },
   ],
 };
+
+
+export const footData = {
+  contact : [{
+    label: "Contact no",
+    value: "+91 8595078896",
+    href: "tel:+918595078896",
+  },
+  {
+    label: "Email",
+    value: "info@vincitedupath.com",
+    href: "mailto:info@vincitedupath.com", 
+  },
+  {
+    label: "Address",
+    value: "714, Plot No A26, Block B, alt f Mohan Cooperative Industrial Estate, New Delhi - 110044",
+    href: "/",
+  },],
+
+  social: [
+    {                      
+      icon: <FaFacebookF />,
+      href: "https://www.facebook.com/vincitedupath",
+    },
+    {
+      label: <FaInstagram />,
+      href: "https://www.instagram.com/vincitedupath",
+    },
+    {
+      label: <FaLinkedinIn />,
+      href: "https://www.linkedin.com/company/vincitedupath",
+    },
+    {
+      label: <FaTwitter />,
+      href: "https://twitter.com/vincitedupath",
+    }
+  ],
+
+links:[
+  
+  {
+  label:"Useful Links",
+  nav:[
+  { id: 9, label: "About Us", href: "/about-us" },
+      {
+        id: 1,
+        label: "University & Course Selection",
+        href: "/our-services/university-and-course-selection",
+      },
+      {
+        id: 2,
+        label: "Country Selection",
+        href: "/our-services/country-selection",
+      },
+      {
+        id: 3,
+        label: "Selection & Profile Applications",
+        href: "/our-services/selection-and-profile-applications",
+      },
+      {
+        id: 4,
+        label: "Interview Preparation",
+        href: "/our-services/interview-preparation",
+      },
+      {
+        id: 5,
+        label: "Visa Assistance",
+        href: "/our-services/visa-assistance",
+      },
+  {
+    id: 6,
+    label: "MBBS in India",
+    href: "/mbbs-in-india",
+  },
+
+  {
+    id: 7,
+    label: "Blogs",
+    href: "/blogs",
+  },
+
+  {
+    id: 8,
+    label: "Contact Us",
+    href: "/contact-us",
+  },]
+},
+
+ {
+  label:"Other Links",
+  nav:[
+      {
+        id: 1,
+        label: "MBBS in Russia",
+        href: "/mbbs-abroad/mbbs-in-russia",
+      },
+      {
+        id: 2,
+        label: "MBBS in Georgia",
+        href: "/mbbs-abroad/mbbs-in-georgia",
+      },
+      {
+        id: 3,
+        label: "MBBS in Uzbekistan",
+        href: "/mbbs-abroad/mbbs-in-uzbekistan",
+      },
+      {
+        id: 4,
+        label: "MBBS in Kazakhstan",
+        href: "/mbbs-abroad/mbbs-in-kazakhstan",
+      },
+      {
+        id: 5,
+        label: "MBBS in Kyrgyzstan",
+        href: "/mbbs-abroad/mbbs-in-kyrgyzstan",
+      },
+
+ 
+  
+      {
+        id: 6,
+        label: "Privacy Policy",
+        href: "/privacy-policy",
+      },
+      {
+        id: 7,
+        label: "Terms & Conditions",
+        href: "/terms-and-conditions",
+      },
+      {
+        id: 8,
+        label: "Careers",
+        href: "/careers",
+      },
+    ],
+  },
+]
+}
+
+
+
+
+
+
+
 

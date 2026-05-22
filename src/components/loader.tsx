@@ -30,7 +30,7 @@ export default function Preloader({
       
       <div
         className="relative sm:w-64 w-44 h-full animate-pulse"
-        style={{ animationDuration: `2000ms` }}
+        style={{ animationDuration: `200ms` }}
       >
         <Image src={logo} alt="Logo" fill priority className="object-contain" />
       </div>

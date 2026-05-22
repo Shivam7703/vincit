@@ -85,15 +85,15 @@ function HomeBannerCard({
         animate="animate"
         exit="exit"
         transition={{ duration: 0.9, delay: 0.2, ease: "easeOut" }}
-        className="flex flex-col items-center text-center gap-4 px-5 sm:px-10 md:px-20 py-10 w-full max-w-7xl"
+        className="flex flex-col items-center text-center gap-4 px-5 sm:px-10 md:px-20 py-10 w-full max-w-6xl"
       >
         {/* Eyebrow */}
-        <p className="text-sm sm:text-base  font-normal tracking-[0.28em] uppercase text-white/90 font-['Barlow_Condensed',sans-serif]">
+        <p className="text-sm sm:text-base  font-normal tracking-[0.28em] uppercase text-white/90 font-">
           {welcome}
         </p>
 
         {/* Main headline */}
-        <h1 className="text-2xl sm:text-4xl md:text-6xl font-black uppercase leading-[0.93] tracking-tight text-white font-['Barlow_Condensed',sans-serif]">
+        <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold uppercase leading-[0.93] tracking-tight text-white">
           {title}
         </h1>
 
@@ -102,30 +102,33 @@ function HomeBannerCard({
           {para}
         </p>
 
-        {/* CTAs */}
-        <div className="flex flex-wrap items-center justify-center gap-4 mt-2">
-          {/* Primary */}
-          <Link
-            href={link}
-            className="inline-flex items-center gap-3 bg-[#F5A623] hover:bg-[#e09510] text-white font-bold uppercase tracking-[0.14em] text-sm sm:text-base px-7 py-3.5 rounded-[4px] transition-all duration-200 hover:-translate-y-px font-['Barlow_Condensed',sans-serif]"
-          >
-            {btntext}
-            <span className="flex items-center justify-center w-5 h-5 rounded-full bg-white/25">
-              <PlayArrow className="text-white" size={10} />
-            </span>
-          </Link>
+       {/* CTAs - Premium Version */}
 
-          {/* Secondary */}
-          <a
-            href="tel:+918595078896"
-            className="inline-flex items-center gap-3 bg-white/90 hover:bg-white text-black font-bold uppercase tracking-[0.14em] text-sm sm:text-base px-7 py-3.5 rounded-[4px] transition-all duration-200 hover:-translate-y-px font-['Barlow_Condensed',sans-serif]"
-          >
-            Get Details
-            <span className="flex items-center justify-center w-5 h-5 rounded-full bg-black/10">
-              <PlayArrow className="text-black" size={10} />
-            </span>
-          </a>
-        </div>
+<div className="flex flex-wrap items-center justify-center gap-5 mt-6">
+  <Link
+    href={link}
+    className="group inline-flex items-center gap-2 bg-gradient-to-r from-color2 to-orange-600 hover:to-red-600 text-white font-medium tracking-wide text-sm sm:text-base px-7 py-3 rounded-full transition-all duration-300 hover:shadow-[0_10px_30px_-5px_rgba(245,166,35,0.4)] hover:-translate-y-0.5"
+  >
+    {btntext}
+    <motion.span
+      animate={{ x: [0, 5, 0] }}
+      transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+      className="flex items-center"
+    >
+      →
+    </motion.span>
+  </Link>
+
+  <a
+    href="tel:+918595078896"
+    className="group inline-flex items-center gap-2 bg-transparent border-2 border-white/50 hover:border-white text-white font-medium tracking-wide text-sm sm:text-base px-7 py-3 rounded-full transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 hover:bg-white/5"
+  >
+    <svg className="w-4 h-4 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+    </svg>
+    Get Details
+  </a>
+</div>
       </motion.div>
     </div>
     </div>
