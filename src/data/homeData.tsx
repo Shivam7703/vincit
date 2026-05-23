@@ -342,7 +342,52 @@ links:[
 ]
 }
 
-
+export let blogData = {
+  title1: "Latest Blogs",
+  title2: "Get Updated With Our Recent Articles",
+  blog: [
+    {
+      img: banner3,
+      date: "20 June 2024",
+      tag: "immigration",
+      heading: "Top 10 Tips for a Successful Visa Name",
+      para:
+        "Navigating the visa application process can be daunting. Here are ten essential tips to help ensure your application is successful.",
+    },
+    {
+      img: banner3,
+      date: "20 June 2024",
+      tag: "immigration",
+      heading: "Top 10 Tips for a Successful Visa Category",
+      para:
+        "Navigating the visa application process can be daunting. Here are ten essential tips to help ensure your application is successful.",
+    },
+    {
+      img: banner3,
+      date: "20 June 2024",
+      tag: "immigration",
+      heading: "Top 10 Tips for a Successful Visa Section",
+      para:
+        "Navigating the visa application process can be daunting. Here are ten essential tips to help ensure your application is successful.",
+    },
+    {
+      img: banner3,
+      date: "20 June 2024",
+      tag: "immigration",
+      heading: "Top 10 Tips for a Successful Visa Application",
+      para:
+        "Navigating the visa application process can be daunting. Here are ten essential tips to help ensure your application is successful.",
+    },
+    {
+      img: banner3,
+      date: "20 June 2024",
+      tag: "immigration",
+      heading: "Top 10 Tips for a Successful Visa Country",
+      para:
+        "Navigating the visa application process can be daunting. Here are ten essential tips to help ensure your application is successful.",
+    },
+  ],
+};
 
 
 

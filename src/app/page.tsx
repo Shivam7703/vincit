@@ -10,6 +10,7 @@ import Count2 from "@/components/home/count2";
 import FaqSection from "@/components/home/FaqSection";
 import TeamSection from "@/components/home/team";
 import Contactform from "@/components/contact/form";
+import Blogs from "@/components/home/blogs";
 
 export default function Home() {
   return (
@@ -26,7 +27,7 @@ export default function Home() {
       <FaqSection />
       <TeamSection />
       <Contactform />
-      {/* <Blogs /> */}
+      <Blogs />
     </main>
   );
 }
