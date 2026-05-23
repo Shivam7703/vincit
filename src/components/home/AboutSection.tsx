@@ -53,11 +53,11 @@ function AboutSection() {
   return (
     <section id="about" className="lg:px-28 md:px-20 sm:px-16 px-6 py-20 bg-gradient-to-br from-white via-gray-50 to-white mx-auto relative overflow-hidden">
       {/* Background decorative elements */}
-      
+
       <div className="flex flex-wrap justify-between max-w-7xl mx-auto gap-y-10 items-stretch relative z-10">
 
         {/* ── Left: Overlapping Images with Premium Effects ── */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
@@ -83,7 +83,7 @@ function AboutSection() {
           </motion.div>
 
           {/* Premium Starburst badge with pulse animation */}
-          <motion.div 
+          <motion.div
             initial={{ scale: 1.2, rotate: -20 }}
             whileInView={{ scale: 1, rotate: 0 }}
             transition={{ duration: 0.6, delay: 0.2, type: "spring" }}
@@ -110,7 +110,7 @@ function AboutSection() {
                   </linearGradient>
                 </defs>
               </motion.svg>
-              <motion.div 
+              <motion.div
                 whileHover={{ scale: 1.1 }}
                 className="relative z-10 text-center"
               >
@@ -126,7 +126,7 @@ function AboutSection() {
         </motion.div>
 
         {/* ── Right: Content with Animations ── */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
@@ -134,9 +134,9 @@ function AboutSection() {
           className="md:w-[48%] w-full space-y-3"
         >
           {/* Label with decorative line */}
-            <h4 className="text-sm font-bold uppercase tracking-[0.22em] text-color2">
-              {" "}{data.label}
-            </h4>
+          <h4 className="text-sm font-bold uppercase tracking-[0.22em] text-color2">
+            {" "}{data.label}
+          </h4>
 
           {/* Title with gradient */}
           <h2 className="text-zinc-900 font-black uppercase text-2xl md:text-4xl leading-tight ">
@@ -182,10 +182,10 @@ function AboutSection() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.3 }}
-              className="flex gap-6 items-start bg-color1/5 p-5 rounded-2xl backdrop-blur-sm"
+              className="flex gap-6 items-start bg-color4/5 p-5 rounded-2xl backdrop-blur-sm"
             >
               {/* Thumbnail with hover effect */}
-              <motion.div 
+              <motion.div
                 whileHover={{ scale: 1.05, rotate: 2 }}
                 className="flex-shrink-0 w-40 h-32 rounded-xl overflow-hidden shadow-lg"
               >
@@ -208,8 +208,8 @@ function AboutSection() {
                     transition={{ delay: i * 0.1 }}
                     className="flex items-center gap-3 text-gray-700 font-medium text-base group/point"
                   >
-                    <span 
-                      className="text-color1 font-bold text-lg"
+                    <span
+                      className="text-color4 font-bold text-lg"
                     >
                       ✓
                     </span>
@@ -221,7 +221,7 @@ function AboutSection() {
               </ul>
             </motion.div>
           </AnimatePresence>
-<Buttonmain href="/about" text1="Discover More" />
+          <Buttonmain href="/about" text1="Discover More" />
         </motion.div>
       </div>
     </section>

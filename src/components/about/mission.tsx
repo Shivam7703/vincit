@@ -74,7 +74,7 @@ export default function MVVCards() {
               {/* Label */}
               <p
                 className={`text-base sm:text-xl font-bold transition-colors duration-300
-                  ${isActive ? "text-white" : "text-blue-800 group-hover:text-color2"}`}
+                  ${isActive ? "text-white" : "text-color2"}`}
               >
                 {card.label}
               </p>

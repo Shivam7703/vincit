@@ -23,7 +23,7 @@ export default function Count2() {
       <div className="grid grid-cols-2 md:grid-cols-4 max-w-7xl mx-auto divide-x divide-zinc-400">
         {stats.map((s, i) => (
           <div key={i} className="px-6 py-4">
-            <p className="text-color3 font-black text-xl md:text-3xl leading-none mb-2
+            <p className="text-color4 font-black text-xl md:text-3xl leading-none mb-2
                           font-['Barlow_Condensed',sans-serif]">
               <CountUp
                 start={0}

@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import {  sliderText } from "@/utils/motion";
+import { sliderText } from "@/utils/motion";
 import { sliderContent } from "@/data/homeData";
 
 
@@ -34,13 +34,13 @@ export default function HomeBanner() {
       nextEl: `.${uniqueId}-next`,
       prevEl: `.${uniqueId}-prev`,
     },
-    modules: [Autoplay,  EffectFade, Navigation],
+    modules: [Autoplay, EffectFade, Navigation],
     effect: "fade",
     onSlideChange: (swiper: any) => setCurrentSlide(swiper.realIndex), // Update slide index on change
   };
 
   return (
-    <section  className="w-full mx-auto bg-color1 relative">
+    <section className="w-full mx-auto bg-color4 relative">
       <Swiper {...swiperOptions} className="">
         {sliderContent.map((item, index) => (
           <SwiperSlide key={index} className="overflow-hidden">
@@ -61,7 +61,7 @@ export default function HomeBanner() {
 }
 
 function HomeBannerCard({
-  img, 
+  img,
   title,
   para,
   welcome,
@@ -76,61 +76,61 @@ function HomeBannerCard({
         alt="banner image"
         layout="fill"
       />
- 
 
-    <div className="absolute inset-0 z-10 flex items-center justify-center bg-gradient-to-b from-black/40 to-black/80">
-      <motion.div
-        variants={sliderText}
-        initial="initial"
-        animate="animate"
-        exit="exit"
-        transition={{ duration: 0.9, delay: 0.2, ease: "easeOut" }}
-        className="flex flex-col items-center text-center gap-4 px-5 sm:px-10 md:px-20 py-10 w-full max-w-6xl"
-      >
-        {/* Eyebrow */}
-        <p className="text-sm sm:text-base  font-normal tracking-[0.28em] uppercase text-white/90 font-">
-          {welcome}
-        </p>
 
-        {/* Main headline */}
-        <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold uppercase leading-[0.93] tracking-tight text-white">
-          {title}
-        </h1>
+      <div className="absolute inset-0 z-10 flex items-center justify-center bg-gradient-to-b from-black/40 to-black/80">
+        <motion.div
+          variants={sliderText}
+          initial="initial"
+          animate="animate"
+          exit="exit"
+          transition={{ duration: 0.9, delay: 0.2, ease: "easeOut" }}
+          className="flex flex-col items-center text-center gap-4 px-5 sm:px-10 md:px-20 py-10 w-full max-w-6xl"
+        >
+          {/* Eyebrow */}
+          <p className="text-sm sm:text-base  font-normal tracking-[0.28em] uppercase text-white/90 font-">
+            {welcome}
+          </p>
 
-        {/* Subtitle */}
-        <p className="text-xs sm:text-base md:text-lg text-white/90 font-normal max-w-4xl leading-relaxed mt-1 mb-2">
-          {para}
-        </p>
+          {/* Main headline */}
+          <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold uppercase leading-[0.93] tracking-tight text-white">
+            {title}
+          </h1>
 
-       {/* CTAs - Premium Version */}
+          {/* Subtitle */}
+          <p className="text-xs sm:text-base md:text-lg text-white/90 font-normal max-w-4xl leading-relaxed mt-1 mb-2">
+            {para}
+          </p>
 
-<div className="flex flex-wrap items-center justify-center gap-5 mt-6">
-  <Link
-    href={link}
-    className="group inline-flex items-center gap-2 bg-gradient-to-r from-color2 to-orange-600 hover:to-red-600 text-white font-medium tracking-wide text-sm sm:text-base px-7 py-3 rounded-full transition-all duration-300 hover:shadow-[0_10px_30px_-5px_rgba(245,166,35,0.4)] hover:-translate-y-0.5"
-  >
-    {btntext}
-    <motion.span
-      animate={{ x: [0, 5, 0] }}
-      transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
-      className="flex items-center"
-    >
-      →
-    </motion.span>
-  </Link>
+          {/* CTAs - Premium Version */}
 
-  <a
-    href="tel:+918595078896"
-    className="group inline-flex items-center gap-2 bg-transparent border-2 border-white/50 hover:border-white text-white font-medium tracking-wide text-sm sm:text-base px-7 py-3 rounded-full transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 hover:bg-white/5"
-  >
-    <svg className="w-4 h-4 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-    </svg>
-    Get Details
-  </a>
-</div>
-      </motion.div>
-    </div>
+          <div className="flex flex-wrap items-center justify-center gap-5 mt-6">
+            <Link
+              href={link}
+              className="group inline-flex items-center gap-2 bg-gradient-to-r from-red-500 to-red-700 hover:to-orange-700 text-white font-medium tracking-wide text-sm sm:text-base px-7 py-3 rounded-full transition-all duration-300 hover:shadow-[0_10px_30px_-5px_rgba(245,166,35,0.4)] hover:-translate-y-0.5"
+            >
+              {btntext}
+              <motion.span
+                animate={{ x: [0, 5, 0] }}
+                transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+                className="flex items-center"
+              >
+                →
+              </motion.span>
+            </Link>
+
+            <a
+              href="tel:+918595078896"
+              className="group inline-flex items-center gap-2 bg-transparent border-2 border-white/50 hover:border-white text-white font-medium tracking-wide text-sm sm:text-base px-7 py-3 rounded-full transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 hover:bg-white/5"
+            >
+              <svg className="w-4 h-4 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              Get Details
+            </a>
+          </div>
+        </motion.div>
+      </div>
     </div>
   );
 }

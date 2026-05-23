@@ -25,7 +25,7 @@ export default function ServiceSlider() {
         
         {/* Left: label + title */}
         <div className="md:w-[52%]">
-          <h4 className="text-color2  text-sm font-bold tracking-[0.22em] mb-3">
+          <h4 className="text-color2 text-xs font-bold tracking-[0.22em] mb-3">
             {data.title1}
           </h4>
           <h2 className="text-black font-black text-2xl md:text-4xl  uppercase leading-tight
@@ -117,7 +117,7 @@ export default function ServiceSlider() {
         {/* ── Nav arrows ── */}
               <button
                       className={`${uniqueId}-next absolute z-30 right-2 md:right-6 top-[62%] -translate-y-1/2
-                        w-12 h-12 rounded-full bg-white/70  hover:bg-color5
+                        w-12 h-12 rounded-full bg-white/70 hover:bg-color4
                         flex items-center justify-center text-black hover:text-white shadow-sm border 
                         transition-all duration-300 hover:scale-110`}
                     >
@@ -125,7 +125,7 @@ export default function ServiceSlider() {
                     </button>
                     <button
                       className={`${uniqueId}-prev absolute z-30 left-2 md:left-6 top-[62%] -translate-y-1/2
-                        w-12 h-12 rounded-full bg-white/70 hover:bg-color5
+                        w-12 h-12 rounded-full bg-white/70 hover:bg-color4
                         flex items-center justify-center text-black hover:text-white shadow-sm border
                         transition-all duration-300 hover:scale-110`}
                     >

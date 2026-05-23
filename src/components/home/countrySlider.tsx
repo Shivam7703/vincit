@@ -87,7 +87,7 @@ export default function Countryslider({data, uniqueId}:any) {
 
       {/* Get Details Button */}
       <div className="inline-block w-full">
-        <div className="group/btn inline-flex items-center justify-center gap-2 w-full bg-gradient-to-r from-color2 to-color4 hover:from-color4 hover:to-color5 text-white font-semibold text-sm px-4 py-2.5 rounded-lg transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-0.5">
+        <div className="group/btn inline-flex items-center justify-center gap-2 w-full bg-color2 hover:bg-color4 text-white font-semibold text-sm px-4 py-2.5 rounded-lg transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-0.5">
           <span>Get Details</span>
           <svg 
             className="w-4 h-4 transition-transform duration-300 group-hover/btn:translate-x-1" 
@@ -109,7 +109,7 @@ export default function Countryslider({data, uniqueId}:any) {
           {/* ── Nav arrows ── */}
         <button
                 className={`${uniqueId}-next absolute z-30 right-2 md:right-6 top-[62%] -translate-y-1/2
-                  w-12 h-12 rounded-full bg-white/70  hover:bg-color5
+                  w-12 h-12 rounded-full bg-white/70 hover:bg-color4
                   flex items-center justify-center text-black hover:text-white shadow-sm border 
                   transition-all duration-300 hover:scale-110`}
               >
@@ -117,7 +117,7 @@ export default function Countryslider({data, uniqueId}:any) {
               </button>
               <button
                 className={`${uniqueId}-prev absolute z-30 left-2 md:left-6 top-[62%] -translate-y-1/2
-                  w-12 h-12 rounded-full bg-white/70 hover:bg-color5
+                  w-12 h-12 rounded-full bg-white/70 hover:bg-color4
                   flex items-center justify-center text-black hover:text-white shadow-sm border
                   transition-all duration-300 hover:scale-110`}
               >

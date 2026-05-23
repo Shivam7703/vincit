@@ -11,11 +11,11 @@ const config: Config = {
       backgroundImage: {
       },
       colors: {
-        color1:"#00BFFF",
-        color2:"#F97316",
+        // color4:"#00BFFF",
+        color2:"#F40000",
         color3:"#22C55E",
-        color4:"#1E3A8A",
-        color5:"#551D87"
+        color4:"#0AA5C3",
+        color5:"#2B3378"
       },
      
     },

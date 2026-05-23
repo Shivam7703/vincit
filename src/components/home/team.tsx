@@ -60,7 +60,7 @@ export default function TeamSection() {
                     href={s.href}
                     className="w-7 h-7 border border-gray-200 rounded
                                flex items-center justify-center text-gray-500 text-base
-                               hover:bg-color3 hover:border-color3 hover:text-white
+                               hover:bg-color2 hover:border-color2 hover:text-white
                                transition-all duration-200"
                   >
                     {s.icon}

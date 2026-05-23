@@ -16,7 +16,7 @@ const Menu = ({ activeItemId, onItemClick , onTop}: any) => {
             onClick={() => onItemClick(item.id, item.href)}
           >
             <span
-              className={` transition-all hover:text-color2 text-sm font-semibold hover:scale-105 duration-300 
+              className={` transition-all hover:text-zinc-200 text-sm font-semibold hover:scale-105 duration-300 
              
               `}>              {item?.label}
             </span>

@@ -5,17 +5,17 @@ import { IoMdCheckmarkCircleOutline } from 'react-icons/io'
 const boxesData = [
   {
     icon: <FaGlobeAmericas />,
-    bg: 'bg-color2',   // orange — e.g. #E07A2F
+    bg: 'bg-orange-500 ',   // orange — e.g. #E07A2F
     para: 'Study at internationally accredited medical universities offering advanced infrastructure, experienced faculty, practical clinical exposure, and globally accepted medical degrees designed to support long-term career opportunities in healthcare across multiple countries and medical systems.',
   },
   {
     icon: <FaUserGraduate />,
-    bg: 'bg-color1',   // sky blue — e.g. #2196C9
+    bg: 'bg-color4',   // sky blue — e.g. #2196C9
     para: 'Pursue MBBS abroad at significantly lower tuition fees compared to many private colleges while gaining access to quality education, modern campuses, hostel facilities, and student-friendly living environments without compromising academic standards.',
   },
   {
     icon: <IoMdCheckmarkCircleOutline />,
-    bg: 'bg-[#E6C020]',   // golden yellow
+    bg: 'bg-color3',   // green
     para: 'From career counseling and university selection to visa processing and travel guidance, Vincit Edupath provides end-to-end support throughout your MBBS abroad journey, ensuring a smooth, transparent, and stress-free admission experience for students and parents.',
   },
 ]
@@ -30,7 +30,7 @@ export default function Homeboxes() {
             className={`
               ${box.bg}
               relative overflow-hidden
-              flex flex-col gap-5 p-8
+              flex flex-col gap-5 sm:p-7 
               group
               transition-transform duration-300 ease-out
               hover:-translate-y-1
@@ -97,9 +97,9 @@ export default function Homeboxes() {
               className="
                 relative z-10
                 flex-shrink-0 w-14 h-14 rounded-full
-                bg-white/20 border border-white/35
+                bg-white/20 border border-white/70
                 flex items-center justify-center
-                text-white text-2xl
+                text-white text-2xl sm:text-3xl
                 transition-all duration-300 ease-out
                 group-hover:bg-white/35 group-hover:scale-110
               "
@@ -121,7 +121,7 @@ export default function Homeboxes() {
             <p
               className="
                 relative z-10
-                text-white font-normal text-xs  sm:text-sm leading-relaxed
+                text-white font-normal text-sm  sm:text-base leading-relaxed
               "
             >
               {box.para}

@@ -60,7 +60,7 @@ export default function FaqSection() {
           <ul className="flex flex-col gap-2 mt-1">
             {data.points.map((p, i) => (
               <li key={i} className="flex items-center gap-2 text-gray-800">
-                <span className="text-color1 font-bold text-lg">✓</span>
+                <span className="text-color4 font-bold text-lg">✓</span>
                 {p}
               </li>
             ))}
@@ -69,7 +69,7 @@ export default function FaqSection() {
 
         {/* ── Right: Accordion ── */}
         <div className="">
-        <Faq data={data.faqs}/>
+          <Faq data={data.faqs} />
         </div>
       </div>
     </section>

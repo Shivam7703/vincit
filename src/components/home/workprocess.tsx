@@ -6,7 +6,7 @@ import { BsPeopleFill } from "react-icons/bs";
 import { FaUniversity, FaGraduationCap } from "react-icons/fa";
 import { LiaFileAltSolid } from "react-icons/lia";
 import { FiArrowRight } from "react-icons/fi";
-import Link from "next/link"; 
+import Link from "next/link";
 import { banner, banner3 } from "@/assets";
 import Buttonmain from "../global/button";
 
@@ -41,21 +41,21 @@ export default function WorkProcess() {
   return (
     <section className="relative overflow-hidden xl:px-20 p-6 md:p-16">
 
-      <div className="absolute top-10 -left-10 bg-color1/10 rotate-45 h-[500px] w-56"/>
-            {/* <div className="absolute top-10 -left-10 bg-color1/10 rotate-45 h-[500px] w-56"/> */}
-      <div className="absolute -bottom-20 -right-10 bg-color1 -rotate-45 h-[500px] w-56"/>
+      <div className="absolute top-10 -left-10 bg-color4/10 rotate-45 h-[500px] w-56" />
+      {/* <div className="absolute top-10 -left-10 bg-color4/10 rotate-45 h-[500px] w-56"/> */}
+      <div className="absolute -bottom-20 -right-10 bg-color4 -rotate-45 h-[500px] w-56" />
 
       <div className="max-w-7xl mx-auto">
-        
+
         {/* Top Grid */}
         <div className="flex flex-wrap justify-between gap-y-6 items-start">
-          
+
           {/* Left Content */}
           <div className="lg:w-[37%] w-full relative z-10 space-y-6">
-            
+
             {/* Subtitle */}
             <div>
-              <p className="uppercase tracking-[0.25em] text-xs font-semibold text-color4 mb-3">
+              <p className="uppercase tracking-[0.25em] text-xs font-semibold text-color5 mb-3">
                 Work Process
               </p>
 
@@ -70,7 +70,7 @@ export default function WorkProcess() {
               we guide students at every step to build a successful medical career abroad.
             </p>
 
-           <Buttonmain href="/about" text1="Get Started" />
+            <Buttonmain href="/about" text1="Get Started" />
 
 
             {/* Image Card */}
@@ -89,36 +89,33 @@ export default function WorkProcess() {
             {data.map((card, index) => (
               <div
                 key={index}
-                className={`sm:rounded-3xl rounded-lg p-4 sm:p-6 transition-all duration-300 hover:-translate-y-1 shadow-black/35 shadow-xl ${
-                  index === 1 || index === 2
+                className={`sm:rounded-3xl rounded-lg p-4 sm:p-6 transition-all duration-300 hover:-translate-y-1 shadow-black/35 shadow-xl ${index === 1 || index === 2
                     ? "bg-gradient-to-r from-color4 to-color5 text-white"
-                    : "bg-white/60 backdrop-blur-xl text-color4"
-                }`}
+                    : "bg-white/60 backdrop-blur-xl text-color5"
+                  }`}
               >
-                
+
                 {/* Step */}
                 <div className="flex items-center justify-between sm:mb-5 mb-3">
-                  
+
                   {/* Icon */}
                   <div
-                    className={`flex sm:h-16 sm:w-16 h-12 w-12 items-center justify-center rounded-2xl text-xl sm:text-3xl ${
-                      index === 1 || index === 2
+                    className={`flex sm:h-16 sm:w-16 h-12 w-12 items-center justify-center rounded-2xl text-xl sm:text-3xl ${index === 1 || index === 2
                         ? "bg-white/15 text-white"
-                        : "bg-color4/15 text-color4"
-                    }`}
+                        : "bg-color2/15 text-color2"
+                      }`}
                   >
                     {card.icon}
                   </div>
 
                   {/* Step Number */}
                   <span
-                    className={`text-base font-bold ${
-                      index === 1 || index === 2
+                    className={`text-base font-bold ${index === 1 || index === 2
                         ? "text-white/40"
                         : "text-zinc-500"
-                    }`}
+                      }`}
                   >
-                   STEP {card.step}
+                    STEP {card.step}
                   </span>
                 </div>
 
@@ -129,31 +126,28 @@ export default function WorkProcess() {
 
                 {/* Text */}
                 <p
-                  className={`leading-relaxed text-xs  sm:text-base ${
-                    index === 1 || index === 2
+                  className={`leading-relaxed text-xs  sm:text-base ${index === 1 || index === 2
                       ? "text-white/70"
                       : "text-zinc-600"
-                  }`}
+                    }`}
                 >
                   {card.text}
                 </p>
 
                 {/* Learn More */}
                 <button
-                  className={`group sm:mt-6 mt-4  inline-flex items-center gap-3 text-xs sm:text-sm font-semibold uppercase tracking-[0.12em] ${
-                    index === 1 || index === 2
+                  className={`group sm:mt-6 mt-4  inline-flex items-center gap-3 text-xs sm:text-sm font-semibold uppercase tracking-[0.12em] ${index === 1 || index === 2
                       ? "text-white"
-                      : "text-color4"
-                  }`}
+                      : "text-color5"
+                    }`}
                 >
                   Learn More
 
                   <span
-                    className={`flex h-8 w-8 items-center justify-center rounded-full transition-all duration-300 ${
-                      index === 1 || index === 2
+                    className={`flex h-8 w-8 items-center justify-center rounded-full transition-all duration-300 ${index === 1 || index === 2
                         ? "bg-white/10"
-                        : "bg-color4 text-white"
-                    }`}
+                        : "bg-color5 text-white"
+                      }`}
                   >
                     <FiArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
                   </span>

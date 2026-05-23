@@ -11,8 +11,8 @@ export default function Partners() {
   return (
     <section className="relative p-6 overflow-hidden">
       {/* Heading */}
-      <div className="relative text-center mb-12 sm:mb-16">
-        <h2 className="font-black text-zinc-900 text-3xl md:text-4xl tracking-tight">
+      <div className=" relative text-center mb-12 sm:mb-16">
+        <h2 className="uppercase font-black text-zinc-900 text-3xl md:text-4xl tracking-tight">
           50+{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-color4 to-color5">
             Tie Ups
@@ -38,7 +38,7 @@ export default function Partners() {
           {partners.map((partner, index) => (
             <div
               key={`marquee1-${index}`}
-              className="flex items-center justify-center mx-4 md:mx-8 py-3 bg-white  transition-all duration-300 hover:scale-105 cursor-pointer group"
+              className="flex items-center justify-center mx-4 md:mx-8 py-3 bg-white  transition-all duration-300 cursor-pointer group"
             >
               <div className="relative w-32 h-16 sm:w-40 py-3 sm:h-20">
                 <Image
@@ -54,6 +54,7 @@ export default function Partners() {
       </div>
 
       {/* Marquee Row 2 - Right to Left (Duplicate for continuous effect) */}
+
       <div className="relative">
         <Marquee
           speed={45}
@@ -66,14 +67,14 @@ export default function Partners() {
           {[...partners].reverse().map((partner, index) => (
             <div
               key={`marquee2-${index}`}
-              className="flex items-center justify-center mx-4 md:mx-8 py-3 bg-white  transition-all duration-300 hover:scale-105 cursor-pointer group"
+              className="flex items-center justify-center mx-4 md:mx-8 py-3 bg-white  transition-all duration-300 cursor-pointer group"
             >
               <div className="relative w-32 h-16 sm:w-40 py-3 sm:h-20">
                 <Image
                   src={partner}
                   alt={`partner-${index}`}
                   fill
-                  className="object-contain transition-all grayscale group-hover:grayscale-0 duration-300 group-hover:brightness-110"
+                  className="object-contain transition-all duration-300 group-hover:brightness-110"
                 />
               </div>
             </div>
