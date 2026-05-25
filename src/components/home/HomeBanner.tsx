@@ -88,12 +88,12 @@ function HomeBannerCard({
           className="flex flex-col items-center text-center gap-4 px-5 sm:px-10 md:px-20 py-10 w-full max-w-6xl"
         >
           {/* Eyebrow */}
-          <p className="text-sm sm:text-base  font-normal tracking-[0.28em] uppercase text-white/90 font-">
+          <p className="text-xs sm:text-sm  font-normal tracking-[0.28em] uppercase text-white/90 font-">
             {welcome}
           </p>
 
           {/* Main headline */}
-          <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold uppercase leading-[0.93] tracking-tight text-white">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold uppercase leading-[0.93] tracking-tight text-white">
             {title}
           </h1>
 

@@ -58,7 +58,7 @@ export default function Blogs({ isHome }: BlogsProps) {
       )}
 
       {/* ── GRID ── */}
-      <div className={`grid gap-8 sm:grid-cols-2 ${isHome ? "lg:grid-cols-4" : "lg:grid-cols-3 "}`}>
+      <div className={`grid gap-8 sm:grid-cols-2 max-w-[1450px] mx-auto ${isHome ? "lg:grid-cols-4" : "lg:grid-cols-3 "}`}>
         {displayBlogs?.map((blog: BlogItem, index: number) => {
           const blogLink = `/blogs/${getSlug(blog.heading)}`;
 

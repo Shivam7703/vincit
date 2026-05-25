@@ -6,7 +6,7 @@ import React from 'react'
 function page() {
   return (
     <div>
-            <Banner title="Contact Us" para="Learn more about our company and mission. lorem ipsum dolor sit amet, consectetur adipiscing elit. " slug="About Us" />
+            <Banner title="Contact Us" para="Learn more about our company and mission. lorem ipsum dolor sit amet, consectetur adipiscing elit. " slug="Contact Us" />
            <Choosecontact/>
             <Contactform />
       

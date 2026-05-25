@@ -5,7 +5,7 @@ import React from 'react'
 function page() {
   return (
     <div>
-                    <Banner title="Blogs" para="Learn more about our company and mission. lorem ipsum dolor sit amet, consectetur adipiscing elit. " slug="About Us" />
+                    <Banner title="Blogs" para="Learn more about our company and mission. lorem ipsum dolor sit amet, consectetur adipiscing elit. " slug="Blog" />
         
             <Blogs isHome={false}/>
       

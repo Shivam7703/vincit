@@ -9,10 +9,10 @@ const partners = [
 
 export default function Partners() {
   return (
-    <section className="relative p-6 overflow-hidden">
+    <section className="relative p-6 sm:py-10 overflow-hidden">
       {/* Heading */}
       <div className=" relative text-center mb-12 sm:mb-16">
-        <h2 className="uppercase font-black text-zinc-900 text-3xl md:text-4xl tracking-tight">
+        <h2 className="uppercase font-black text-zinc-900 text-3xl md:text-4xl tracking-tight max-w-4xl mx-auto">
           50+ University{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-color4 to-color5">
             Tie Ups
