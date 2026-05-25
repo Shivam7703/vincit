@@ -107,7 +107,7 @@ function HomeBannerCard({
           <div className="flex flex-wrap items-center justify-center gap-5 mt-6">
             <Link
               href={link}
-              className="group inline-flex items-center gap-2 bg-gradient-to-r from-red-500 to-red-700 hover:to-orange-700 text-white font-medium tracking-wide text-sm sm:text-base px-7 py-3 rounded-full transition-all duration-300 hover:shadow-[0_10px_30px_-5px_rgba(245,166,35,0.4)] hover:-translate-y-0.5"
+              className="group inline-flex items-center gap-2 bg-gradient-to-r from-color2 to-red-700 hover:to-orange-700 text-white font-medium tracking-wide text-sm sm:text-base px-7 py-3 rounded-full transition-all duration-300 hover:shadow-[0_10px_30px_-5px_rgba(245,166,35,0.4)] hover:-translate-y-0.5"
             >
               {btntext}
               <motion.span

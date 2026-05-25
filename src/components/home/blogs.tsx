@@ -17,7 +17,7 @@ interface BlogsProps {
   isHome?: boolean;
 }
 
-export default function Blogs({ isHome = true }: BlogsProps) {
+export default function Blogs({ isHome }: BlogsProps) {
   // Generate a clean URL slug from the blog heading
   const getSlug = (heading: string) =>
     encodeURIComponent(heading.toLowerCase().replace(/\s+/g, "-"));
@@ -26,12 +26,10 @@ export default function Blogs({ isHome = true }: BlogsProps) {
   const displayBlogs = isHome ? data?.blog?.slice(0, 4) : data?.blog;
 
   return (
-    <section className={`w-full bg-slate-50 text-slate-900 ${
-      isHome ? "py-16 px-6 md:px-16 lg:px-20 xl:px-28" : "py-10 px-4"
-    }`}>
+    <section className={`w-full bg-slate-50 text-slate-900 py-16 px-6 md:px-16 lg:px-20 xl:px-28`}>
       
       {/* ── HEADER ── */}
-      {isHome && (
+      {isHome ? (
         <div className=" mb-12 md:mb-16 text-left">
           {data?.title1 && (
             <p className="text-xs font-semibold tracking-[0.2em] uppercase text-color2 mb-3">
@@ -46,10 +44,21 @@ export default function Blogs({ isHome = true }: BlogsProps) {
           {isHome && <Buttonmain href={"/blogs"} text1={"Read More"} />}
           </div>
         </div>
+      ):(
+        <div className=" mb-12 md:mb-16 text-center">
+          {data?.title1 && (
+            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-color2 mb-3">
+              {data.title1}
+            </p>
+          )}
+          <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-zinc-900">
+            {data.title2}
+          </h2>
+        </div>
       )}
 
       {/* ── GRID ── */}
-      <div className={`grid gap-8 sm:grid-cols-2 ${isHome ? "lg:grid-cols-4" : "lg:grid-cols-3"}`}>
+      <div className={`grid gap-8 sm:grid-cols-2 ${isHome ? "lg:grid-cols-4" : "lg:grid-cols-3 "}`}>
         {displayBlogs?.map((blog: BlogItem, index: number) => {
           const blogLink = `/blogs/${getSlug(blog.heading)}`;
 

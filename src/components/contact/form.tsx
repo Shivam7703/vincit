@@ -132,7 +132,7 @@ export default function Contactform() {
 
             {/* Submit */}
             <button type="submit"
-              className="w-max inline-flex items-center gap-2 bg-color4  hover:bg-[#16a34a]
+              className="w-max inline-flex items-center gap-2 bg-color4  hover:bg-color5
                          text-white font-bold uppercase text-sm tracking-wider
                          px-7 py-3 rounded-lg transition-all duration-200 hover:-translate-y-px
                          font-['Barlow_Condensed',sans-serif]">

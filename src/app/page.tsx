@@ -11,23 +11,24 @@ import FaqSection from "@/components/home/FaqSection";
 import TeamSection from "@/components/home/team";
 import Contactform from "@/components/contact/form";
 import Blogs from "@/components/home/blogs";
+import { Homeabout, Homechoose } from "@/data/homeData";
 
 export default function Home() {
   return (
     <main>
       <BannerSlider />
       <Homeoxes />
-      <AboutSection />
+      <AboutSection data={Homeabout}/>
       <Count2 />
       <ServiceSlider />
       <OfferCountry />
       <Partners />
       <WorkProcess />
-      <WhyChoose />
+      <WhyChoose data={Homechoose}/>
       <FaqSection />
       <TeamSection />
       <Contactform />
-      <Blogs />
+      <Blogs isHome={true}/>
     </main>
   );
 }

@@ -6,17 +6,17 @@ const boxesData = [
   {
     icon: <FaGlobeAmericas />,
     bg: 'bg-orange-500 ',   // orange — e.g. #E07A2F
-    para: 'Study at internationally accredited medical universities offering advanced infrastructure, experienced faculty, practical clinical exposure, and globally accepted medical degrees designed to support long-term career opportunities in healthcare across multiple countries and medical systems.',
+    para: 'Study at globally recognized medical universities with modern infrastructure, experienced faculty, practical training, and internationally accepted degrees that open career opportunities across different healthcare systems worldwide.',
   },
   {
     icon: <FaUserGraduate />,
     bg: 'bg-color4',   // sky blue — e.g. #2196C9
-    para: 'Pursue MBBS abroad at significantly lower tuition fees compared to many private colleges while gaining access to quality education, modern campuses, hostel facilities, and student-friendly living environments without compromising academic standards.',
+    para: 'Get access to quality MBBS education abroad at affordable tuition fees while enjoying modern campuses, comfortable hostels, and student-friendly environments without compromising educational standards.',
   },
   {
     icon: <IoMdCheckmarkCircleOutline />,
     bg: 'bg-color3',   // green
-    para: 'From career counseling and university selection to visa processing and travel guidance, Vincit Edupath provides end-to-end support throughout your MBBS abroad journey, ensuring a smooth, transparent, and stress-free admission experience for students and parents.',
+    para: 'From career guidance and university selection to visa assistance and travel support, Vincit Edupath helps students through every stage of the MBBS abroad admission journey with complete transparency and support.',
   },
 ]
 

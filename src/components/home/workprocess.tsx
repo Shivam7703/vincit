@@ -14,26 +14,26 @@ const data = [
   {
     icon: <BsPeopleFill />,
     step: "01",
-    heading: "Career Counseling",
-    text: "Get expert guidance to choose the right country, university, and medical career pathway based on your goals and budget.",
+    heading: "Student Career Guidance",
+    text: "Receive proper counseling to choose the best country, university, and medical pathway according to your career plans and budget.",
   },
   {
     icon: <FaUniversity />,
     step: "02",
-    heading: "University Selection",
-    text: "Select from globally recognized medical universities offering quality education and affordable tuition fees.",
+    heading: "Choosing The Right University",
+    text: "Get assistance in selecting recognized medical universities with quality education, modern facilities, and affordable fee structures.",
   },
   {
     icon: <LiaFileAltSolid />,
     step: "03",
-    heading: "Admission & Visa Support",
-    text: "Complete admission, documentation, and visa procedures with professional support and guidance.",
+    heading: "Admission & Visa Assistance",
+    text: "Complete your application, documentation, and visa process smoothly with complete support from our experienced team.",
   },
   {
     icon: <FaGraduationCap />,
     step: "04",
-    heading: "Begin Your MBBS Journey",
-    text: "Start your international medical education journey with complete student assistance and support.",
+    heading: "Start Your Medical Journey Abroad",
+    text: "Begin your MBBS abroad journey confidently with continuous guidance and student support at every important step.",
   },
 ];
 
@@ -60,14 +60,14 @@ export default function WorkProcess() {
               </p>
 
               <h2 className="text-3xl md:text-4xl font-black leading-tight text-zinc-800">
-                Your MBBS Journey Made Simple
+Your MBBS Abroad Journey Simplified 
               </h2>
             </div>
 
             {/* Description */}
             <p className="text-zinc-600 leading-relaxed max-w-md">
-              From counseling to university admission and visa assistance,
-              we guide students at every step to build a successful medical career abroad.
+             From career counseling and university selection to admissions and visa support, we assist students throughout their medical education journey abroad. 
+
             </p>
 
             <Buttonmain href="/about" text1="Get Started" />

@@ -9,7 +9,7 @@ import { sliderText, } from "@/utils/motion";
 
 
 
-export default function Banner({title, para, img, slug}:any) {
+export default function Banner({title, para, slug}:any) {
 
  // Trigger useEffect whenever currentSlide changes
 
@@ -20,7 +20,7 @@ export default function Banner({title, para, img, slug}:any) {
               <div className="w-full h-max relative">
                             <Image
                   className="w-full h-[30vw] min-h-[440px] object-cover object-top"
-                  src={img || banner}
+                  src={banner}
                   alt="sliding image"
                   loading="lazy"
                 />
@@ -32,7 +32,7 @@ export default function Banner({title, para, img, slug}:any) {
                     animate="animate"
                     exit="exit"
                     transition={{ easings: ["easeIn", "easeOut"] }}
-                                        className=" flex flex-col justify-center items-center my-auto max-md:p-[8%] w-full text-center mx-auto max-w-6xl"
+                                        className=" flex flex-col justify-center items-center mx-auto my-auto max-md:p-[8%] w-full text-center  max-w-6xl"
                   >
                   
                   

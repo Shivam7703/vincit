@@ -13,15 +13,15 @@ export default function Partners() {
       {/* Heading */}
       <div className=" relative text-center mb-12 sm:mb-16">
         <h2 className="uppercase font-black text-zinc-900 text-3xl md:text-4xl tracking-tight">
-          50+{" "}
+          50+ University{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-color4 to-color5">
             Tie Ups
           </span>{" "}
-          Across The World
+          Across Multiple Countries
         </h2>
         
         <p className="text-gray-500 mt-3 max-w-2xl mx-auto">
-          Partnering with world-class institutions to provide the best education opportunities
+Connected with recognized universities worldwide to help students access quality medical education and better career opportunities abroad. 
         </p>
       </div>
 

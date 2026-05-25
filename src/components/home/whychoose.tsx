@@ -20,35 +20,9 @@ import {
 
 import { motion } from "framer-motion";
 
-const features = [
-  {
-    icon: <BsPeopleFill />,
-    title: "Guidance You Can Trust",
-    text: "Students and parents rely on our transparent approach, genuine counseling, and clear admission process designed to build confidence throughout the journey abroad.",
-    color: "from-blue-500 to-cyan-500",
-  },
-  {
-    icon: <MdOutlineFactCheck />,
-    title: "Focused On Student Success",
-    text: "Every step is planned to help students choose better opportunities, quality education, and the right medical career pathway for long-term success.",
-    color: "from-green-500 to-emerald-500",
-  },
-  {
-    icon: <LiaPassportSolid />,
-    title: "Support Beyond Admissions",
-    text: "Our assistance continues beyond applications with dedicated support for documentation, visa procedures, travel preparation, and student onboarding guidance.",
-    color: "from-purple-500 to-pink-500",
-  },
-];
 
-const stats = [
-  { value: "50+", label: "Partner Universities", icon: <MdOutlineSchool /> },
-  { value: "20+", label: "Countries", icon: <BsGlobe2 /> },
-  { value: "100%", label: "Visa Success Rate", icon: <MdOutlineVerified /> },
-  { value: "24/7", label: "Student Support", icon: <BsHeadset /> },
-];
 
-export default function WhyChoose() {
+export default function WhyChoose({data}:any) {
   return (
     <section className=" md:px-20 p-6 md:p-16 lg:px-24 bg-zinc-100 relative overflow-hidden">
       
@@ -68,25 +42,20 @@ export default function WhyChoose() {
           {/* Header with decorative line */}
           <div className="relative">
             <h4 className="text-color2 mb-4 text-xs uppercase tracking-[0.25em] font-semibold">
-                Why Choose Us
-            </h4>
+{data?.title1}            </h4>
             
             <h2 className="font-black text-gray-900 text-2xl md:text-3xl lg:text-4xl leading-tight">
-              Your Trusted Partner in Medical
-                 Education
+{data?.title2}
             </h2>
           </div>
 
           <p className="text-gray-600 leading-relaxed">
-            Vincit Edupath helps students achieve their medical career goals through trusted guidance, 
-            globally recognized universities, transparent processes, and complete admission support. 
-            We focus on simplifying the MBBS abroad journey for students and parents with professional 
-            counseling, personalized assistance, and reliable support at every stage.
+            {data?.para}
           </p>
 
           {/* Features with enhanced hover effects */}
           <div className="flex flex-col gap-5 mt-3">
-            {features.map((f, i) => (
+            {data?.features.map((f:any, i:number) => (
               <motion.div 
                 key={i} 
                 initial={{ opacity: 0, y: 20 }}

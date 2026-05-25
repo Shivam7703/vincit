@@ -8,6 +8,7 @@ import about2 from "@/assets/home/about2.jpg";
 import choose from "@/assets/home/choose.jpg";
 import choose2 from "@/assets/home/choose2.jpg";
 import choose3 from "@/assets/home/choose3.jpg";
+import contact from "@/assets/home/contact.jpg";
 
 import world from "@/assets/home/world.jpg";
 
@@ -52,7 +53,7 @@ import uzbeflg from "@/assets/home/Uzbekistan.png";
 import uzbe from "@/assets/home/Uzbekistan-img.jpg";
 
 export {
-     banner, banner2, banner3, cl1, cl2,cl3,cl4,logo2, logo ,about, world, about2, choose, choose2, choose3, admission, uni, visa, georflg, geor, kazakflg, kazak, kyrgflg, kyrg, philflg, phil, rusflg, rus, uzbeflg, uzbe,
+     banner, banner2, banner3, cl1, cl2,cl3,cl4,logo2, logo ,about, world, about2, choose, choose2, choose3, admission, uni, visa, georflg, geor, kazakflg, kazak, kyrgflg, kyrg, philflg, phil, rusflg, rus, uzbeflg, uzbe, contact,
      // civil
   
   // partner

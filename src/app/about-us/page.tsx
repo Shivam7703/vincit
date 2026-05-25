@@ -4,16 +4,17 @@ import AboutSection from '@/components/home/AboutSection'
 import Count2 from '@/components/home/count2'
 import Partners from '@/components/home/partner'
 import WhyChoose from '@/components/home/whychoose'
+import { Homeabout, Homechoose } from '@/data/homeData'
 import React from 'react'
 
 function page() {
   return (
     <div>
       <Banner title="About Us" para="Learn more about our company and mission. lorem ipsum dolor sit amet, consectetur adipiscing elit. " slug="About Us" />
-            <AboutSection />
+            <AboutSection data={Homeabout}/>
             <MVVCards/>
             <Count2 />
-                  <WhyChoose />
+      <WhyChoose data={Homechoose}/>
             
                   <Partners />
             

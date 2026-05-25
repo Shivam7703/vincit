@@ -4,13 +4,17 @@ import {
    uni,
    admission,
    visa,
+   about,
+   about2,
   
 } from "@/assets";
+import { BsPeopleFill } from "react-icons/bs";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 import { GrVisa } from "react-icons/gr";
+import { LiaPassportSolid } from "react-icons/lia";
 
-import { MdOutlineStickyNote2 } from "react-icons/md";
+import { MdOutlineFactCheck, MdOutlineStickyNote2 } from "react-icons/md";
 
 import { RiCommunityFill } from "react-icons/ri";
 
@@ -133,76 +137,133 @@ export const sliderContent = [
   {
     id: 1,
     img: banner,
-    welcome: "Vincit Edupath",
-    title: "Study MBBS Abroad With Confidence & Clarity ",
+    welcome: "Begin Your Journey Towards Becoming a Doctor",
+    title: "Trusted Guidance For Students Planning MBBS Abroad",
     para:
-      "Affordable global medical education with complete admission support. ",
+      "Get the right support for admissions, university selection, visa process, and career planning to make your medical education journey smooth and stress-free.",
     btntext: "Explore More",
-    href: "#contact",
+    href: "/contact-us",
   },
   {
     id: 2,
     img: banner2,
-    welcome: "Your Trusted Partner For MBBS Abroad",
-    title: "Build Your Medical Career With Vincit Edupath",
-    para: "Explore internationally recognized medical universities with affordable tuition fees, expert admission guidance, visa assistance, and complete support designed to help students confidently begin their MBBS abroad journey.",
+    welcome: "Shaping Future Doctors With the Right Direction",
+    title: "Expert Support For Admissions Beyond Just Applications",
+    para: "Helping students choose the right country, university, and career path for MBBS abroad. ",
     btntext: "Contact Us",
-    href: "#contact",
+    href: "/contact-us",
   },
     {
     id: 3,
     img: banner3,
-    welcome: "Start Your MBBS Abroad Journey",
-    title: "Study MBBS Abroad With Trusted Expert Guidance",
-    para: "Affordable global medical education with complete admission and visa support for aspiring doctors.",
+    welcome: "Your Medical Goals Need Proper Planning",
+    title: "Personalized Guidance For Students And Their Parents",
+    para: "Guiding students and parents from counseling to successful MBBS abroad admissions. ",
     btntext: "Contact Us",
-    href: "#contact",
+    href: "/contact-us",
   },
 ];
 
+  export const Homeabout = {
+    img1: about,
+    img2: about2,
+    label: "About Us",
+    title: "Supporting Your Dream To Study MBBS Abroad ",
+    para: "At Vincit Edupath, we support students at every step of their MBBS abroad journey with trusted guidance, university selection, admission assistance, and complete support for a better medical future. ",
+    years: 25,
+    vision: [
+  {
+    heading: "Integrity",
+    img: banner,
+    pointers: [
+      "Transparent admission process",
+      "Reliable student counseling",
+      "Clear communication at every step",
+      "Honest guidance for students and parents",
+    ],
+  },
+  {
+    heading: "Objective's",
+    img: banner2,
+    pointers: [
+      "Making global medical education accessible",
+      "Helping students build successful careers",
+      "Connecting students with top universities",
+      "Supporting informed career decisions",
+    ],
+  },
+  {
+    heading: "Excellence",
+    img: banner3,
+    pointers: [
+      "Personalized admission assistance",
+      "Professional documentation support",
+      "End-to-end student guidance",
+      "Dedicated support throughout the journey",
+    ],
+  },
+]
+  };
+
+
 export const Servicedata = {
   title1: "OUR SERVICES",
-  title2: "End-To-End MBBS Abroad Guidance",
-  para: "Helping students secure quality medical education abroad through trusted counseling, university selection, admission support, visa assistance, and complete journey guidance.",
+  title2: "Complete Support For Your MBBS Abroad Journey",
+  para: "Helping students with counseling, university admissions, visa process, and every important step towards studying medicine abroad successfully.",
   service: [
     {
-      title: "University Selection",
-      text: "Choose from globally recognized medical universities based on your budget, career goals, academic profile, and preferred country for MBBS abroad studies.",
-      img: uni,
+      title: "Career Counseling & Guidance",
+      text: "Get proper counseling and personalized support to choose the right country, university, and medical career path based on your future goals.",
+      img: uni,  // आपके original structure के अनुसार यहाँ variable है, आप इसे अपनी actual image file se replace कर सकते हैं
       icon: <RiCommunityFill />,
     },
     {
-      title: "Admission Assistance",
-      text: "Complete support with applications, documentation, eligibility verification, and admission procedures to make your MBBS abroad process smooth and stress-free.",
+      title: "Admissions In Recognized Universities",
+      text: "We help students secure admission in trusted and globally recognized medical universities with complete application and documentation support.",
       img: admission,
       icon: <MdOutlineStickyNote2 />,
     },
     {
-      title: "Visa Support",
-      text: "Professional guidance for visa filing, travel preparation, and pre-departure assistance to help students confidently begin their international medical education journey.",
+      title: "Visa Assistance & Travel Support",
+      text: "From visa processing to travel planning, we assist students throughout the entire relocation process for a smooth transition abroad.",
       img: visa,
       icon: <GrVisa />,
     },
-     {
-      title: "University Selection",
-      text: "Choose from globally recognized medical universities based on your budget, career goals, academic profile, and preferred country for MBBS abroad studies.",
-      img: uni,
-      icon: <RiCommunityFill />,
-    },
     {
-      title: "Admission Assistance",
-      text: "Complete support with applications, documentation, eligibility verification, and admission procedures to make your MBBS abroad process smooth and stress-free.",
-      img: admission,
-      icon: <MdOutlineStickyNote2 />,
-    },
-    {
-      title: "Visa Support",
-      text: "Professional guidance for visa filing, travel preparation, and pre-departure assistance to help students confidently begin their international medical education journey.",
-      img: visa,
-      icon: <GrVisa />,
+      title: "FMGE / NExT / USMLE / PLAB Preparation",
+      text: "Get guidance for major medical licensing exams with proper academic support to help students prepare for future medical careers globally.",
+      img: uni,  
+      icon: <RiCommunityFill />, // 
     },
   ],
 };
+
+export const Homechoose = {
+      title1:"WHY CHOOSE US",
+title2:"Helping Students Build Their Medical Career Abroad",
+para:"Vincit Edupath supports students with proper guidance, trusted university options, and complete admission assistance for a smooth MBBS abroad journey. From counseling sessions to final admissions, we help students and parents make confident decisions for their future.",
+  features : [
+  {
+    icon: <BsPeopleFill />,
+    title: "Trusted Guidance At Every Step",
+    text: "We provide clear information, honest counseling, and simple admission support to help students feel confident throughout the process.",
+    color: "from-blue-500 to-cyan-500",
+  },
+  {
+    icon: <MdOutlineFactCheck />,
+    title: "Helping Students Choose Better Opportunities",
+    text: "Our team helps students find suitable universities, affordable options, and the right path for their medical career goals.",
+    color: "from-green-500 to-emerald-500",
+  },
+  {
+    icon: <LiaPassportSolid />,
+    title: "Complete Support Beyond Admissions",
+    text: "From documentation and visa assistance to travel planning and student support, we guide students throughout their journey abroad.",
+    color: "from-purple-500 to-pink-500",
+  },
+]
+
+}
 
 
 export const footData = {

@@ -1,45 +1,42 @@
-"use client";
-import React, { useState } from "react";
-import { HiPlus, HiMinus } from "react-icons/hi2";
+import React from "react";
 import Faq from "../global/faq";
 
 const data = {
-  label: "High Visa Success Rate",
-  title: "Got Questions About MBBS Abroad?",
-  para: "Find answers to common questions about MBBS abroad admissions, universities, eligibility, visa guidance, tuition fees, and student support services.",
+  label: "HIGH VISA SUCCESS RATE",
+  title: "Reliable Support For Your MBBS Abroad Plans",
+  para: "Get clear answers about admissions, eligibility, universities, fees, visa process, and student support to make your MBBS abroad journey easier and more understandable.",
   points: [
-    "High Visa Success Rate",
-    "Trusted Student Guidance",
-    "Globally Recognized Universities",
-    "Transparent Admission Process",
-    "FAQs",
+    "Strong Visa Approval Support",
+    "Guidance From Experienced Counselors",
+    "Recognized Medical Universities",
+    "Simple & Transparent Admission Process",
+    "Complete Student Assistance At Every Step",
   ],
   faqs: [
     {
       id: 1,
-      que: "Is MBBS abroad a good option for Indian students?",
-      ans: "Yes, MBBS abroad offers affordable education, global exposure, modern infrastructure, and internationally recognized medical degrees for aspiring doctors seeking quality opportunities.",
+      que: "How do students choose the right country for MBBS abroad?",
+      ans: "Students usually compare tuition fees, university recognition, clinical exposure, living costs, safety, and future career opportunities before selecting the most suitable country for their medical education abroad.",
     },
     {
       id: 2,
-      que: "How does Vincit Edupath help students during admissions?",
-      ans: "We assist students with counseling, university selection, documentation, admission processing, visa support, and complete guidance until they successfully join the university.",
+      que: "What kind of support does Vincit Edupath provide to students?",
+      ans: "Vincit Edupath helps students with career counseling, university shortlisting, admission applications, documentation, visa assistance, travel preparation, and continuous support throughout their MBBS abroad journey.",
     },
     {
       id: 3,
-      que: "Can students study MBBS abroad in an English medium?",
-      ans: "Yes, many international medical universities offer complete English-medium MBBS programs specifically designed for international students from different countries, including India.",
+      que: "Are hostel and food facilities available for international students?",
+      ans: "Most medical universities provide hostel accommodation, security, internet facilities, and food options for international students. Indian food and grocery stores are also available in many popular student destinations.",
     },
     {
       id: 4,
-      que: "Why do students prefer studying MBBS abroad today?",
-      ans: "Students prefer MBBS abroad for affordable tuition fees, global medical exposure, advanced learning environments, and better access to international career opportunities.",
+      que: "What makes MBBS abroad popular among medical aspirants today?",
+      ans: "Students prefer MBBS abroad because of affordable education, global exposure, modern universities, practical learning opportunities, and easier access to recognized medical programs compared to highly competitive admissions in India.",
     },
   ],
 };
 
 export default function FaqSection() {
-  const [open, setOpen] = useState<number | null>(0);
 
   return (
     <section className="bg-white py-14 px-6 md:px-16 lg:px-24 font1">

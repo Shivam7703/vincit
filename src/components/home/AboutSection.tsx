@@ -1,54 +1,13 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
-import { about, about2, banner, banner2, banner3 } from "@/assets";
 import { motion, AnimatePresence } from "framer-motion";
 import Buttonmain from "../global/button";
 
-function AboutSection() {
+function AboutSection({data}:any) {
   const [value, setValue] = useState(0); // default: Integrity (index 0)
 
-  const data = {
-    img1: about,
-    img2: about2,
-    label: "About Us",
-    title: "Smarter Path To Becoming A Doctor",
-    para: "At Vincit Edupath, we believe every medical aspirant deserves access to world-class education without limitations created by high competition or unaffordable tuition structures.",
-    years: 25,
-    vision: [
-      {
-        heading: "Integrity",
-        img: banner,
-        pointers: [
-          "Ethical admission practices",
-          "Clear documentation support",
-          "Genuine student guidance",
-          "Commitment to transparency",
-        ],
-      },
-      {
-        heading: "Objective's",
-        img: banner2,
-        pointers: [
-          "Expanding global career pathways",
-          "Simplifying the MBBS abroad process",
-          "Helping students make informed decisions",
-          "Creating future-ready medical professionals",
-        ],
-      },
-      {
-        heading: "Excellence",
-        img: banner3,
-        pointers: [
-          "Personalized counseling experience",
-          "Strong international university connections",
-          "Dedicated visa assistance",
-          "High-quality student mentorship",
-        ],
-      },
-    ],
-  };
+
 
   return (
     <section id="about" className="lg:px-28 md:px-20 sm:px-16 px-6 py-20 bg-gradient-to-br from-white via-gray-50 to-white mx-auto relative overflow-hidden">
@@ -150,7 +109,7 @@ function AboutSection() {
 
           {/* Premium Tabs with hover effects */}
           <div className="flex border-b-2 border-gray-200 gap-2">
-            {data.vision.map((item, index) => (
+            {data.vision.map((item:any , index:number) => (
               <button
                 key={index}
                 onClick={() => setValue(index)}
@@ -200,7 +159,7 @@ function AboutSection() {
 
               {/* Checkpoints with staggered animation */}
               <ul className="space-y-2 flex-1">
-                {data.vision[value].pointers.map((point, i) => (
+                {data.vision[value].pointers.map((point:any, i:number) => (
                   <motion.li
                     key={i}
                     initial={{ opacity: 0, x: 20 }}

@@ -16,7 +16,7 @@ export default function Count2() {
       <h2 className="font-black uppercase text-zinc-900 text-lg sm:text-2xl 
                      max-w-4xl mx-auto leading-snug mb-5 sm:mb-14
                      ">
-        Connecting Students With Global Medical Education Opportunities Through Trusted Expert Guidance 
+Making MBBS Abroad Easier For Students With Proper Guidance And Support 
       </h2>
 
       {/* Stats grid */}

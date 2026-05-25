@@ -10,8 +10,7 @@ import "swiper/css";
 // @ts-ignore: CSS module without type declarations
 import "swiper/css/navigation";
 import { Servicedata as data } from "@/data/homeData";
-import { IoIosArrowRoundForward } from "react-icons/io";
-import { MdSchool } from "react-icons/md";
+
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 import { FiArrowRight } from "react-icons/fi";
 
