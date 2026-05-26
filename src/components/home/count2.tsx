@@ -20,7 +20,7 @@ Making MBBS Abroad Easier For Students With Proper Guidance And Support
       </h2>
 
       {/* Stats grid */}
-      <div className="grid grid-cols-2 md:grid-cols-4 max-w-7xl mx-auto divide-x divide-zinc-400">
+      <div className="grid grid-cols-2 md:grid-cols-4 max-w-7xl mx-auto md:divide-x divide-zinc-400">
         {stats.map((s, i) => (
           <div key={i} className="px-6 py-4">
             <p className="text-color4 font-black text-xl md:text-3xl leading-none mb-2

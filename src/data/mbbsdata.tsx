@@ -1,0 +1,4358 @@
+import { arm, bel, china, geor, ger, kazak, kyrg, malay, poland, rus, uzbe } from "@/assets";
+
+export const Mbbsdata = [
+{
+    "img": uzbe,
+    "title": "MBBS in Uzbekistan",
+    "metatitle": "MBBS in Uzbekistan | Fees & Admission Guide",
+    "metakey": "MBBS in Uzbekistan",
+    "metadesc": "Study MBBS in Uzbekistan with affordable fees, modern universities, English-medium programs, and globally recognized medical education.",
+    "content": [
+        {
+            "subcontent": [
+                {
+                    "para": "Uzbekistan has become one of the fastest-growing destinations for students planning to pursue medical education abroad. The country is attracting international students because of its affordable tuition structure, advanced medical universities, modern infrastructure, and globally accepted medical degrees."
+                },
+                {
+                    "para": "For Indian students, Uzbekistan offers a comfortable educational environment with English-medium medical programs, experienced faculty, and practical clinical exposure. The universities are recognized by international medical organizations, making graduates eligible for licensing examinations and higher studies worldwide."
+                },
+                {
+                    "para": "Medical education in Uzbekistan focuses on academic excellence, patient-centered clinical training, and research-based learning methods. Students also benefit from a safe atmosphere and comparatively lower living expenses."
+                }
+            ]
+        },
+        {
+            "heading": "<h2>Snapshot of Medical Education in Uzbekistan</h2>",
+            "subcontent": [
+                {
+                    "table": {
+                        "theading": ["Particulars", "Information"],
+                        "rows": [
+                            {
+                                "colum": ["Course Duration", "6 Years"]
+                            },
+                            {
+                                "colum": ["Medium of Instruction", "English"]
+                            },
+                            {
+                                "colum": ["NEET Requirement", "Mandatory"]
+                            },
+                            {
+                                "colum": ["Average Fees", "₹18 – ₹32 Lakhs"]
+                            },
+                            {
+                                "colum": ["Recognition", "NMC, WHO, FAIMER"]
+                            },
+                            {
+                                "colum": ["Intake Session", "September/October"]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "heading": "<h3>What Makes Uzbekistan a Popular Choice?</h3>",
+            "subcontent": [
+                {
+                    "para": "Medical universities in Uzbekistan have gained popularity because of their modern education system and affordable fee structure. The country has invested significantly in upgrading healthcare education infrastructure over recent years."
+                },
+                {
+                    "subheading": "Key Reasons Students Prefer Uzbekistan",
+                    "list": [
+                        "Affordable tuition fees for international students",
+                        "Globally recognized medical universities",
+                        "English-medium medical programs",
+                        "Modern laboratories and teaching methods",
+                        "Experienced professors and faculty support",
+                        "Safe environment for students",
+                        "Low cost of living compared to many countries",
+                        "Easy admission process without donation",
+                        "Growing Indian student community"
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Best Medical Universities in Uzbekistan</h3>",
+            "subcontent": [
+                {
+                    "table": {
+                        "theading": ["University Name", "City", "Established", "Approx Fees"],
+                        "rows": [
+                            {
+                                "colum": ["Tashkent Medical Academy", "Tashkent", "1919", "₹22 – ₹28 Lakhs"]
+                            },
+                            {
+                                "colum": ["Samarkand State Medical University", "Samarkand", "1930", "₹20 – ₹26 Lakhs"]
+                            },
+                            {
+                                "colum": ["Bukhara State Medical Institute", "Bukhara", "1990", "₹18 – ₹24 Lakhs"]
+                            },
+                            {
+                                "colum": ["Andijan State Medical Institute", "Andijan", "1955", "₹18 – ₹23 Lakhs"]
+                            },
+                            {
+                                "colum": ["Fergana Medical Institute", "Fergana", "1991", "₹20 – ₹25 Lakhs"]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Why Indian Students Feel Comfortable in Uzbekistan</h3>",
+            "subcontent": [
+                {
+                    "para": "Uzbekistan offers a student-friendly environment where Indian students can adjust easily academically and socially. Many universities provide Indian food, hostel facilities, and support services for international students."
+                },
+                {
+                    "subheading": "Student-Friendly Features",
+                    "list": [
+                        "Indian mess and food facilities available",
+                        "English-speaking international departments",
+                        "Comfortable hostel accommodation",
+                        "Affordable transportation and daily expenses",
+                        "Friendly and welcoming local communities",
+                        "Availability of Indian student groups"
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Course Structure & Academic Pattern</h3>",
+            "subcontent": [
+                {
+                    "para": "Medical education in Uzbekistan combines classroom learning with practical hospital training to develop strong clinical understanding among students."
+                },
+                {
+                    "subheading": "Academic Focus Areas",
+                    "list": [
+                        "Anatomy and medical sciences",
+                        "Practical laboratory sessions",
+                        "Clinical hospital rotations",
+                        "Patient interaction training",
+                        "Research and healthcare projects",
+                        "Internship and practical exposure"
+                    ]
+                },
+                {
+                    "para": "The curriculum is designed according to international medical education standards."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Fee Structure & Living Expenses</h3>",
+            "subcontent": [
+                {
+                    "para": "Uzbekistan is considered one of the most budget-friendly destinations for medical studies abroad."
+                },
+                {
+                    "subheading": "Estimated Cost Breakdown",
+                    "table": {
+                        "theading": ["Expense Type", "Approximate Cost"],
+                        "rows": [
+                            {
+                                "colum": ["Tuition Fees", "₹18 – ₹32 Lakhs"]
+                            },
+                            {
+                                "colum": ["Hostel Charges", "₹60,000 – ₹1.2 Lakhs yearly"]
+                            },
+                            {
+                                "colum": ["Food Expenses", "₹7,000 – ₹12,000 monthly"]
+                            },
+                            {
+                                "colum": ["Transportation", "₹1,500 – ₹3,000 monthly"]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "para": "Students can comfortably manage their living expenses within a reasonable budget."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Eligibility Criteria for Admission</h3>",
+            "subcontent": [
+                {
+                    "para": "Students applying for medical admission in Uzbekistan must fulfill the following requirements:",
+                    "list": [
+                        "Completed 10+2 with Physics, Chemistry, and Biology",
+                        "Minimum 50% marks in PCB subjects",
+                        "Qualified NEET examination",
+                        "Minimum age should be 17 years"
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Admission Process Explained</h3>",
+            "subcontent": [
+                {
+                    "subheading": "University Selection",
+                    "para": "Students first shortlist universities based on ranking, affordability, and recognition."
+                },
+                {
+                    "subheading": "Application Submission",
+                    "para": "Submit academic documents, passport copies, and NEET scorecards online."
+                },
+                {
+                    "subheading": "Admission Letter",
+                    "para": "Eligible students receive confirmation letters from the university."
+                },
+                {
+                    "subheading": "Visa Procedure",
+                    "para": "Students apply for a student visa after receiving admission approval."
+                },
+                {
+                    "subheading": "Final Departure",
+                    "para": "Complete travel arrangements, accommodation booking, and pre-departure preparation."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Documents Required for Admission</h3>",
+            "subcontent": [
+                {
+                    "list": [
+                        "10th & 12th Mark Sheets",
+                        "NEET Scorecard",
+                        "Passport",
+                        "Passport-size Photographs",
+                        "Medical Fitness Certificate",
+                        "Birth Certificate",
+                        "Admission Letter",
+                        "Visa Documents"
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Hostel Facilities in Uzbekistan</h3>",
+            "subcontent": [
+                {
+                    "para": "Medical universities in Uzbekistan provide modern hostel facilities for international students."
+                },
+                {
+                    "subheading": "Hostel Features",
+                    "list": [
+                        "Separate accommodation for boys and girls",
+                        "Fully furnished rooms",
+                        "Wi-Fi and study areas",
+                        "Central heating systems",
+                        "Security and surveillance",
+                        "Common kitchens and dining areas"
+                    ]
+                },
+                {
+                    "para": "Students also have access to nearby supermarkets, transportation, and healthcare facilities."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Practical Training & Clinical Exposure</h3>",
+            "subcontent": [
+                {
+                    "para": "One of the major strengths of medical education in Uzbekistan is its practical training system. Students receive hospital exposure during the course to strengthen clinical understanding."
+                },
+                {
+                    "subheading": "Clinical Learning Benefits",
+                    "list": [
+                        "Exposure to real patient cases",
+                        "Hospital ward training",
+                        "Clinical diagnosis practice",
+                        "Modern laboratory learning",
+                        "Internship opportunities in affiliated hospitals"
+                    ]
+                },
+                {
+                    "para": "This helps students develop professional confidence before entering medical practice."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>MBBS in Uzbekistan vs MBBS in India</h3>",
+            "subcontent": [
+                {
+                    "table": {
+                        "theading": ["Features", "Uzbekistan", "India"],
+                        "rows": [
+                            {
+                                "colum": ["Tuition Fees", "More affordable", "Expensive private colleges"]
+                            },
+                            {
+                                "colum": ["Admission Process", "Simple", "Highly competitive"]
+                            },
+                            {
+                                "colum": ["Seat Availability", "Good availability", "Limited government seats"]
+                            },
+                            {
+                                "colum": ["Infrastructure", "Modern universities", "Depends on the institution"]
+                            },
+                            {
+                                "colum": ["Global Exposure", "International environment", "Limited in many colleges"]
+                            },
+                            {
+                                "colum": ["Living Expenses", "Budget-friendly", "Varies by city"]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "para": "Students who are unable to secure affordable medical seats in India often choose Uzbekistan because of its quality education and cost-effective structure."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Career Opportunities After Graduation</h3>",
+            "subcontent": [
+                {
+                    "para": "Graduates from Uzbekistan medical universities can pursue medical careers globally after clearing required licensing examinations."
+                },
+                {
+                    "subheading": "Career Opportunities Available",
+                    "list": [
+                        "Practice in India after FMGE/NExT",
+                        "Prepare for USMLE and PLAB",
+                        "Pursue postgraduate specialization",
+                        "Work in private and government hospitals",
+                        "Enter research and healthcare sectors"
+                    ]
+                },
+                {
+                    "table": {
+                        "theading": ["Career Option", "Scope"],
+                        "rows": [
+                            {
+                                "colum": ["Clinical Practice", "Hospitals & Healthcare Centers"]
+                            },
+                            {
+                                "colum": ["Higher Studies", "MD/MS Programs"]
+                            },
+                            {
+                                "colum": ["International Practice", "USA, UK, Australia"]
+                            },
+                            {
+                                "colum": ["Medical Research", "Universities & Labs"]
+                            },
+                            {
+                                "colum": ["Public Healthcare", "NGOs & Government Projects"]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "heading": "<h3>FMGE/NExT Preparation Support in Uzbekistan</h3>",
+            "subcontent": [
+                {
+                    "para": "Many medical universities in Uzbekistan have started focusing on FMGE/NExT-oriented preparation for Indian students. Universities often conduct additional coaching sessions, mock tests, and clinical discussions to help students strengthen their preparation alongside regular academics."
+                },
+                {
+                    "para": "Students also join online coaching platforms and study groups during the course to improve their performance in future licensing examinations."
+                },
+                {
+                    "subheading": "Support Offered by Universities",
+                    "list": [
+                        "FMGE-focused academic guidance",
+                        "Clinical concept-based learning",
+                        "Mock tests and revision sessions",
+                        "Indian faculty support in some universities",
+                        "Access to digital medical learning resources"
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Indian Food & Lifestyle in Uzbekistan</h3>",
+            "subcontent": [
+                {
+                    "para": "One of the biggest concerns for students studying abroad is food and daily lifestyle adjustment. Uzbekistan has become increasingly comfortable for Indian students because many universities provide Indian mess facilities and nearby Indian restaurants."
+                },
+                {
+                    "para": "Students can easily find vegetarian and non-vegetarian Indian meals in university cafeterias or local food outlets near campuses."
+                },
+                {
+                    "subheading": "Common Facilities Available",
+                    "list": [
+                        "Indian food in hostel mess",
+                        "Grocery stores with Indian products",
+                        "Student communities and festivals",
+                        "Comfortable transportation facilities",
+                        "Affordable daily living expenses"
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Internet, Connectivity & Student Convenience</h3>",
+            "subcontent": [
+                {
+                    "para": "Medical universities in Uzbekistan provide good internet connectivity and digital learning support for students. Most campuses and hostels are equipped with Wi-Fi facilities that help students attend online classes, access medical resources, and stay connected with family members in India."
+                },
+                {
+                    "para": "International calling, online payment apps, and local transport services are also easily accessible for students."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Why Uzbekistan is Trending Among MBBS Aspirants</h3>",
+            "subcontent": [
+                {
+                    "para": "Over the past few years, Uzbekistan has become a trending destination because of its affordable fee structure, globally recognized universities, and improving medical education standards. Students who are looking for quality education without extremely high expenses are increasingly choosing Uzbekistan over expensive private medical colleges."
+                },
+                {
+                    "para": "The combination of practical training, modern infrastructure, and simplified admission procedures makes the country attractive for Indian medical aspirants."
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "que": "Q1. Is Uzbekistan considered affordable for Indian medical students?",
+            "ans": "Yes, Uzbekistan is one of the more affordable destinations for international medical education. Tuition fees, hostel charges, food expenses, and transportation costs are comparatively lower than many private medical colleges in India and several other international study destinations."
+        },
+        {
+            "que": "Q2. Are universities in Uzbekistan recognized internationally?",
+            "ans": "Medical universities in Uzbekistan are recognized by organizations such as NMC and WHO. Graduates become eligible to appear for licensing examinations like FMGE/NExT, USMLE, and PLAB, allowing them to pursue medical careers and higher education opportunities globally."
+        },
+        {
+            "que": "Q3. Do students receive practical hospital exposure during the course?",
+            "ans": "Yes, universities focus strongly on clinical training and hospital-based learning. Students participate in patient interaction sessions, practical diagnosis training, and hospital rotations that help improve their medical understanding and prepare them for professional healthcare careers."
+        },
+        {
+            "que": "Q4. Is hostel accommodation available for international students?",
+            "ans": "Most medical universities in Uzbekistan provide secure hostel accommodation with furnished rooms, internet facilities, heating systems, and student support services. Many hostels also offer Indian food arrangements and separate accommodation facilities for boys and girls."
+        }
+    ]
+},
+
+{
+    "img": kazak,
+    "title": "MBBS in Kazakhstan",
+    "metatitle": "Study MBBS in Kazakhstan | Fees & Universities",
+    "metakey": "MBBS in Kazakhstan",
+    "metadesc": "Explore MBBS in Kazakhstan with affordable fees, NMC-approved universities, modern campuses, and quality medical education for Indian students.",
+    "content": [
+        {
+            "subcontent": [
+                {
+                    "para": "Kazakhstan has rapidly become one of the most searched destinations among Indian students planning to study medicine abroad. The country is gaining popularity because of its affordable fee structure, internationally recognized universities, modern infrastructure, and easy admission process."
+                },
+                {
+                    "para": "Medical universities in Kazakhstan provide quality education with a strong focus on practical training and clinical learning. Many universities are recognized by the NMC and WHO, allowing graduates to pursue medical careers in India and other countries after qualifying for licensing examinations."
+                },
+                {
+                    "para": "For students looking for a balance between affordability and quality education, Kazakhstan has become a practical and career-focused option."
+                }
+            ]
+        },
+        {
+            "heading": "<h2>Why Kazakhstan is Trending Among MBBS Aspirants</h2>",
+            "subcontent": [
+                {
+                    "para": "Over the last few years, Kazakhstan has attracted thousands of Indian students because of its budget-friendly education system and globally accepted medical degrees. The universities are modern, technologically advanced, and designed to support international students academically and socially."
+                },
+                {
+                    "subheading": "Reasons Behind Its Growing Popularity",
+                    "list": [
+                        "Affordable tuition fees compared to private Indian colleges",
+                        "NMC-approved universities with global recognition",
+                        "English-medium medical programs",
+                        "Simple admission process without donation",
+                        "Modern hostels and advanced laboratories",
+                        "Better student-to-teacher interaction",
+                        "Strong practical exposure in hospitals",
+                        "Safe and student-friendly cities",
+                        "Growing Indian student communities"
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Quick Overview of Medical Education in Kazakhstan</h3>",
+            "subcontent": [
+                {
+                    "table": {
+                        "theading": ["Particulars", "Details"],
+                        "rows": [
+                            {
+                                "colum": ["Course Duration", "5 Years + Internship"]
+                            },
+                            {
+                                "colum": ["Medium of Teaching", "English"]
+                            },
+                            {
+                                "colum": ["Eligibility", "PCB + NEET Qualification"]
+                            },
+                            {
+                                "colum": ["Tuition Fees", "₹18 – ₹35 Lakhs"]
+                            },
+                            {
+                                "colum": ["Recognition", "NMC, WHO, FAIMER"]
+                            },
+                            {
+                                "colum": ["Admission Intake", "September/October"]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Top Medical Universities in Kazakhstan</h3>",
+            "subcontent": [
+                {
+                    "table": {
+                        "theading": ["University Name", "City", "Approx Fees"],
+                        "rows": [
+                            {
+                                "colum": ["Kazakh National Medical University", "Almaty", "₹28 – ₹35 Lakhs"]
+                            },
+                            {
+                                "colum": ["Astana Medical University", "Astana", "₹25 – ₹32 Lakhs"]
+                            },
+                            {
+                                "colum": ["South Kazakhstan Medical Academy", "Shymkent", "₹20 – ₹27 Lakhs"]
+                            },
+                            {
+                                "colum": ["Semey State Medical University", "Semey", "₹18 – ₹24 Lakhs"]
+                            },
+                            {
+                                "colum": ["West Kazakhstan State Medical University", "Aktobe", "₹20 – ₹26 Lakhs"]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "heading": "<h3>What Indian Students Usually Want to Know Before Choosing Kazakhstan</h3>",
+            "subcontent": [
+                {
+                    "para": "Students and parents often compare Kazakhstan with other countries before making a decision. One of the biggest reasons students prefer Kazakhstan is the combination of low educational expenses and modern infrastructure."
+                },
+                {
+                    "subheading": "Things Students Appreciate Most",
+                    "list": [
+                        "Affordable hostel and living expenses",
+                        "Availability of Indian food in universities",
+                        "Direct interaction with international faculty",
+                        "Comfortable campus lifestyle",
+                        "Digital classrooms and simulation labs",
+                        "Easy access to public transportation"
+                    ]
+                },
+                {
+                    "para": "Many universities also organize cultural activities and student engagement programs for international students."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Medical Curriculum & Learning Approach</h3>",
+            "subcontent": [
+                {
+                    "para": "Medical universities in Kazakhstan focus on building both academic knowledge and practical medical understanding."
+                },
+                {
+                    "subheading": "Teaching Style Includes",
+                    "list": [
+                        "Interactive classroom learning",
+                        "Practical anatomy and laboratory sessions",
+                        "Clinical training in hospitals",
+                        "Research-based medical projects",
+                        "Simulation-based healthcare training",
+                        "Patient communication practice"
+                    ]
+                },
+                {
+                    "para": "Students receive early clinical exposure that helps them understand real medical environments during the course itself."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>FMGE/NExT Preparation in Kazakhstan</h3>",
+            "subcontent": [
+                {
+                    "para": "One of the major concerns among Indian students studying abroad is preparation for licensing examinations. Universities in Kazakhstan have improved academic support systems to help students prepare for FMGE/NExT alongside regular studies."
+                },
+                {
+                    "subheading": "Academic Support for Indian Students",
+                    "list": [
+                        "FMGE-focused study materials",
+                        "Clinical concept revision sessions",
+                        "Mock tests and assessments",
+                        "Additional doubt-clearing classes",
+                        "Guidance from experienced faculty"
+                    ]
+                },
+                {
+                    "para": "Many Indian students also join external coaching platforms during their medical studies for additional preparation."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Estimated Cost of Living in Kazakhstan</h3>",
+            "subcontent": [
+                {
+                    "para": "Kazakhstan is considered one of the more affordable countries for international students."
+                },
+                {
+                    "table": {
+                        "theading": ["Expense Type", "Approximate Monthly Cost"],
+                        "rows": [
+                            {
+                                "colum": ["Hostel Accommodation", "₹8,000 – ₹15,000"]
+                            },
+                            {
+                                "colum": ["Food & Groceries", "₹7,000 – ₹12,000"]
+                            },
+                            {
+                                "colum": ["Transportation", "₹1,500 – ₹3,000"]
+                            },
+                            {
+                                "colum": ["Miscellaneous Expenses", "₹3,000 – ₹5,000"]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "para": "The lower living cost helps students manage their expenses comfortably throughout the course."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Eligibility Criteria for Admission</h3>",
+            "subcontent": [
+                {
+                    "para": "Students applying for admission must fulfill the following requirements:",
+                    "list": [
+                        "Completed 10+2 with Physics, Chemistry, and Biology",
+                        "Minimum 50% aggregate marks in PCB",
+                        "Qualified NEET examination",
+                        "Minimum age should be 17 years"
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Admission Journey Step-by-Step</h3>",
+            "subcontent": [
+                {
+                    "subheading": "University Shortlisting",
+                    "para": "Students first compare universities based on rankings, fees, infrastructure, and recognition."
+                },
+                {
+                    "subheading": "Document Submission",
+                    "para": "Submit academic records, passport copies, NEET scorecards, and photographs."
+                },
+                {
+                    "subheading": "Admission Letter",
+                    "para": "Universities review applications and issue admission confirmations."
+                },
+                {
+                    "subheading": "Visa Application",
+                    "para": "Students apply for a Kazakhstan student visa using university-issued documents."
+                },
+                {
+                    "subheading": "Final Travel Preparation",
+                    "para": "Complete hostel booking, medical check-ups, and travel arrangements before departure."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Documents Required During Admission</h3>",
+            "subcontent": [
+                {
+                    "list": [
+                        "10th & 12th Mark Sheets",
+                        "NEET Scorecard",
+                        "Valid Passport",
+                        "Passport-size Photographs",
+                        "Birth Certificate",
+                        "Medical Fitness Certificate",
+                        "Admission Letter",
+                        "Visa-related Documents"
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Is Kazakhstan Safe for Indian Students?</h3>",
+            "subcontent": [
+                {
+                    "para": "Kazakhstan is generally considered safe for international students. Universities provide secure hostel accommodation, surveillance systems, and student support departments for international students."
+                },
+                {
+                    "para": "Major student cities are well-developed and connected with transportation, healthcare facilities, shopping areas, and emergency services."
+                },
+                {
+                    "para": "Indian students also benefit from growing Indian communities that help new students adjust more comfortably."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Hostel Facilities & Student Comfort</h3>",
+            "subcontent": [
+                {
+                    "para": "Most universities provide fully furnished hostel facilities located close to academic buildings and hospitals."
+                },
+                {
+                    "subheading": "Facilities Usually Available",
+                    "list": [
+                        "Central heating systems",
+                        "Shared or private rooms",
+                        "Wi-Fi and study halls",
+                        "Laundry and cafeteria services",
+                        "Security monitoring",
+                        "Sports and recreational areas"
+                    ]
+                },
+                {
+                    "para": "Students can also choose private apartments depending on their budget and preferences."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Indian Food & Daily Lifestyle</h3>",
+            "subcontent": [
+                {
+                    "para": "Food and lifestyle adjustments are common concerns for students studying abroad. Kazakhstan has become increasingly comfortable for Indian students because many universities now offer Indian mess facilities."
+                },
+                {
+                    "subheading": "Common Student Facilities",
+                    "list": [
+                        "Indian vegetarian and non-vegetarian meals",
+                        "Grocery stores with Indian products",
+                        "Student festivals and celebrations",
+                        "Budget-friendly local transportation",
+                        "Internet connectivity across campuses"
+                    ]
+                },
+                {
+                    "para": "Students generally adapt quickly because of the supportive university environment."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>MBBS in Kazakhstan vs MBBS in India</h3>",
+            "subcontent": [
+                {
+                    "table": {
+                        "theading": ["Features", "Kazakhstan", "India"],
+                        "rows": [
+                            {
+                                "colum": ["Tuition Fees", "Affordable", "Expensive private colleges"]
+                            },
+                            {
+                                "colum": ["Admission Competition", "Moderate", "Extremely High"]
+                            },
+                            {
+                                "colum": ["Infrastructure", "Modern campuses", "Depends on institution"]
+                            },
+                            {
+                                "colum": ["Global Exposure", "High", "Limited in many colleges"]
+                            },
+                            {
+                                "colum": ["Student Diversity", "International environment", "Mostly domestic"]
+                            },
+                            {
+                                "colum": ["Living Expenses", "Budget-friendly", "Higher in metro cities"]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "para": "Kazakhstan has become a preferred option for students seeking affordable international medical education without compromising educational quality."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Career Scope After Graduation</h3>",
+            "subcontent": [
+                {
+                    "para": "Graduates from Kazakhstan medical universities can pursue medical careers in multiple countries after clearing the required licensing exams."
+                },
+                {
+                    "subheading": "Career Opportunities",
+                    "list": [
+                        "Practice in India after FMGE/NExT",
+                        "Prepare for USMLE and PLAB",
+                        "Pursue an MD/MS specialization",
+                        "Work in hospitals and healthcare organizations",
+                        "Enter research and healthcare administration"
+                    ]
+                },
+                {
+                    "table": {
+                        "theading": ["Career Field", "Opportunities"],
+                        "rows": [
+                            {
+                                "colum": ["Clinical Practice", "Hospitals & Clinics"]
+                            },
+                            {
+                                "colum": ["Higher Studies", "Postgraduate Medical Programs"]
+                            },
+                            {
+                                "colum": ["International Licensing", "USA, UK, Australia"]
+                            },
+                            {
+                                "colum": ["Medical Research", "Research Institutions"]
+                            },
+                            {
+                                "colum": ["Public Healthcare", "NGOs & Government Sector"]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Internet, Technology & Digital Learning Facilities</h3>",
+            "subcontent": [
+                {
+                    "para": "Medical universities in Kazakhstan have modernized their education systems with digital learning support and advanced technology integration."
+                },
+                {
+                    "para": "Students get access to:",
+                    "list": [
+                        "Smart classrooms",
+                        "Digital libraries",
+                        "Online lectures and recordings",
+                        "Medical simulation labs",
+                        "E-learning portals"
+                    ]
+                },
+                {
+                    "para": "This technology-driven learning environment helps students improve academic understanding and clinical skills."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Climate Conditions in Kazakhstan</h3>",
+            "subcontent": [
+                {
+                    "para": "Kazakhstan experiences cold winters and moderate summers. Universities and hostels are equipped with heating facilities to ensure comfortable living conditions for international students during winter seasons."
+                },
+                {
+                    "para": "Students from India generally adjust to the weather within a few weeks after arrival."
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "que": "Q1. Why is Kazakhstan becoming popular among Indian MBBS students?",
+            "ans": "Kazakhstan is becoming popular because it offers affordable tuition fees, globally recognized universities, modern infrastructure, and quality education. Students also benefit from English-medium programs, practical clinical exposure, and comparatively lower living expenses than many other international medical destinations."
+        },
+        {
+            "que": "Q2. Are medical universities in Kazakhstan recognized by the NMC?",
+            "ans": "Yes, many medical universities in Kazakhstan are approved by the NMC and recognized by the WHO and other international medical organizations. Indian students graduating from recognized universities become eligible to appear for FMGE/NExT and other international licensing examinations after completing the course."
+        },
+        {
+            "que": "Q3. Is Indian food available for students studying in Kazakhstan?",
+            "ans": "Most universities with large Indian student populations provide Indian food facilities through hostel mess services or nearby restaurants. Students can also find Indian grocery items and vegetarian meal options in major student cities across Kazakhstan."
+        },
+        {
+            "que": "Q4. Do universities in Kazakhstan provide practical hospital training?",
+            "ans": "Yes, medical universities in Kazakhstan focus strongly on clinical exposure and practical learning. Students receive hospital training, patient interaction opportunities, laboratory sessions, and internship exposure that help them develop professional medical and diagnostic skills during the course."
+        }
+    ]
+},
+
+{
+    "img": geor,
+    "title": "MBBS in Georgia",
+    "metatitle": "MBBS in Georgia | Fees & Admission Process",
+    "metakey": "MBBS in Georgia",
+    "metadesc": "Study MBBS in Georgia with modern universities, affordable fees, European education standards, and global medical career opportunities.",
+    "content": [
+        {
+            "subcontent": [
+                {
+                    "para": "Georgia has become one of the most preferred destinations for Indian students looking for quality medical education abroad. Located at the crossroads of Europe and Asia, the country offers globally recognized medical degrees, modern infrastructure, and European-standard education systems at affordable costs."
+                },
+                {
+                    "para": "Medical universities in Georgia are known for their advanced teaching methods, digital classrooms, and practical-based learning approach. Students receive education in English-medium programs and gain international exposure through multicultural campuses and modern healthcare training systems."
+                },
+                {
+                    "para": "The country has gained strong popularity because of its student-friendly environment, simplified admission process, and focus on practical clinical learning."
+                }
+            ]
+        },
+        {
+            "heading": "<h2>Why Georgia Has Become a Popular MBBS Destination</h2>",
+            "subcontent": [
+                {
+                    "para": "Georgia attracts thousands of international students every year because of its balance between quality education and affordable tuition fees. Universities focus on academic excellence along with practical medical training."
+                },
+                {
+                    "subheading": "Major Advantages for Students",
+                    "list": [
+                        "European-standard medical education",
+                        "NMC and WHO-recognized universities",
+                        "English-medium programs",
+                        "Modern classrooms and laboratories",
+                        "Affordable tuition fees compared to Europe",
+                        "International student exposure",
+                        "Safe and peaceful environment",
+                        "Simplified admission procedures",
+                        "Strong practical and clinical training"
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Quick Details About Medical Education in Georgia</h3>",
+            "subcontent": [
+                {
+                    "table": {
+                        "theading": ["Particulars", "Information"],
+                        "rows": [
+                            {
+                                "colum": ["Course Duration", "6 Years"]
+                            },
+                            {
+                                "colum": ["Medium of Instruction", "English"]
+                            },
+                            {
+                                "colum": ["Eligibility", "PCB + NEET Qualification"]
+                            },
+                            {
+                                "colum": ["Tuition Fees", "₹28 – ₹50 Lakhs"]
+                            },
+                            {
+                                "colum": ["Recognition", "NMC, WHO, WFME"]
+                            },
+                            {
+                                "colum": ["Intake Session", "September/October"]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Top Medical Universities in Georgia</h3>",
+            "subcontent": [
+                {
+                    "table": {
+                        "theading": ["University Name", "City", "Approx Fees"],
+                        "rows": [
+                            {
+                                "colum": ["Tbilisi State Medical University", "Tbilisi", "₹38 – ₹50 Lakhs"]
+                            },
+                            {
+                                "colum": ["Batumi Shota Rustaveli State University", "Batumi", "₹28 – ₹35 Lakhs"]
+                            },
+                            {
+                                "colum": ["David Tvildiani Medical University", "Tbilisi", "₹40 – ₹48 Lakhs"]
+                            },
+                            {
+                                "colum": ["European University Georgia", "Tbilisi", "₹32 – ₹40 Lakhs"]
+                            },
+                            {
+                                "colum": ["East European University", "Tbilisi", "₹30 – ₹38 Lakhs"]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "heading": "<h3>What Students Usually Like About Georgia</h3>",
+            "subcontent": [
+                {
+                    "para": "Many students prefer Georgia because it offers a European educational atmosphere at a comparatively affordable cost. Universities are modern and highly focused on international student development."
+                },
+                {
+                    "subheading": "Student-Focused Benefits",
+                    "list": [
+                        "Digital learning environment",
+                        "International faculty and students",
+                        "Modern medical simulation labs",
+                        "Comfortable hostel facilities",
+                        "Better student-teacher interaction",
+                        "Peaceful study atmosphere"
+                    ]
+                },
+                {
+                    "para": "Students also enjoy the modern lifestyle and organized infrastructure available in Georgian cities."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Education Style & Academic Environment</h3>",
+            "subcontent": [
+                {
+                    "para": "Medical universities in Georgia follow international teaching standards and focus on practical understanding rather than only theoretical learning."
+                },
+                {
+                    "subheading": "Learning Approach Includes",
+                    "list": [
+                        "Interactive classroom sessions",
+                        "Clinical case discussions",
+                        "Practical laboratory training",
+                        "Hospital-based clinical exposure",
+                        "Research-focused projects",
+                        "Digital medical education tools"
+                    ]
+                },
+                {
+                    "para": "This approach helps students improve analytical and diagnostic skills from the early years of the course."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Is Georgia Good for FMGE/NExT Preparation?</h3>",
+            "subcontent": [
+                {
+                    "para": "Many Indian students prefer Georgia because universities have started focusing on concept-based learning and practical clinical training, which supports FMGE/NExT preparation."
+                },
+                {
+                    "subheading": "Academic Support Features",
+                    "list": [
+                        "Clinical-oriented teaching methods",
+                        "Advanced anatomy and simulation labs",
+                        "Practical patient interaction sessions",
+                        "Digital medical resources and libraries",
+                        "Regular assessments and evaluations"
+                    ]
+                },
+                {
+                    "para": "Students also participate in external coaching and online preparation platforms during their studies."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Cost of Living in Georgia</h3>",
+            "subcontent": [
+                {
+                    "para": "Georgia offers a comparatively affordable lifestyle for international students, especially when compared to many European countries."
+                },
+                {
+                    "table": {
+                        "theading": ["Expense Type", "Approximate Monthly Cost"],
+                        "rows": [
+                            {
+                                "colum": ["Hostel & Accommodation", "₹12,000 – ₹20,000"]
+                            },
+                            {
+                                "colum": ["Food & Groceries", "₹8,000 – ₹15,000"]
+                            },
+                            {
+                                "colum": ["Transportation", "₹2,000 – ₹4,000"]
+                            },
+                            {
+                                "colum": ["Miscellaneous Expenses", "₹3,000 – ₹6,000"]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "para": "Students can comfortably manage their daily expenses within a planned budget."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Eligibility Requirements</h3>",
+            "subcontent": [
+                {
+                    "para": "Students applying for admission must meet the following conditions:",
+                    "list": [
+                        "Completed 10+2 with PCB subjects",
+                        "Minimum 50% aggregate in Physics, Chemistry, and Biology",
+                        "Qualified NEET examination",
+                        "Minimum age of 17 years"
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Admission Process in Georgia</h3>",
+            "subcontent": [
+                {
+                    "subheading": "Apply to the University",
+                    "para": "Students shortlist universities and submit online applications with academic documents."
+                },
+                {
+                    "subheading": "Document Verification",
+                    "para": "Universities verify mark sheets, passports, and eligibility criteria."
+                },
+                {
+                    "subheading": "Receive Admission Letter",
+                    "para": "Eligible students receive official admission confirmation letters."
+                },
+                {
+                    "subheading": "Visa & Travel Arrangements",
+                    "para": "Students proceed with visa applications, accommodation booking, and flight reservations."
+                },
+                {
+                    "para": "The admission process is usually smooth and student-friendly."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Documents Required</h3>",
+            "subcontent": [
+                {
+                    "list": [
+                        "10th & 12th Mark Sheets",
+                        "NEET Scorecard",
+                        "Passport",
+                        "Passport-size Photographs",
+                        "Birth Certificate",
+                        "Medical Fitness Report",
+                        "Admission Letter",
+                        "Visa Documents"
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Student Safety & Security in Georgia</h3>",
+            "subcontent": [
+                {
+                    "para": "Georgia is considered one of the safer destinations for international students. Universities maintain secured campuses and hostel facilities with surveillance systems and student support departments."
+                },
+                {
+                    "para": "Public transportation, healthcare services, and daily convenience facilities are easily accessible in major student cities."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Hostel Facilities & Student Life</h3>",
+            "subcontent": [
+                {
+                    "para": "Universities in Georgia provide modern accommodation facilities for international students."
+                },
+                {
+                    "subheading": "Common Hostel Amenities",
+                    "list": [
+                        "Furnished rooms",
+                        "Heating and cooling systems",
+                        "Wi-Fi access",
+                        "Laundry and cafeteria services",
+                        "Study halls and recreation rooms",
+                        "24/7 security monitoring"
+                    ]
+                },
+                {
+                    "para": "Private accommodation options are also available for students who prefer independent living."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Indian Food & Lifestyle Adjustment</h3>",
+            "subcontent": [
+                {
+                    "para": "Georgia has become increasingly comfortable for Indian students because of the growing Indian student population and availability of Indian food facilities."
+                },
+                {
+                    "subheading": "Student Convenience Features",
+                    "list": [
+                        "Indian restaurants near campuses",
+                        "Hostel mess with Indian meals",
+                        "Grocery stores with Indian products",
+                        "Student communities and festivals",
+                        "Comfortable transportation systems"
+                    ]
+                },
+                {
+                    "para": "Most students adapt quickly to the environment and lifestyle."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>MBBS in Georgia vs MBBS in India</h3>",
+            "subcontent": [
+                {
+                    "table": {
+                        "theading": ["Features", "Georgia", "India"],
+                        "rows": [
+                            {
+                                "colum": ["Tuition Fees", "Affordable compared to private colleges", "High private college fees"]
+                            },
+                            {
+                                "colum": ["Education Style", "European-standard practical learning", "Traditional learning in many colleges"]
+                            },
+                            {
+                                "colum": ["Admission Competition", "Moderate", "Extremely High"]
+                            },
+                            {
+                                "colum": ["International Exposure", "High", "Limited in many institutions"]
+                            },
+                            {
+                                "colum": ["Infrastructure", "Advanced digital campuses", "Depends on the institution"]
+                            },
+                            {
+                                "colum": ["Student Environment", "Multicultural", "Mostly domestic"]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "para": "Georgia has become a strong alternative for students looking for international exposure with modern medical education."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Career Opportunities After Graduation</h3>",
+            "subcontent": [
+                {
+                    "para": "Graduates from Georgian medical universities can pursue medical careers and higher studies globally after clearing licensing examinations."
+                },
+                {
+                    "subheading": "Career Options Available",
+                    "list": [
+                        "Practice in India after FMGE/NExT",
+                        "Prepare for USMLE, PLAB, and AMC",
+                        "Pursue postgraduate medical specialization",
+                        "Work in hospitals and healthcare institutions",
+                        "Explore medical research and academics"
+                    ]
+                },
+                {
+                    "table": {
+                        "theading": ["Career Area", "Opportunities"],
+                        "rows": [
+                            {
+                                "colum": ["Clinical Practice", "Hospitals & Clinics"]
+                            },
+                            {
+                                "colum": ["Postgraduate Studies", "MD/MS Programs"]
+                            },
+                            {
+                                "colum": ["International Practice", "USA, UK, Australia"]
+                            },
+                            {
+                                "colum": ["Medical Research", "Research Institutions"]
+                            },
+                            {
+                                "colum": ["Public Healthcare", "NGOs & Healthcare Organizations"]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Technology-Driven Medical Education in Georgia</h3>",
+            "subcontent": [
+                {
+                    "para": "Medical universities in Georgia are highly focused on modern technology integration in healthcare education."
+                },
+                {
+                    "subheading": "Advanced Facilities Offered",
+                    "list": [
+                        "Smart classrooms",
+                        "Medical simulation labs",
+                        "Digital libraries",
+                        "E-learning platforms",
+                        "Clinical research opportunities",
+                        "Advanced laboratory infrastructure"
+                    ]
+                },
+                {
+                    "para": "These facilities help students gain practical understanding alongside theoretical education."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Climate & Living Environment</h3>",
+            "subcontent": [
+                {
+                    "para": "Georgia experiences a pleasant climate in most regions with cold winters and moderate summers. Students generally adapt comfortably to the weather conditions."
+                },
+                {
+                    "para": "The country is also known for its scenic landscapes, clean cities, and peaceful lifestyle that support a positive student experience."
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "que": "Q1. Why is Georgia becoming a trending destination for MBBS abroad?",
+            "ans": "Georgia is becoming popular because of its European-standard education system, affordable tuition fees, modern infrastructure, and globally recognized universities. Students also prefer Georgia due to its practical learning approach, international exposure, and student-friendly academic environment."
+        },
+        {
+            "que": "Q2. Are medical universities in Georgia recognized internationally?",
+            "ans": "Yes, many medical universities in Georgia are recognized by NMC, WHO, and other international medical organizations. Graduates from recognized universities become eligible to appear for FMGE/NExT and international licensing examinations after completing their medical degree."
+        },
+        {
+            "que": "Q3. Do students get practical clinical exposure during the course?",
+            "ans": "Medical universities in Georgia focus heavily on practical learning and clinical exposure. Students participate in hospital training, laboratory practice, patient interaction sessions, and clinical case discussions throughout the course to strengthen their medical skills."
+        },
+        {
+            "que": "Q4. Is Georgia expensive for Indian students?",
+            "ans": "Georgia is comparatively affordable when compared to many European countries and private medical colleges in India. Students can manage tuition fees and living expenses comfortably while receiving quality education, modern facilities, and international academic exposure."
+        }
+    ]
+},
+
+// {
+//     "img": bel,
+//     "title": "MBBS in Belarus",
+//     "metatitle": "Study MBBS in Belarus | Fees & Top Universities",
+//     "metakey": "MBBS in Belarus",
+//     "metadesc": "Explore MBBS in Belarus with modern medical universities, affordable fees, global recognition, and practical medical education for students.",
+//     "content": [
+//         {
+//             "subcontent": [
+//                 {
+//                     "para": "Belarus has become a recognized destination for students planning to pursue medical education abroad because of its strong academic system, advanced medical universities, and globally accepted degrees. The country is known for maintaining high educational standards, modern clinical training methods, and affordable tuition fees compared to many private medical colleges."
+//                 },
+//                 {
+//                     "para": "Medical universities in Belarus focus on building strong theoretical foundations along with practical hospital exposure. International students receive education through English-medium programs and gain access to advanced laboratories, research opportunities, and experienced faculty support."
+//                 },
+//                 {
+//                     "para": "Students who prefer disciplined academic environments, modern infrastructure, and internationally recognized medical education often consider Belarus as a suitable destination for their medical journey."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h2>Why Students Are Considering Belarus for Medical Education</h2>",
+//             "subcontent": [
+//                 {
+//                     "para": "Belarus offers quality medical education with a structured academic approach. Universities maintain modern teaching standards and provide practical healthcare exposure throughout the course duration."
+//                 },
+//                 {
+//                     "subheading": "Key Reasons Behind Its Popularity",
+//                     "list": [
+//                         "NMC and WHO-recognized universities",
+//                         "Affordable tuition structure",
+//                         "English-medium medical programs",
+//                         "Modern laboratories and simulation centers",
+//                         "Strong emphasis on practical training",
+//                         "Experienced faculty and research support",
+//                         "Safe and student-friendly environment",
+//                         "Affordable hostel and living facilities",
+//                         "An increasing number of Indian students"
+//                     ]
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Quick Facts About Medical Studies in Belarus</h3>",
+//             "subcontent": [
+//                 {
+//                     "table": {
+//                         "theading": ["Particulars", "Details"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Course Duration", "6 Years"]
+//                             },
+//                             {
+//                                 "colum": ["Medium of Teaching", "English"]
+//                             },
+//                             {
+//                                 "colum": ["Eligibility", "PCB + NEET Qualification"]
+//                             },
+//                             {
+//                                 "colum": ["Average Tuition Fees", "₹22 – ₹40 Lakhs"]
+//                             },
+//                             {
+//                                 "colum": ["Recognition", "NMC, WHO, FAIMER"]
+//                             },
+//                             {
+//                                 "colum": ["Intake Session", "September"]
+//                             }
+//                         ]
+//                     }
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Top Medical Universities in Belarus</h3>",
+//             "subcontent": [
+//                 {
+//                     "table": {
+//                         "theading": ["University Name", "City", "Approx Fees"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Belarusian State Medical University", "Minsk", "₹32 – ₹40 Lakhs"]
+//                             },
+//                             {
+//                                 "colum": ["Gomel State Medical University", "Gomel", "₹24 – ₹30 Lakhs"]
+//                             },
+//                             {
+//                                 "colum": ["Vitebsk State Medical University", "Vitebsk", "₹25 – ₹32 Lakhs"]
+//                             },
+//                             {
+//                                 "colum": ["Grodno State Medical University", "Grodno", "₹22 – ₹28 Lakhs"]
+//                             }
+//                         ]
+//                     }
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>What Makes Belarus Different from Other MBBS Destinations</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Belarus is known for its disciplined academic culture and strong healthcare education system. Universities focus heavily on research, practical clinical understanding, and medical technology."
+//                 },
+//                 {
+//                     "subheading": "Features Students Commonly Prefer",
+//                     "list": [
+//                         "Well-organized university systems",
+//                         "Modern hospital-based training",
+//                         "Smaller student batches for better interaction",
+//                         "Practical learning with advanced equipment",
+//                         "International student support departments",
+//                         "European-style education standards"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Students often choose Belarus because of its balance between affordability and quality education."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Medical Curriculum & Clinical Learning</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Medical education in Belarus is designed to provide detailed academic understanding along with strong clinical skills."
+//                 },
+//                 {
+//                     "subheading": "Academic Structure Includes",
+//                     "list": [
+//                         "Classroom lectures and practical sessions",
+//                         "Anatomy and simulation laboratory training",
+//                         "Clinical hospital rotations",
+//                         "Medical research activities",
+//                         "Case-study-based learning",
+//                         "Internship training programs"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Students receive practical exposure in affiliated hospitals during the later years of the course."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>FMGE/NExT Preparation Support</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Indian students studying abroad often focus on future licensing examinations. Universities in Belarus support students academically through concept-based learning and practical training methods."
+//                 },
+//                 {
+//                     "subheading": "Academic Benefits for Indian Students",
+//                     "list": [
+//                         "Clinical-oriented teaching methods",
+//                         "Strong theoretical medical foundation",
+//                         "Practical diagnosis training",
+//                         "Access to digital medical resources",
+//                         "Faculty guidance for licensing preparation"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Students also participate in additional online preparation programs during their studies."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Estimated Cost of Living in Belarus</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Belarus offers comparatively affordable living expenses for international students."
+//                 },
+//                 {
+//                     "table": {
+//                         "theading": ["Expense Type", "Approximate Monthly Cost"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Hostel Accommodation", "₹8,000 – ₹15,000"]
+//                             },
+//                             {
+//                                 "colum": ["Food Expenses", "₹7,000 – ₹12,000"]
+//                             },
+//                             {
+//                                 "colum": ["Transportation", "₹1,500 – ₹3,000"]
+//                             },
+//                             {
+//                                 "colum": ["Miscellaneous Expenses", "₹3,000 – ₹5,000"]
+//                             }
+//                         ]
+//                     }
+//                 },
+//                 {
+//                     "para": "The overall student budget remains manageable compared to many European countries."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Eligibility Criteria for Admission</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Students must fulfill the following admission requirements:",
+//                     "list": [
+//                         "Completed 10+2 with Physics, Chemistry, and Biology",
+//                         "Minimum 50% marks in PCB subjects",
+//                         "Qualified NEET examination",
+//                         "Minimum age requirement of 17 years"
+//                     ]
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Admission Process for Belarusian Universities</h3>",
+//             "subcontent": [
+//                 {
+//                     "subheading": "Step 1 – Select the University",
+//                     "para": "Students compare universities based on fees, rankings, and infrastructure."
+//                 },
+//                 {
+//                     "subheading": "Step 2 – Submit Application Documents",
+//                     "para": "Academic certificates, passport copies, and NEET scorecards are submitted online."
+//                 },
+//                 {
+//                     "subheading": "Step 3 – Receive Admission Letter",
+//                     "para": "Universities issue admission confirmations after document verification."
+//                 },
+//                 {
+//                     "subheading": "Step 4 – Visa Processing",
+//                     "para": "Students apply for a Belarus student visa using university-issued invitation letters."
+//                 },
+//                 {
+//                     "subheading": "Step 5 – Final Travel Preparation",
+//                     "para": "Hostel booking, ticket arrangements, and pre-departure planning are completed before travel."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Required Documents</h3>",
+//             "subcontent": [
+//                 {
+//                     "list": [
+//                         "10th & 12th Academic Mark Sheets",
+//                         "NEET Scorecard",
+//                         "Valid Passport",
+//                         "Passport-size Photographs",
+//                         "Medical Fitness Certificate",
+//                         "Birth Certificate",
+//                         "Admission Letter",
+//                         "Visa Documents"
+//                     ]
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Is Belarus Safe for Indian Students?</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Belarus is considered safe for international students due to its secure campuses and organized public systems. Universities provide hostel security, international student departments, and emergency support facilities for students."
+//                 },
+//                 {
+//                     "para": "Major cities with medical universities are well-developed and student-friendly, offering transportation, healthcare, and daily living facilities nearby."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Hostel Facilities & Student Accommodation</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Medical universities in Belarus provide comfortable hostel accommodation for international students."
+//                 },
+//                 {
+//                     "subheading": "Common Hostel Facilities",
+//                     "list": [
+//                         "Furnished rooms",
+//                         "Wi-Fi connectivity",
+//                         "Central heating systems",
+//                         "Laundry facilities",
+//                         "Shared kitchens and cafeterias",
+//                         "24/7 security services"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Many hostels are located close to academic buildings and hospitals for student convenience."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Indian Food & Student Lifestyle</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Belarus has seen a rise in Indian student populations over recent years, leading to better food and lifestyle support for international students."
+//                 },
+//                 {
+//                     "subheading": "Student-Friendly Facilities",
+//                     "list": [
+//                         "Indian food availability in hostels",
+//                         "Grocery stores with Indian products",
+//                         "Student cultural events and celebrations",
+//                         "Affordable transportation systems",
+//                         "Good internet connectivity"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Students generally adapt comfortably after the initial adjustment period."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>MBBS in Belarus vs MBBS in India</h3>",
+//             "subcontent": [
+//                 {
+//                     "table": {
+//                         "theading": ["Features", "Belarus", "India"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Tuition Fees", "More affordable", "Expensive private colleges"]
+//                             },
+//                             {
+//                                 "colum": ["Infrastructure", "Advanced & modern", "Depends on the institution"]
+//                             },
+//                             {
+//                                 "colum": ["Student Exposure", "International environment", "Mostly domestic"]
+//                             },
+//                             {
+//                                 "colum": ["Admission Competition", "Moderate", "Extremely High"]
+//                             },
+//                             {
+//                                 "colum": ["Practical Training", "Strong clinical exposure", "Varies by college"]
+//                             },
+//                             {
+//                                 "colum": ["Living Expenses", "Affordable", "Higher in metro cities"]
+//                             }
+//                         ]
+//                     }
+//                 },
+//                 {
+//                     "para": "Belarus is often preferred by students looking for an internationally recognized education with practical medical training and modern infrastructure."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Career Opportunities After Graduation</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Graduates from Belarus medical universities can pursue medical careers and higher education opportunities globally after clearing the required licensing examinations."
+//                 },
+//                 {
+//                     "subheading": "Career Path Options",
+//                     "list": [
+//                         "Practice in India after FMGE/NExT",
+//                         "Prepare for USMLE, PLAB, or AMC",
+//                         "Pursue an MD/MS specialization",
+//                         "Work in healthcare institutions",
+//                         "Explore research and medical academics"
+//                     ]
+//                 },
+//                 {
+//                     "table": {
+//                         "theading": ["Career Field", "Opportunities"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Clinical Practice", "Hospitals & Clinics"]
+//                             },
+//                             {
+//                                 "colum": ["Postgraduate Studies", "MD/MS Programs"]
+//                             },
+//                             {
+//                                 "colum": ["International Practice", "USA, UK, Australia"]
+//                             },
+//                             {
+//                                 "colum": ["Medical Research", "Universities & Labs"]
+//                             },
+//                             {
+//                                 "colum": ["Public Health Sector", "NGOs & Healthcare Projects"]
+//                             }
+//                         ]
+//                     }
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Technology & Research Opportunities</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Medical universities in Belarus are known for integrating technology-based learning methods into their curriculum. Students gain access to modern research labs, simulation training systems, and digital medical libraries."
+//                 },
+//                 {
+//                     "subheading": "Advanced Learning Facilities",
+//                     "list": [
+//                         "Smart classrooms",
+//                         "Simulation-based medical practice",
+//                         "Digital medical resources",
+//                         "Clinical research opportunities",
+//                         "Laboratory-based practical learning"
+//                     ]
+//                 },
+//                 {
+//                     "para": "These facilities help students improve both academic and clinical understanding."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Climate & Weather Conditions</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Belarus experiences cold winters and mild summers. Universities and hostels are equipped with proper heating systems to ensure student comfort during winter seasons."
+//                 },
+//                 {
+//                     "para": "Students gradually adapt to the climate with university support and proper accommodation facilities."
+//                 }
+//             ]
+//         }
+//     ],
+//     "faq": [
+//         {
+//             "que": "Q1. Why do students choose Belarus for medical education?",
+//             "ans": "Students choose Belarus because of its affordable tuition fees, modern universities, practical clinical exposure, and internationally recognized medical degrees. The country also offers disciplined academic environments, advanced infrastructure, and English-medium education that supports international students throughout the course."
+//         },
+//         {
+//             "que": "Q2. Are Belarus medical universities approved by NMC?",
+//             "ans": "Yes, many medical universities in Belarus are recognized by NMC, WHO, and other international medical organizations. Indian students graduating from approved universities become eligible to appear for licensing examinations such as FMGE/NExT after completing their medical degree."
+//         },
+//         {
+//             "que": "Q3. Is practical hospital training included during the course?",
+//             "ans": "Medical universities in Belarus provide clinical exposure and hospital-based training during the course. Students participate in patient interaction sessions, practical diagnosis training, laboratory work, and clinical rotations that help strengthen their medical and professional skills."
+//         },
+//         {
+//             "que": "Q4. Can Indian students find Indian food and comfortable accommodation in Belarus?",
+//             "ans": "Yes, universities with international student populations usually provide Indian food options in hostel mess facilities. Students can also access grocery stores, furnished hostels, internet facilities, heating systems, and student support services for comfortable living during their studies."
+//         }
+//     ]
+// },
+
+// {
+//     "img": arm,
+//     "title": "Study MBBS in Armenia | Fees & Student Guide",
+//     "metatitle": "Study MBBS in Armenia | Fees & Student Guide",
+//     "metakey": "MBBS in Armenia",
+//     "metadesc": "Discover MBBS in Armenia with affordable universities, European education standards, practical learning, and modern medical infrastructure.",
+//     "content": [
+//         {
+//             "subcontent": [
+//                 {
+//                     "para": "Armenia is becoming an emerging destination for Indian students who want affordable and internationally recognized medical education abroad. The country is known for its modern universities, quality academic system, and peaceful student environment. Over the past few years, Armenia has gained attention because of its growing focus on healthcare education and international student support."
+//                 },
+//                 {
+//                     "para": "Medical universities in Armenia combine theoretical education with practical clinical training, helping students develop strong medical foundations and real-world healthcare understanding. English-medium medical programs and globally recognized degrees make Armenia a suitable option for students planning international medical careers."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h2>Why Armenia is Catching Attention Among Medical Aspirants</h2>",
+//             "subcontent": [
+//                 {
+//                     "para": "Students are increasingly exploring Armenia because it offers a European-style education experience at comparatively lower costs than many Western countries."
+//                 },
+//                 {
+//                     "subheading": "Reasons Students Are Exploring Armenia",
+//                     "list": [
+//                         "Affordable tuition fees",
+//                         "Internationally recognized universities",
+//                         "English-medium MBBS programs",
+//                         "Peaceful and safe environment",
+//                         "Modern healthcare education system",
+//                         "Better student-teacher interaction",
+//                         "Advanced practical learning facilities",
+//                         "Comfortable lifestyle for international students",
+//                         "Growing Indian student population"
+//                     ]
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Fast Facts About Medical Education in Armenia</h3>",
+//             "subcontent": [
+//                 {
+//                     "table": {
+//                         "theading": ["Particulars", "Details"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Course Duration", "6 Years"]
+//                             },
+//                             {
+//                                 "colum": ["Medium of Instruction", "English"]
+//                             },
+//                             {
+//                                 "colum": ["Eligibility", "PCB + NEET Qualification"]
+//                             },
+//                             {
+//                                 "colum": ["Average Fees", "₹20 – ₹38 Lakhs"]
+//                             },
+//                             {
+//                                 "colum": ["Recognition", "NMC, WHO"]
+//                             },
+//                             {
+//                                 "colum": ["Intake Period", "September"]
+//                             }
+//                         ]
+//                     }
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Top Medical Universities in Armenia</h3>",
+//             "subcontent": [
+//                 {
+//                     "table": {
+//                         "theading": ["University Name", "City", "Approx Fees"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Yerevan State Medical University", "Yerevan", "₹28 – ₹38 Lakhs"]
+//                             },
+//                             {
+//                                 "colum": ["St. Tereza Medical University", "Yerevan", "₹20 – ₹28 Lakhs"]
+//                             },
+//                             {
+//                                 "colum": ["Mkhitar Gosh Armenian-Russian International University", "Yerevan", "₹22 – ₹30 Lakhs"]
+//                             }
+//                         ]
+//                     }
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>What Students Usually Search Before Choosing Armenia</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Students and parents often look beyond tuition fees before selecting a country for medical education. Armenia has become popular because it offers a combination of affordability, modern education, and a comfortable student lifestyle."
+//                 },
+//                 {
+//                     "subheading": "Common Student Concerns Solved in Armenia",
+//                     "list": [
+//                         "Affordable overall education cost",
+//                         "English-speaking academic environment",
+//                         "Safe accommodation facilities",
+//                         "Availability of Indian food",
+//                         "Easy admission process",
+//                         "Internationally accepted medical degree"
+//                     ]
+//                 },
+//                 {
+//                     "para": "This balance makes Armenia suitable for students looking for stable and quality education abroad."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Inside the Classroom: How Students Actually Learn</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Medical universities in Armenia focus on interactive learning methods instead of only textbook-based teaching."
+//                 },
+//                 {
+//                     "subheading": "Learning Experience Includes",
+//                     "list": [
+//                         "Digital classrooms and presentations",
+//                         "Practical anatomy sessions",
+//                         "Laboratory-based medical training",
+//                         "Clinical observation in hospitals",
+//                         "Case-study discussions",
+//                         "Research-oriented projects"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Students gradually build confidence through continuous practical exposure and medical interaction."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Clinical Training & Patient Exposure</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Clinical learning is one of the most important parts of medical education in Armenia. Universities provide hospital exposure that helps students understand real healthcare environments."
+//                 },
+//                 {
+//                     "subheading": "Practical Exposure Students Receive",
+//                     "list": [
+//                         "Hospital ward rotations",
+//                         "Patient case observation",
+//                         "Diagnostic practice sessions",
+//                         "Emergency healthcare training",
+//                         "Laboratory testing exposure"
+//                     ]
+//                 },
+//                 {
+//                     "para": "This hands-on learning approach helps students improve clinical and communication skills throughout the course."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Indian Students' Lifestyle in Armenia</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Armenia has become increasingly comfortable for Indian students because universities now focus more on international student support systems."
+//                 },
+//                 {
+//                     "subheading": "Daily Life Benefits for Students",
+//                     "list": [
+//                         "Indian restaurants near universities",
+//                         "Hostel mess with Indian meals",
+//                         "Affordable public transportation",
+//                         "Student communities and cultural events",
+//                         "Comfortable hostel accommodation"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Students usually adapt quickly because of the calm and student-friendly atmosphere."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Cost of Living & Monthly Budget Planning</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Living expenses in Armenia are manageable compared to several European destinations."
+//                 },
+//                 {
+//                     "table": {
+//                         "theading": ["Expense Type", "Estimated Monthly Cost"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Hostel & Accommodation", "₹10,000 – ₹18,000"]
+//                             },
+//                             {
+//                                 "colum": ["Food & Groceries", "₹7,000 – ₹12,000"]
+//                             },
+//                             {
+//                                 "colum": ["Transportation", "₹1,500 – ₹3,000"]
+//                             },
+//                             {
+//                                 "colum": ["Miscellaneous Expenses", "₹3,000 – ₹5,000"]
+//                             }
+//                         ]
+//                     }
+//                 },
+//                 {
+//                     "para": "Students can comfortably manage their lifestyle with proper budget planning."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Is Armenia Safe for International Students?</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Armenia is considered a peaceful country with a safe environment for students. Universities provide hostel security, CCTV surveillance, and student support services to ensure international student safety."
+//                 },
+//                 {
+//                     "para": "Major student areas are well-connected with hospitals, transportation, grocery stores, and emergency services."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Eligibility Criteria for Admission</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Students applying for admission should meet the following requirements:",
+//                     "list": [
+//                         "Completed 10+2 with PCB subjects",
+//                         "Minimum 50% aggregate in PCB",
+//                         "Qualified NEET examination",
+//                         "Minimum age of 17 years"
+//                     ]
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Admission Process Simplified</h3>",
+//             "subcontent": [
+//                 {
+//                     "subheading": "Select the University",
+//                     "para": "Students shortlist universities based on fees, recognition, and infrastructure."
+//                 },
+//                 {
+//                     "subheading": "Submit Application",
+//                     "para": "Required documents are uploaded for eligibility verification."
+//                 },
+//                 {
+//                     "subheading": "Receive Admission Confirmation",
+//                     "para": "Universities issue offer letters after reviewing applications."
+//                 },
+//                 {
+//                     "subheading": "Visa & Travel Preparation",
+//                     "para": "Students complete visa procedures, hostel booking, and travel arrangements."
+//                 },
+//                 {
+//                     "para": "The overall admission process is straightforward and student-friendly."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Documents Required</h3>",
+//             "subcontent": [
+//                 {
+//                     "list": [
+//                         "10th & 12th Mark Sheets",
+//                         "NEET Scorecard",
+//                         "Passport",
+//                         "Passport-size Photographs",
+//                         "Birth Certificate",
+//                         "Medical Fitness Certificate",
+//                         "Admission Letter",
+//                         "Visa Documents"
+//                     ]
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Hostel Facilities & Accommodation Options</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Universities in Armenia provide comfortable accommodation facilities designed for international students."
+//                 },
+//                 {
+//                     "subheading": "Hostel Features",
+//                     "list": [
+//                         "Furnished rooms",
+//                         "Wi-Fi and study areas",
+//                         "Heating systems during winters",
+//                         "Laundry and cafeteria facilities",
+//                         "Security services",
+//                         "Recreation and common rooms"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Students may also choose private apartments depending on their preferences."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>How Armenia Supports FMGE/NExT Preparation</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Indian students planning to return to India after graduation often focus on FMGE/NExT preparation during their course."
+//                 },
+//                 {
+//                     "subheading": "Academic Support Students Receive",
+//                     "list": [
+//                         "Clinical-oriented teaching methods",
+//                         "Practical medical understanding",
+//                         "Concept-based learning system",
+//                         "Access to digital medical libraries",
+//                         "Regular academic assessments"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Many students additionally join online coaching platforms alongside university studies."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>MBBS in Armenia vs MBBS in India</h3>",
+//             "subcontent": [
+//                 {
+//                     "table": {
+//                         "theading": ["Features", "Armenia", "India"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Tuition Fees", "Affordable", "High private college fees"]
+//                             },
+//                             {
+//                                 "colum": ["Competition Level", "Moderate", "Extremely High"]
+//                             },
+//                             {
+//                                 "colum": ["Student Exposure", "International environment", "Mostly domestic"]
+//                             },
+//                             {
+//                                 "colum": ["Infrastructure", "Modern universities", "Varies by institution"]
+//                             },
+//                             {
+//                                 "colum": ["Practical Training", "Strong clinical exposure", "Depends on college"]
+//                             },
+//                             {
+//                                 "colum": ["Living Expenses", "Moderate & manageable", "High in metro cities"]
+//                             }
+//                         ]
+//                     }
+//                 },
+//                 {
+//                     "para": "Armenia has become a preferred alternative for students seeking affordable international medical education with modern infrastructure."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Career Opportunities After Graduation</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Graduates from Armenian medical universities can pursue careers in multiple countries after clearing the required licensing examinations."
+//                 },
+//                 {
+//                     "subheading": "Career Options Available",
+//                     "list": [
+//                         "Practice in India after FMGE/NExT",
+//                         "Prepare for USMLE, PLAB, and AMC",
+//                         "Pursue MD/MS specialization",
+//                         "Work in hospitals and healthcare institutions",
+//                         "Explore medical research and academics"
+//                     ]
+//                 },
+//                 {
+//                     "table": {
+//                         "theading": ["Career Area", "Opportunities"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Clinical Practice", "Hospitals & Clinics"]
+//                             },
+//                             {
+//                                 "colum": ["Postgraduate Studies", "MD/MS Programs"]
+//                             },
+//                             {
+//                                 "colum": ["International Practice", "USA, UK, Australia"]
+//                             },
+//                             {
+//                                 "colum": ["Medical Research", "Universities & Labs"]
+//                             },
+//                             {
+//                                 "colum": ["Public Healthcare", "NGOs & Organizations"]
+//                             }
+//                         ]
+//                     }
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Technology & Modern Medical Infrastructure</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Medical universities in Armenia are improving rapidly with advanced healthcare education technologies and modern teaching tools."
+//                 },
+//                 {
+//                     "subheading": "Modern Facilities Include",
+//                     "list": [
+//                         "Smart classrooms",
+//                         "Simulation-based medical learning",
+//                         "Digital medical libraries",
+//                         "Research laboratories",
+//                         "Advanced anatomy labs",
+//                         "Clinical training centers"
+//                     ]
+//                 },
+//                 {
+//                     "para": "These facilities help students gain practical and technical medical understanding throughout the course."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Weather & Student Adaptation</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Armenia experiences cold winters and pleasant summers. Universities and hostels are equipped with heating facilities to ensure comfortable living conditions during winter months."
+//                 },
+//                 {
+//                     "para": "Students usually adapt to the weather conditions after a short adjustment period."
+//                 }
+//             ]
+//         }
+//     ],
+//     "faq": [
+//         {
+//             "que": "Q1. Why are students choosing Armenia for MBBS abroad recently?",
+//             "ans": "Students are increasingly choosing Armenia because it offers affordable tuition fees, globally recognized medical universities, modern infrastructure, and a peaceful learning environment. The country also provides English-medium education and practical clinical exposure that supports international medical career opportunities."
+//         },
+//         {
+//             "que": "Q2. Is Armenia comfortable for Indian students in terms of lifestyle?",
+//             "ans": "Yes, Armenia has become increasingly comfortable for Indian students due to the availability of Indian food, hostel facilities, student communities, and affordable transportation. Universities also provide international student support systems that help students adjust academically and socially."
+//         },
+//         {
+//             "que": "Q3. Do medical universities in Armenia provide practical hospital training?",
+//             "ans": "Medical universities in Armenia focus strongly on clinical learning and hospital exposure. Students participate in patient observation, diagnostic training, clinical rotations, and laboratory practice sessions that help improve practical medical understanding during the course."
+//         },
+//         {
+//             "que": "Q4. Can students pursue careers in other countries after graduating from Armenia?",
+//             "ans": "Yes, graduates from recognized medical universities in Armenia can appear for international licensing examinations such as FMGE/NExT, USMLE, PLAB, and AMC. This allows students to pursue medical careers, postgraduate studies, and healthcare opportunities globally."
+//         }
+//     ]
+// },
+
+// {
+//     "img": china,
+//     "title": "MBBS in China | Fees & Admission for Students",
+//     "metatitle": "MBBS in China | Fees & Admission for Students",
+//     "metakey": "MBBS in China",
+//     "metadesc": "Study MBBS in China with top medical universities, affordable tuition fees, advanced hospitals, and globally recognized medical education.",
+//     "content": [
+//         {
+//             "subcontent": [
+//                 {
+//                     "para": "China has established itself as one of the leading destinations for international medical education. With globally ranked universities, advanced healthcare infrastructure, and modern research facilities, the country attracts thousands of medical aspirants every year."
+//                 },
+//                 {
+//                     "para": "Medical universities in China are recognized for their strong academic systems, practical clinical training, and technology-driven learning environments. Indian students prefer China because of its affordable tuition structure compared to many private medical colleges and the availability of English-medium MBBS programs."
+//                 },
+//                 {
+//                     "para": "The country also offers strong hospital exposure, modern laboratories, and large university campuses that help students gain practical medical knowledge throughout the course."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h2>Why China Continues to Attract Medical Students Worldwide</h2>",
+//             "subcontent": [
+//                 {
+//                     "para": "China has built a strong reputation in medical education because of its investment in healthcare research, university infrastructure, and international student programs."
+//                 },
+//                 {
+//                     "subheading": "Reasons Students Choose China",
+//                     "list": [
+//                         "Internationally recognized medical universities",
+//                         "Advanced hospital infrastructure",
+//                         "Affordable tuition fees",
+//                         "English-medium MBBS programs",
+//                         "Modern medical technology and laboratories",
+//                         "Strong practical and clinical exposure",
+//                         "Large international student communities",
+//                         "Research-focused learning environment",
+//                         "Well-developed campus facilities"
+//                     ]
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Quick Overview of Medical Studies in China</h3>",
+//             "subcontent": [
+//                 {
+//                     "table": {
+//                         "theading": ["Particulars", "Information"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Course Duration", "6 Years"]
+//                             },
+//                             {
+//                                 "colum": ["Medium of Instruction", "English"]
+//                             },
+//                             {
+//                                 "colum": ["Eligibility", "PCB + NEET Qualification"]
+//                             },
+//                             {
+//                                 "colum": ["Tuition Fees", "₹20 – ₹45 Lakhs"]
+//                             },
+//                             {
+//                                 "colum": ["Recognition", "NMC, WHO, WFME"]
+//                             },
+//                             {
+//                                 "colum": ["Intake Session", "September"]
+//                             }
+//                         ]
+//                     }
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Top Medical Universities in China</h3>",
+//             "subcontent": [
+//                 {
+//                     "table": {
+//                         "theading": ["University Name", "City", "Approx Fees"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["China Medical University", "Shenyang", "₹28 – ₹38 Lakhs"]
+//                             },
+//                             {
+//                                 "colum": ["Jilin University", "Changchun", "₹22 – ₹35 Lakhs"]
+//                             },
+//                             {
+//                                 "colum": ["Nanjing Medical University", "Nanjing", "₹30 – ₹42 Lakhs"]
+//                             },
+//                             {
+//                                 "colum": ["Wuhan University School of Medicine", "Wuhan", "₹28 – ₹40 Lakhs"]
+//                             },
+//                             {
+//                                 "colum": ["Xiamen University Medical College", "Xiamen", "₹25 – ₹36 Lakhs"]
+//                             }
+//                         ]
+//                     }
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>What Makes China Different from Other MBBS Destinations</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "China stands out because of its advanced healthcare ecosystem and strong research-based education system. Medical universities focus heavily on practical healthcare learning and technology integration."
+//                 },
+//                 {
+//                     "subheading": "Key Highlights Students Notice",
+//                     "list": [
+//                         "Smart classrooms and digital labs",
+//                         "Large teaching hospitals",
+//                         "Exposure to advanced medical equipment",
+//                         "International research opportunities",
+//                         "Practical learning from early semesters",
+//                         "Multicultural campus environment"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Students also gain exposure to a fast-developing healthcare industry during their medical education."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Learning Style & Academic Structure</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Medical education in China combines theoretical learning with clinical practice and research activities."
+//                 },
+//                 {
+//                     "subheading": "Academic Training Includes",
+//                     "list": [
+//                         "Anatomy and laboratory practicals",
+//                         "Clinical ward training",
+//                         "Research-based medical projects",
+//                         "Interactive classroom discussions",
+//                         "Patient communication training",
+//                         "Internship and hospital exposure"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Universities focus on building strong clinical and diagnostic understanding among students."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Clinical Exposure in Chinese Hospitals</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "China is known for its large and technologically advanced hospitals where students receive clinical training during the course."
+//                 },
+//                 {
+//                     "subheading": "Practical Training Benefits",
+//                     "list": [
+//                         "Real patient interaction",
+//                         "Modern diagnostic technology exposure",
+//                         "Emergency care observation",
+//                         "Clinical case analysis",
+//                         "Departmental hospital rotations"
+//                     ]
+//                 },
+//                 {
+//                     "para": "This hospital exposure helps students improve practical understanding and confidence before graduation."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Indian Students' Experience in China</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "China has hosted a large number of Indian students for medical education over the years. Universities provide facilities and support systems designed for international students."
+//                 },
+//                 {
+//                     "subheading": "Student-Friendly Facilities",
+//                     "list": [
+//                         "Indian food in university mess",
+//                         "International student hostels",
+//                         "Campus Wi-Fi and digital libraries",
+//                         "Student activity clubs",
+//                         "Affordable public transportation",
+//                         "Grocery stores with Indian products"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Students usually find the university environment organized and academically focused."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Cost of Living in China</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "The living cost in China depends on the city and university location. Major cities may have slightly higher expenses compared to smaller cities."
+//                 },
+//                 {
+//                     "table": {
+//                         "theading": ["Expense Type", "Estimated Monthly Cost"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Hostel & Accommodation", "₹10,000 – ₹18,000"]
+//                             },
+//                             {
+//                                 "colum": ["Food & Daily Expenses", "₹8,000 – ₹15,000"]
+//                             },
+//                             {
+//                                 "colum": ["Transportation", "₹2,000 – ₹4,000"]
+//                             },
+//                             {
+//                                 "colum": ["Miscellaneous Expenses", "₹3,000 – ₹6,000"]
+//                             }
+//                         ]
+//                     }
+//                 },
+//                 {
+//                     "para": "Students can manage their lifestyle comfortably with proper financial planning."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Eligibility Criteria for Admission</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Students applying for admission should fulfill the following conditions:",
+//                     "list": [
+//                         "Completed 10+2 with Physics, Chemistry, and Biology",
+//                         "Minimum 50% aggregate in PCB subjects",
+//                         "Qualified NEET examination",
+//                         "Minimum age of 17 years"
+//                     ]
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Admission Process for MBBS in China</h3>",
+//             "subcontent": [
+//                 {
+//                     "subheading": "Choose the University",
+//                     "para": "Students shortlist universities based on fees, ranking, recognition, and infrastructure."
+//                 },
+//                 {
+//                     "subheading": "Submit Application Documents",
+//                     "para": "Academic certificates, passports, and NEET scorecards are submitted online."
+//                 },
+//                 {
+//                     "subheading": "Receive Admission Letter",
+//                     "para": "Eligible students receive official university admission confirmation."
+//                 },
+//                 {
+//                     "subheading": "Visa & Departure Preparation",
+//                     "para": "Students complete visa procedures, hostel arrangements, and travel planning before departure."
+//                 },
+//                 {
+//                     "para": "The process is generally straightforward for eligible students."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Required Documents</h3>",
+//             "subcontent": [
+//                 {
+//                     "list": [
+//                         "10th & 12th Academic Mark Sheets",
+//                         "NEET Scorecard",
+//                         "Passport",
+//                         "Passport-size Photographs",
+//                         "Medical Fitness Certificate",
+//                         "Birth Certificate",
+//                         "Admission Letter",
+//                         "Visa Documents"
+//                     ]
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>FMGE/NExT Preparation Support in China</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Chinese medical universities emphasize concept-based medical education and practical learning that help students strengthen their understanding for licensing examinations."
+//                 },
+//                 {
+//                     "subheading": "Academic Advantages for Indian Students",
+//                     "list": [
+//                         "Practical-oriented curriculum",
+//                         "Clinical case-based discussions",
+//                         "Modern anatomy and simulation labs",
+//                         "Access to digital medical resources",
+//                         "Regular assessments and practical evaluations"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Students also join external coaching programs during the course for additional preparation."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Hostel Facilities & Campus Lifestyle</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Universities in China provide modern hostel facilities designed specifically for international students."
+//                 },
+//                 {
+//                     "subheading": "Hostel Amenities",
+//                     "list": [
+//                         "Furnished rooms",
+//                         "Heating and cooling systems",
+//                         "Wi-Fi connectivity",
+//                         "Cafeteria and kitchens",
+//                         "Security and surveillance systems",
+//                         "Sports and recreation facilities"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Many hostels are located within or near university campuses for convenience."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Is China Safe for International Students?</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "China is generally considered safe for international students due to organized campuses, transportation systems, and university security arrangements."
+//                 },
+//                 {
+//                     "para": "Universities provide international student support departments that help students with academics, accommodation, and daily living assistance."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>MBBS in China vs MBBS in India</h3>",
+//             "subcontent": [
+//                 {
+//                     "table": {
+//                         "theading": ["Features", "China", "India"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Tuition Fees", "Affordable", "Expensive private colleges"]
+//                             },
+//                             {
+//                                 "colum": ["Infrastructure", "Highly advanced", "Depends on institution"]
+//                             },
+//                             {
+//                                 "colum": ["Practical Exposure", "Strong hospital training", "Varies by college"]
+//                             },
+//                             {
+//                                 "colum": ["International Exposure", "High", "Limited in many colleges"]
+//                             },
+//                             {
+//                                 "colum": ["Research Opportunities", "Advanced", "Moderate"]
+//                             },
+//                             {
+//                                 "colum": ["Student Competition", "Moderate", "Extremely High"]
+//                             }
+//                         ]
+//                     }
+//                 },
+//                 {
+//                     "para": "China is often preferred by students looking for advanced infrastructure and practical medical learning at comparatively lower costs."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Career Opportunities After Graduation</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Graduates from Chinese medical universities can pursue medical careers globally after clearing required licensing examinations."
+//                 },
+//                 {
+//                     "subheading": "Career Paths Available",
+//                     "list": [
+//                         "Practice in India after FMGE/NExT",
+//                         "Prepare for USMLE, PLAB, and AMC",
+//                         "Pursue postgraduate specialization",
+//                         "Work in hospitals and healthcare institutions",
+//                         "Explore medical research opportunities"
+//                     ]
+//                 },
+//                 {
+//                     "table": {
+//                         "theading": ["Career Area", "Opportunities"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Clinical Practice", "Hospitals & Clinics"]
+//                             },
+//                             {
+//                                 "colum": ["Postgraduate Studies", "MD/MS Programs"]
+//                             },
+//                             {
+//                                 "colum": ["International Practice", "USA, UK, Australia"]
+//                             },
+//                             {
+//                                 "colum": ["Medical Research", "Research Institutions"]
+//                             },
+//                             {
+//                                 "colum": ["Healthcare Sector", "NGOs & Public Health"]
+//                             }
+//                         ]
+//                     }
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Technology & Innovation in Medical Education</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "China is globally recognized for technological development, and this is reflected strongly in its healthcare education system."
+//                 },
+//                 {
+//                     "subheading": "Advanced Educational Facilities",
+//                     "list": [
+//                         "Smart classrooms",
+//                         "AI-assisted medical simulation labs",
+//                         "Research and innovation centers",
+//                         "Digital anatomy learning systems",
+//                         "Advanced hospital training facilities"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Students gain exposure to modern healthcare technologies during their studies."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Climate & Student Adaptation</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "China experiences different climate conditions depending on the region and city. Most universities provide centrally heated hostels and comfortable student accommodation facilities."
+//                 },
+//                 {
+//                     "para": "Students generally adjust well with proper guidance and university support systems."
+//                 }
+//             ]
+//         }
+//     ],
+//     "faq": [
+//         {
+//             "que": "Q1. Why is China considered a strong destination for MBBS abroad?",
+//             "ans": "China is considered a strong destination because of its advanced medical universities, modern hospital infrastructure, affordable tuition fees, and research-focused education system. Students also benefit from strong clinical exposure and globally recognized medical degrees."
+//         },
+//         {
+//             "que": "Q2. Are Chinese medical universities recognized by NMC?",
+//             "ans": "Yes, many medical universities in China are recognized by NMC and WHO. Indian students graduating from approved universities can appear for FMGE/NExT and other international licensing examinations required for medical practice."
+//         },
+//         {
+//             "que": "Q3. Do students get practical hospital exposure during the course?",
+//             "ans": "Medical universities in China focus heavily on practical learning. Students receive clinical training, patient interaction opportunities, hospital rotations, laboratory practice, and emergency healthcare exposure during their medical education."
+//         },
+//         {
+//             "que": "Q4. Is living in China affordable for Indian students?",
+//             "ans": "Yes, China offers manageable living expenses for students depending on the city and university location. Students can access hostel accommodation, affordable transportation, university cafeterias, and daily convenience facilities within a reasonable budget."
+//         }
+//     ]
+// },
+
+// {
+//     "img": poland,
+//     "title": "MBBS in Poland | European Medical Universities",
+//     "metatitle": "MBBS in Poland | European Medical Universities",
+//     "metakey": "MBBS in Poland",
+//     "metadesc": "Study MBBS in Poland with European-standard education, modern hospitals, English-medium programs, and global career opportunities.",
+//     "content": [
+//         {
+//             "subcontent": [
+//                 {
+//                     "para": "Poland is becoming one of the most premium destinations for students who want a globally respected medical degree with European exposure. The country is known for its advanced healthcare system, modern universities, practical teaching methods, and internationally recognized medical programs."
+//                 },
+//                 {
+//                     "para": "Students choosing Poland are often looking beyond just affordable education. They usually focus on long-term medical careers, international licensing opportunities, advanced clinical exposure, and a modern learning environment that prepares them for global healthcare systems."
+//                 },
+//                 {
+//                     "para": "Medical universities in Poland follow European education standards and provide students with strong academic foundations, practical training, research exposure, and communication-focused learning."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h2>Why Poland is Becoming the \"Future-Focused\" MBBS Destination</h2>",
+//             "subcontent": [
+//                 {
+//                     "para": "Today's medical students are not only searching for universities—they are searching for future opportunities, international mobility, and practical medical confidence."
+//                 },
+//                 {
+//                     "para": "Poland has become attractive because universities focus on:",
+//                     "list": [
+//                         "Practical patient-based learning",
+//                         "Global healthcare standards",
+//                         "Research & innovation exposure",
+//                         "Clinical communication skills",
+//                         "Modern medical technologies",
+//                         "Internationally competitive curriculum"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Students studying in Poland often feel more professionally prepared because of the structured academic environment."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Quick Snapshot of MBBS in Poland</h3>",
+//             "subcontent": [
+//                 {
+//                     "table": {
+//                         "theading": ["Particulars", "Details"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Course Duration", "6 Years"]
+//                             },
+//                             {
+//                                 "colum": ["Medium of Teaching", "English"]
+//                             },
+//                             {
+//                                 "colum": ["Eligibility", "PCB + NEET Qualification"]
+//                             },
+//                             {
+//                                 "colum": ["Tuition Fees", "₹45 – ₹85 Lakhs"]
+//                             },
+//                             {
+//                                 "colum": ["Recognition", "NMC, WHO, ECFMG"]
+//                             },
+//                             {
+//                                 "colum": ["Intake Session", "September"]
+//                             }
+//                         ]
+//                     }
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Universities Students Commonly Explore in Poland</h3>",
+//             "subcontent": [
+//                 {
+//                     "table": {
+//                         "theading": ["University Name", "City", "Approx Fees"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Medical University of Warsaw", "Warsaw", "₹65 – ₹85 Lakhs"]
+//                             },
+//                             {
+//                                 "colum": ["Jagiellonian University Medical College", "Kraków", "₹60 – ₹80 Lakhs"]
+//                             },
+//                             {
+//                                 "colum": ["Medical University of Gdańsk", "Gdańsk", "₹55 – ₹75 Lakhs"]
+//                             },
+//                             {
+//                                 "colum": ["Poznan University of Medical Sciences", "Poznań", "₹58 – ₹78 Lakhs"]
+//                             },
+//                             {
+//                                 "colum": ["Medical University of Lodz", "Lodz", "₹50 – ₹70 Lakhs"]
+//                             }
+//                         ]
+//                     }
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>What Actually Makes Poland Feel \"International\"</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "One major reason students choose Poland is that the entire academic environment feels globally connected. From classrooms to hospitals, students experience a multicultural and professionally structured healthcare education system."
+//                 },
+//                 {
+//                     "subheading": "Students Get Exposure To",
+//                     "list": [
+//                         "European hospital systems",
+//                         "International classmates",
+//                         "Research-driven learning",
+//                         "Advanced medical simulations",
+//                         "Practical clinical case discussions",
+//                         "Communication-focused training"
+//                     ]
+//                 },
+//                 {
+//                     "para": "This exposure helps students develop both technical and professional healthcare skills."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Students Don't Just Study Here — They Train Like Future Doctors</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Medical education in Poland is heavily focused on practical confidence and hospital exposure instead of memorization-only learning."
+//                 },
+//                 {
+//                     "subheading": "Practical Learning Students Experience",
+//                     "list": [
+//                         "Early clinical exposure",
+//                         "Patient interaction sessions",
+//                         "Simulation-based emergency training",
+//                         "Hospital ward observations",
+//                         "Research presentations and projects",
+//                         "Advanced anatomy lab practicals"
+//                     ]
+//                 },
+//                 {
+//                     "para": "This system helps students gradually become comfortable with real healthcare environments."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Why Students Target Poland for Global Medical Careers</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Many students selecting Poland are already planning international medical careers during their MBBS journey itself."
+//                 },
+//                 {
+//                     "subheading": "Popular Long-Term Goals Among Students",
+//                     "list": [
+//                         "USMLE preparation for USA",
+//                         "PLAB pathway for UK",
+//                         "Medical practice in Europe",
+//                         "International postgraduate specialization",
+//                         "Global hospital and research opportunities"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Because of its European medical standards, Poland gives students wider international career flexibility."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>The \"Campus Life\" Students Usually Don't Expect</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Poland offers a very balanced student lifestyle. Students often experience organized public systems, peaceful study environments, modern infrastructure, and safe city life."
+//                 },
+//                 {
+//                     "subheading": "Student Lifestyle Highlights",
+//                     "list": [
+//                         "Modern university campuses",
+//                         "Student cafes and social spaces",
+//                         "Public transport discounts",
+//                         "International cultural events",
+//                         "Clean and organized cities",
+//                         "Libraries and digital learning zones"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Students generally describe the environment as calm, focused, and professionally motivating."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Indian Students & Daily Life in Poland</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Indian students have become increasingly common across Polish universities, especially in medical programs."
+//                 },
+//                 {
+//                     "subheading": "What Makes Daily Life Easier",
+//                     "list": [
+//                         "Indian restaurants in major cities",
+//                         "Grocery stores with Indian products",
+//                         "International student support departments",
+//                         "Comfortable hostel systems",
+//                         "Shared student communities",
+//                         "Easy transport connectivity"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Many students quickly adapt because universities support international students throughout the academic journey."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>The Reality of Expenses in Poland</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Poland is not considered a low-budget destination, but students often see it as a long-term investment because of the quality of education and international opportunities available."
+//                 },
+//                 {
+//                     "table": {
+//                         "theading": ["Expense Category", "Approximate Cost"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Tuition Fees", "₹45 – ₹85 Lakhs"]
+//                             },
+//                             {
+//                                 "colum": ["Hostel & Accommodation", "₹15,000 – ₹28,000/month"]
+//                             },
+//                             {
+//                                 "colum": ["Food & Daily Expenses", "₹10,000 – ₹18,000/month"]
+//                             },
+//                             {
+//                                 "colum": ["Transportation", "₹3,000 – ₹5,000/month"]
+//                             }
+//                         ]
+//                     }
+//                 },
+//                 {
+//                     "para": "Living expenses vary depending on the city and lifestyle preferences."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Admission Process: What Students Actually Go Through</h3>",
+//             "subcontent": [
+//                 {
+//                     "subheading": "Step 1 – Choosing the Right University",
+//                     "para": "Students compare universities based on rankings, clinical exposure, and future career opportunities."
+//                 },
+//                 {
+//                     "subheading": "Step 2 – Application & Documentation",
+//                     "para": "Academic records, passports, and eligibility documents are submitted online."
+//                 },
+//                 {
+//                     "subheading": "Step 3 – Academic Evaluation",
+//                     "para": "Some universities may conduct interviews or online assessments before confirming admission."
+//                 },
+//                 {
+//                     "subheading": "Step 4 – Admission Confirmation & Visa",
+//                     "para": "Students receive official offer letters and begin visa processing."
+//                 },
+//                 {
+//                     "subheading": "Step 5 – Travel & Accommodation Planning",
+//                     "para": "Final arrangements like hostel booking and travel preparation, are completed before departure."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Eligibility Criteria for Admission</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Students applying for admission should fulfill the following requirements:",
+//                     "list": [
+//                         "10+2 with Physics, Chemistry, and Biology",
+//                         "Minimum 50% marks in PCB subjects",
+//                         "NEET qualification mandatory",
+//                         "Valid passport and academic documents"
+//                     ]
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Clinical Exposure: One of Poland's Biggest Strengths</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Polish medical universities are strongly connected with advanced hospitals and healthcare centers."
+//                 },
+//                 {
+//                     "subheading": "Students Receive Exposure To",
+//                     "list": [
+//                         "Clinical ward rotations",
+//                         "Modern diagnostic technologies",
+//                         "Emergency healthcare systems",
+//                         "Real patient interactions",
+//                         "Hospital-based medical training"
+//                     ]
+//                 },
+//                 {
+//                     "para": "This clinical exposure improves practical understanding and professional medical confidence."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Poland vs Traditional MBBS Destinations</h3>",
+//             "subcontent": [
+//                 {
+//                     "table": {
+//                         "theading": ["Features", "Poland", "Many Traditional Destinations"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Education Style", "European practical approach", "Mostly theoretical"]
+//                             },
+//                             {
+//                                 "colum": ["Research Exposure", "High", "Moderate"]
+//                             },
+//                             {
+//                                 "colum": ["Global Opportunities", "Strong", "Limited in some countries"]
+//                             },
+//                             {
+//                                 "colum": ["Clinical Infrastructure", "Highly advanced", "Varies"]
+//                             },
+//                             {
+//                                 "colum": ["International Environment", "Multicultural", "Less exposure"]
+//                             },
+//                             {
+//                                 "colum": ["Career Mobility", "Wider opportunities", "Depends on recognition"]
+//                             }
+//                         ]
+//                     }
+//                 },
+//                 {
+//                     "para": "Students often choose Poland because it aligns better with international medical career goals."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Safety, Security & Student Comfort</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Poland is generally considered safe and organized for international students. Universities provide support departments, emergency assistance, and secure accommodation systems."
+//                 },
+//                 {
+//                     "para": "Most cities are student-friendly with easy access to transportation, healthcare facilities, shopping areas, and public services."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Career Opportunities After Graduation</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Graduates from Polish medical universities often pursue international licensing examinations and global medical careers."
+//                 },
+//                 {
+//                     "subheading": "Career Pathways Students Commonly Choose",
+//                     "list": [
+//                         "FMGE/NExT for India",
+//                         "USMLE for USA",
+//                         "PLAB for UK",
+//                         "European postgraduate programs",
+//                         "Medical research opportunities",
+//                         "International hospital practice"
+//                     ]
+//                 },
+//                 {
+//                     "table": {
+//                         "theading": ["Career Option", "Scope"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Clinical Practice", "Hospitals & Healthcare Centers"]
+//                             },
+//                             {
+//                                 "colum": ["International Licensing", "USA, UK, Europe"]
+//                             },
+//                             {
+//                                 "colum": ["Postgraduate Studies", "MD/MS Programs"]
+//                             },
+//                             {
+//                                 "colum": ["Research Careers", "Universities & Labs"]
+//                             },
+//                             {
+//                                 "colum": ["Healthcare Administration", "Public & Private Sector"]
+//                             }
+//                         ]
+//                     }
+//                 }
+//             ]
+//         }
+//     ],
+//     "faq": [
+//         {
+//             "que": "Q1. Why is Poland becoming popular among students looking for premium MBBS education?",
+//             "ans": "Poland is becoming popular because it offers European-standard medical education, advanced clinical exposure, research opportunities, and globally respected universities. Students also benefit from international environments, modern teaching systems, and wider global medical career opportunities after graduation."
+//         },
+//         {
+//             "que": "Q2. Is Poland suitable for students planning international medical careers?",
+//             "ans": "Yes, many students choose Poland because the education system supports global career preparation. Universities focus on clinical training, communication skills, and practical understanding, which helps students prepare for USMLE, PLAB, and other international licensing pathways."
+//         },
+//         {
+//             "que": "Q3. How is practical training different in Poland compared to many other countries?",
+//             "ans": "Medical universities in Poland emphasize clinical confidence through patient interaction, simulation-based training, hospital rotations, and research activities. Students receive exposure to advanced healthcare systems that help improve practical and professional medical skills throughout the course."
+//         },
+//         {
+//             "que": "Q4. Is student life comfortable for Indian students in Poland?",
+//             "ans": "Indian students generally find Poland comfortable because of organized cities, secure accommodation, public transportation, international student support, and availability of Indian food in major university locations. The environment is peaceful, academically focused, and suitable for international students."
+//         }
+//     ]
+// },
+
+// {
+//     "img": ger,
+//     "title": "MBBS in Germany | Medical Universities & Fees",
+//     "metatitle": "MBBS in Germany | Medical Universities & Fees",
+//     "metakey": "MBBS in Germany",
+//     "metadesc": "Explore MBBS in Germany with world-class medical education, public universities, advanced healthcare training, and global career opportunities.",
+//     "content": [
+//         {
+//             "subcontent": [
+//                 {
+//                     "para": "Germany is considered one of the most respected countries for higher education, especially in the medical field. Known for its advanced healthcare system, research-driven universities, and strong practical training methods, Germany attracts students who are serious about building long-term global medical careers."
+//                 },
+//                 {
+//                     "para": "Unlike many countries where students mainly focus on affordability, students choosing Germany usually prioritize academic quality, practical exposure, research opportunities, and career growth. German medical universities are internationally recognized and closely connected with some of the world's most advanced hospitals and healthcare institutions."
+//                 },
+//                 {
+//                     "para": "For students aiming for a highly professional and globally competitive medical journey, Germany has become one of the strongest options in Europe."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h2>Why Germany is Seen as a \"Career-Oriented\" Medical Destination</h2>",
+//             "subcontent": [
+//                 {
+//                     "para": "Germany is not just popular because of its education quality — it is popular because students see it as a country that combines education, healthcare innovation, and future career opportunities."
+//                 },
+//                 {
+//                     "subheading": "Reasons Students Explore Germany",
+//                     "list": [
+//                         "World-class healthcare infrastructure",
+//                         "Research-oriented medical education",
+//                         "Strong practical clinical exposure",
+//                         "Globally respected universities",
+//                         "Opportunities in the European healthcare sector",
+//                         "Advanced medical technologies",
+//                         "High academic standards",
+//                         "Modern hospital training systems",
+//                         "International medical career pathways"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Students often choose Germany because the education system focuses heavily on real medical practice and healthcare professionalism."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>MBBS in Germany: Important Highlights</h3>",
+//             "subcontent": [
+//                 {
+//                     "table": {
+//                         "theading": ["Category", "Information Students Should Know"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Degree Recognition", "Accepted by NMC, WHO & international medical bodies"]
+//                             },
+//                             {
+//                                 "colum": ["Course Focus", "Practical healthcare training & clinical exposure"]
+//                             },
+//                             {
+//                                 "colum": ["Learning Style", "Research-oriented and application-based"]
+//                             },
+//                             {
+//                                 "colum": ["Best Advantage", "Low tuition fees in many public universities"]
+//                             },
+//                             {
+//                                 "colum": ["Student Environment", "Multicultural and professionally focused"]
+//                             }
+//                         ]
+//                     }
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Germany is Famous for \"Learning by Practice\"</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "One major reason Germany stands out is its practical healthcare training system. Universities strongly emphasize patient-centered learning and clinical experience from the early stages of the course."
+//                 },
+//                 {
+//                     "subheading": "Students Experience",
+//                     "list": [
+//                         "Hospital-based practical learning",
+//                         "Clinical diagnosis training",
+//                         "Real patient interaction",
+//                         "Research and innovation projects",
+//                         "Simulation-based healthcare practice",
+//                         "Exposure to modern medical equipment"
+//                     ]
+//                 },
+//                 {
+//                     "para": "This practical approach helps students develop strong clinical confidence and healthcare professionalism."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>The Difference Students Notice in German Medical Education</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Medical education in Germany is highly structured and academically demanding. Universities focus not only on medical knowledge but also on discipline, communication, analytical thinking, and research skills."
+//                 },
+//                 {
+//                     "subheading": "Skills Students Commonly Develop",
+//                     "list": [
+//                         "Clinical decision-making",
+//                         "Problem-solving abilities",
+//                         "Medical communication skills",
+//                         "Research and data analysis",
+//                         "Patient-care understanding",
+//                         "Professional healthcare ethics"
+//                     ]
+//                 },
+//                 {
+//                     "para": "This system prepares students for highly competitive international medical careers."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Germany is Also a Big Destination for Medical Research</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Germany is globally recognized for healthcare innovation and medical research. Students interested in advanced medicine and scientific research often find Germany highly attractive."
+//                 },
+//                 {
+//                     "subheading": "Research Opportunities Include",
+//                     "list": [
+//                         "Biomedical research projects",
+//                         "Clinical trials and studies",
+//                         "Laboratory-based innovation programs",
+//                         "Collaboration with healthcare institutions",
+//                         "Access to modern research facilities"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Students interested in future specialization or research careers benefit significantly from this environment."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Student Lifestyle in Germany</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Germany offers students a highly organized and independent lifestyle. Cities are modern, transportation systems are efficient, and universities provide strong support systems for international students."
+//                 },
+//                 {
+//                     "subheading": "What Students Usually Appreciate",
+//                     "list": [
+//                         "Organized public transportation",
+//                         "Modern student campuses",
+//                         "Digital learning facilities",
+//                         "International student communities",
+//                         "Public healthcare systems",
+//                         "Safe and clean environments"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Students often experience a balanced combination of academics and personal independence."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Accommodation & Daily Living for International Students</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Students studying in Germany can choose between university hostels, shared apartments, and private accommodation options."
+//                 },
+//                 {
+//                     "subheading": "Facilities Students Commonly Use",
+//                     "list": [
+//                         "Furnished accommodation",
+//                         "Student cafeterias",
+//                         "Wi-Fi and study spaces",
+//                         "Libraries and research centers",
+//                         "Public transportation networks",
+//                         "Grocery stores and daily convenience services"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Indian students can also find Indian restaurants and cultural communities in major German cities."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Understanding the Real Cost of MBBS in Germany</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Public universities in Germany are known for offering low or minimal tuition fees, but students must still manage living expenses, insurance, and daily costs."
+//                 },
+//                 {
+//                     "table": {
+//                         "theading": ["Expense Category", "Average Monthly Budget"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Student Accommodation", "₹25,000 – ₹45,000"]
+//                             },
+//                             {
+//                                 "colum": ["Food & Groceries", "₹12,000 – ₹20,000"]
+//                             },
+//                             {
+//                                 "colum": ["Public Transport", "₹4,000 – ₹8,000"]
+//                             },
+//                             {
+//                                 "colum": ["Insurance & Personal Expenses", "₹10,000 – ₹18,000"]
+//                             }
+//                         ]
+//                     }
+//                 },
+//                 {
+//                     "para": "Although living expenses are higher than in some Asian countries, students often consider the overall value worthwhile because of the education quality."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Eligibility Criteria for Admission</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Students applying for admission in Germany usually need to fulfill the following conditions:",
+//                     "list": [
+//                         "10+2 with Physics, Chemistry, and Biology",
+//                         "Strong academic performance",
+//                         "Qualified NEET examination",
+//                         "Language proficiency requirements",
+//                         "Valid passport and academic documents"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Some universities may require German language proficiency depending on the program structure."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Admission Process for Germany</h3>",
+//             "subcontent": [
+//                 {
+//                     "subheading": "Step 1—Research Universities & Programs",
+//                     "para": "Students compare universities, eligibility requirements, and language criteria."
+//                 },
+//                 {
+//                     "subheading": "Step 2—Prepare Academic & Language Documents",
+//                     "para": "Academic records, certificates, passports, and language test scores are prepared."
+//                 },
+//                 {
+//                     "subheading": "Step 3—Submit University Applications",
+//                     "para": "Applications are submitted through university portals or centralized systems."
+//                 },
+//                 {
+//                     "subheading": "Step 4—Receive Admission Confirmation",
+//                     "para": "Eligible students receive official university offer letters."
+//                 },
+//                 {
+//                     "subheading": "Step 5—Visa & Travel Preparation",
+//                     "para": "Students apply for student visas, accommodation, and financial documentation before departure."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Germany vs Other MBBS Abroad Destinations</h3>",
+//             "subcontent": [
+//                 {
+//                     "table": {
+//                         "theading": ["Comparison Factor", "Germany", "Other Countries"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Tuition Structure", "Low in public universities", "Usually higher"]
+//                             },
+//                             {
+//                                 "colum": ["Healthcare Technology", "Highly advanced", "Varies by country"]
+//                             },
+//                             {
+//                                 "colum": ["Research Facilities", "Strong international research exposure", "Moderate in some countries"]
+//                             },
+//                             {
+//                                 "colum": ["Clinical Training", "Extensive hospital exposure", "Depends on university"]
+//                             },
+//                             {
+//                                 "colum": ["Career Scope", "Strong European opportunities", "Limited in some destinations"]
+//                             }
+//                         ]
+//                     }
+//                 },
+//                 {
+//                     "para": "Germany is often chosen by students looking for serious academic growth and international healthcare careers."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Career Opportunities After Graduation</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Germany provides strong medical career opportunities because of its healthcare demand and globally respected medical education system."
+//                 },
+//                 {
+//                     "subheading": "Career Pathways Students Explore",
+//                     "list": [
+//                         "Medical practice in Europe",
+//                         "FMGE/NExT for India",
+//                         "Research & healthcare innovation",
+//                         "Postgraduate specialization programs",
+//                         "International licensing examinations",
+//                         "Hospital and clinical careers"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Students graduating from Germany often explore both clinical and research-oriented pathways because of the country's strong healthcare ecosystem."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Is Germany Safe for International Students?</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Germany is considered one of the safer countries for international students. Universities maintain organized campuses, student support systems, and healthcare assistance for students."
+//                 },
+//                 {
+//                     "para": "Most cities offer excellent transportation, emergency services, and public facilities that make student life more comfortable and secure."
+//                 }
+//             ]
+//         }
+//     ],
+//     "faq": [
+//         {
+//             "que": "Q1. Why do students consider Germany for medical education despite language requirements?",
+//             "ans": "Students choose Germany because of its globally respected universities, advanced healthcare infrastructure, research opportunities, and strong practical training systems. Many students see Germany as a long-term investment for international medical careers and professional growth."
+//         },
+//         {
+//             "que": "Q2. Is medical education in Germany affordable compared to other countries?",
+//             "ans": "Public universities in Germany usually charge minimal tuition fees compared to many other countries. However, students must still manage living expenses, accommodation, insurance, and daily costs while studying in Germany."
+//         },
+//         {
+//             "que": "Q3. Does Germany provide strong practical clinical exposure for medical students?",
+//             "ans": "Yes, Germany is known for its hospital-based learning and practical healthcare education. Students receive clinical exposure, patient interaction opportunities, simulation training, and access to advanced healthcare technologies during the course."
+//         },
+//         {
+//             "que": "Q4. Can Indian students pursue global medical careers after studying in Germany?",
+//             "ans": "Graduates from recognized German medical universities can pursue licensing examinations, postgraduate specialization, research opportunities, and healthcare careers in multiple countries. Germany's education system is widely respected internationally for medical and healthcare training."
+//         }
+//     ]
+// },
+
+// {
+//     "img": malay,
+//     "title": "MBBS in Malaysia | Top Medical Universities",
+//     "metatitle": "MBBS in Malaysia | Top Medical Universities",
+//     "metakey": "MBBS in Malaysia",
+//     "metadesc": "Study MBBS in Malaysia with affordable fees, modern universities, global exposure, and advanced medical education for Indian students.",
+//     "content": [
+//         {
+//             "subcontent": [
+//                 {
+//                     "para": "Malaysia has become one of the fastest-growing destinations for international medical education in Asia. Known for its modern lifestyle, quality education system, and affordable study options, the country attracts students from different parts of the world every year."
+//                 },
+//                 {
+//                     "para": "From advanced medical universities and smart classrooms to safe cities and multicultural exposure, Malaysia offers students an excellent balance between academics and lifestyle. Cities like Kuala Lumpur, Selangor, and Penang are especially popular among international students because of their developed infrastructure, transportation systems, and student-friendly environment."
+//                 },
+//                 {
+//                     "para": "For Indian students looking for quality medical education abroad without extremely high expenses, Malaysia has become a strong option."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h2>Why Students Are Adding Malaysia to Their MBBS Wishlist</h2>",
+//             "subcontent": [
+//                 {
+//                     "para": "Students today are not only searching for affordable medical education—they also want modern campuses, global exposure, practical learning, and comfortable student life."
+//                 },
+//                 {
+//                     "para": "Malaysia stands out because it offers:",
+//                     "list": [
+//                         "International-standard medical universities",
+//                         "English-medium MBBS programs",
+//                         "Affordable tuition fees",
+//                         "Modern healthcare infrastructure",
+//                         "Strong clinical exposure",
+//                         "Easy admission process",
+//                         "Safe and student-friendly cities",
+//                         "Exposure to multicultural communities",
+//                         "Comfortable accommodation facilities"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Many students also prefer Malaysia because adapting to the environment is comparatively easier."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Malaysia Quick Facts for MBBS Students</h3>",
+//             "subcontent": [
+//                 {
+//                     "table": {
+//                         "theading": ["Particulars", "Details"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Course Duration", "5–6 Years"]
+//                             },
+//                             {
+//                                 "colum": ["Medium of Teaching", "English"]
+//                             },
+//                             {
+//                                 "colum": ["Eligibility", "PCB + NEET Qualification"]
+//                             },
+//                             {
+//                                 "colum": ["Average Tuition Fees", "₹10 – ₹60 Lakhs"]
+//                             },
+//                             {
+//                                 "colum": ["Recognition", "NMC, WHO"]
+//                             },
+//                             {
+//                                 "colum": ["Intake", "Multiple Intakes Available"]
+//                             }
+//                         ]
+//                     }
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>What Makes Malaysia Different From Other Asian Destinations</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Malaysia combines affordability with modern education quality. Unlike some countries where students compromise on infrastructure or lifestyle, Malaysia offers a much more balanced experience."
+//                 },
+//                 {
+//                     "subheading": "Students Commonly Notice",
+//                     "list": [
+//                         "Digitally equipped classrooms",
+//                         "Advanced laboratories",
+//                         "Modern hospital tie-ups",
+//                         "International faculty exposure",
+//                         "Clean and organized campuses",
+//                         "Strong focus on practical learning"
+//                     ]
+//                 },
+//                 {
+//                     "para": "The education system is designed to help students build both theoretical and clinical understanding."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Students Don't Feel \"Far From Home\" in Malaysia</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "One of the biggest reasons Indian students prefer Malaysia is that the environment feels welcoming and comfortable."
+//                 },
+//                 {
+//                     "subheading": "Why Indian Students Adjust Easily",
+//                     "list": [
+//                         "Indian restaurants are easily available",
+//                         "Large Indian student communities",
+//                         "Familiar food and grocery options",
+//                         "English is widely spoken in universities",
+//                         "Cultural diversity and a friendly environment"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Students usually settle comfortably within a short period after arrival."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Practical Learning & Clinical Exposure in Malaysia</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Medical universities in Malaysia emphasize practical healthcare training and clinical exposure from the early stages of the course."
+//                 },
+//                 {
+//                     "subheading": "Students Receive Exposure To",
+//                     "list": [
+//                         "Hospital-based clinical practice",
+//                         "Anatomy and laboratory sessions",
+//                         "Patient observation training",
+//                         "Diagnostic learning methods",
+//                         "Healthcare simulation programs",
+//                         "Medical research projects"
+//                     ]
+//                 },
+//                 {
+//                     "para": "This practical approach helps students become more confident in real healthcare settings."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Malaysia is Also Known for Smart Campuses & Technology</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Universities in Malaysia are highly focused on modern education systems and digital learning methods."
+//                 },
+//                 {
+//                     "subheading": "Advanced Facilities Include",
+//                     "list": [
+//                         "Smart classrooms",
+//                         "Digital libraries",
+//                         "Simulation laboratories",
+//                         "Research centers",
+//                         "Modern hospital partnerships",
+//                         "Advanced medical equipment"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Students benefit from a learning environment that combines technology with medical education."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Cost of Studying & Living in Malaysia</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Malaysia is considered comparatively affordable when compared with many Western and European destinations."
+//                 },
+//                 {
+//                     "table": {
+//                         "theading": ["Expense Type", "Approximate Cost"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Tuition Fees", "₹10 – ₹60 Lakhs"]
+//                             },
+//                             {
+//                                 "colum": ["Hostel & Accommodation", "₹12,000 – ₹25,000/month"]
+//                             },
+//                             {
+//                                 "colum": ["Food & Daily Expenses", "₹8,000 – ₹15,000/month"]
+//                             },
+//                             {
+//                                 "colum": ["Transportation", "₹2,000 – ₹5,000/month"]
+//                             }
+//                         ]
+//                     }
+//                 },
+//                 {
+//                     "para": "The overall cost depends on the university and city selected by the student."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Popular Medical Universities in Malaysia</h3>",
+//             "subcontent": [
+//                 {
+//                     "subheading": "AIMST University",
+//                     "para": "Located in Bedong, this university is known for affordable medical education and practical healthcare training."
+//                 },
+//                 {
+//                     "subheading": "MAHSA University",
+//                     "para": "Situated in Selangor, MAHSA is popular among international students because of its modern infrastructure and healthcare programs."
+//                 },
+//                 {
+//                     "subheading": "International Medical University (IMU)",
+//                     "para": "One of the most recognized private medical universities in Kuala Lumpur, offering globally focused medical education."
+//                 },
+//                 {
+//                     "subheading": "Perdana University",
+//                     "para": "Known for quality academics and student-friendly campus facilities in Kuala Lumpur."
+//                 },
+//                 {
+//                     "subheading": "Taylor's University",
+//                     "para": "A modern private university offering strong international exposure and advanced academic facilities."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Eligibility Criteria for MBBS Admission</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Students applying for admission should fulfill the following requirements:",
+//                     "list": [
+//                         "Minimum age of 17 years",
+//                         "10+2 with Physics, Chemistry, and Biology",
+//                         "Minimum required percentage in PCB subjects",
+//                         "Qualified NEET examination",
+//                         "Valid academic and travel documents"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Eligibility criteria may vary slightly depending on the university."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Step-by-Step Admission Process</h3>",
+//             "subcontent": [
+//                 {
+//                     "subheading": "Step 1 – University Research",
+//                     "para": "Students shortlist universities according to budget, rankings, and preferred location."
+//                 },
+//                 {
+//                     "subheading": "Step 2 – Course & Eligibility Verification",
+//                     "para": "Students check course structure, eligibility requirements, and documentation guidelines."
+//                 },
+//                 {
+//                     "subheading": "Step 3 – Submit Application Documents",
+//                     "para": "Academic certificates, passports, and NEET scorecards are submitted for review."
+//                 },
+//                 {
+//                     "subheading": "Step 4 – Receive Offer Letter",
+//                     "para": "Eligible students receive admission confirmation from the university."
+//                 },
+//                 {
+//                     "subheading": "Step 5 – Student Visa Process",
+//                     "para": "Students complete visa formalities and financial documentation."
+//                 },
+//                 {
+//                     "subheading": "Step 6 – Travel & Accommodation Planning",
+//                     "para": "Final arrangements like hostel booking, flight tickets, and health check-ups are completed."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Documents Required for Admission</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Students generally need the following documents during admission:",
+//                     "list": [
+//                         "10th & 12th Mark Sheets",
+//                         "NEET Scorecard",
+//                         "Birth Certificate",
+//                         "Valid Passport",
+//                         "Student Visa Documents",
+//                         "Medical Fitness Certificate",
+//                         "Passport-size Photographs",
+//                         "Admission/Offer Letter",
+//                         "Financial Proof Documents"
+//                     ]
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Accommodation & Food Facilities for Indian Students</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Universities in Malaysia provide multiple accommodation options for international students."
+//                 },
+//                 {
+//                     "subheading": "Facilities Students Usually Get",
+//                     "list": [
+//                         "On-campus hostel accommodation",
+//                         "Off-campus apartments",
+//                         "Wi-Fi and utility services",
+//                         "Security systems and student support",
+//                         "Common recreational spaces",
+//                         "Dining areas with multiple cuisine options"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Indian students can also easily find vegetarian food and Indian grocery products in major cities."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>MBBS in Malaysia vs MBBS in India</h3>",
+//             "subcontent": [
+//                 {
+//                     "table": {
+//                         "theading": ["Factors", "Malaysia", "India"],
+//                         "rows": [
+//                             {
+//                                 "colum": ["Infrastructure", "Modern & technology-based", "Depends on the institution"]
+//                             },
+//                             {
+//                                 "colum": ["International Exposure", "High", "Limited"]
+//                             },
+//                             {
+//                                 "colum": ["Tuition Fees", "Affordable in many universities", "Expensive private colleges"]
+//                             },
+//                             {
+//                                 "colum": ["Learning Environment", "Multicultural", "Mostly domestic"]
+//                             },
+//                             {
+//                                 "colum": ["Clinical Exposure", "Strong practical focus", "Varies by college"]
+//                             },
+//                             {
+//                                 "colum": ["Competition Level", "Moderate", "Extremely High"]
+//                             }
+//                         ]
+//                     }
+//                 },
+//                 {
+//                     "para": "Malaysia is becoming increasingly popular among students looking for balanced academics, affordability, and global exposure."
+//                 }
+//             ]
+//         },
+//         {
+//             "heading": "<h3>Career Opportunities After MBBS in Malaysia</h3>",
+//             "subcontent": [
+//                 {
+//                     "para": "Graduates from Malaysian medical universities can pursue medical careers in multiple countries after clearing the required licensing examinations."
+//                 },
+//                 {
+//                     "subheading": "Career Pathways Include",
+//                     "list": [
+//                         "FMGE/NExT for India",
+//                         "USMLE for USA",
+//                         "PLAB for UK",
+//                         "MD/MS specializations",
+//                         "Hospital and clinical practice",
+//                         "Medical research and healthcare management"
+//                     ]
+//                 },
+//                 {
+//                     "para": "Malaysia's international academic environment helps students prepare for global healthcare opportunities."
+//                 }
+//             ]
+//         }
+//     ],
+//     "faq": [
+//         {
+//             "que": "Q1. Why is Malaysia becoming popular among MBBS students?",
+//             "ans": "Malaysia is gaining popularity because it offers modern medical universities, affordable education, English-medium courses, and advanced healthcare infrastructure. Students also benefit from multicultural exposure, comfortable living conditions, and practical clinical learning throughout the course."
+//         },
+//         {
+//             "que": "Q2. Is Malaysia a comfortable destination for Indian students?",
+//             "ans": "Yes, Malaysia is considered comfortable for Indian students because of the availability of Indian food, cultural diversity, English-speaking environments, and large Indian student communities. Students usually adapt quickly to the lifestyle and academic environment."
+//         },
+//         {
+//             "que": "Q3. Do universities in Malaysia provide practical medical training?",
+//             "ans": "Medical universities in Malaysia strongly focus on practical learning through hospital training, laboratory sessions, patient observation, and healthcare simulations. This helps students build clinical confidence and practical medical understanding during their education."
+//         },
+//         {
+//             "que": "Q4. Can students pursue international careers after studying in Malaysia?",
+//             "ans": "Yes, graduates from recognized Malaysian medical universities can prepare for licensing examinations such as FMGE/NExT, USMLE, and PLAB. Students can also pursue postgraduate studies, research opportunities, and international healthcare careers after graduation."
+//         }
+//     ]
+// },
+
+
+{
+    "img": kyrg,
+    "title": "MBBS in Kyrgyzstan",
+    "metatitle": "MBBS in Kyrgyzstan | Fees & Medical Universities",
+    "metakey": "MBBS in Kyrgyzstan",
+    "metadesc": "Study MBBS in Kyrgyzstan with affordable fees, English-medium education, modern universities, and strong clinical exposure for students.",
+    "content": [
+        {
+            "subcontent": [
+                {
+                    "para": "Kyrgyzstan has become one of the most preferred destinations for students searching for affordable medical education abroad. Over the last few years, the country has gained popularity among Indian students because of its budget-friendly fee structure, globally recognized universities, and simple admission process."
+                },
+                {
+                    "para": "Medical universities in Kyrgyzstan focus on theoretical knowledge along with practical healthcare training, helping students develop a strong medical foundation. The country also offers a comfortable student environment, English-medium programs, and lower living expenses compared to many other international destinations."
+                },
+                {
+                    "para": "For students looking for a cost-effective pathway toward becoming a doctor, Kyrgyzstan has become a highly explored option."
+                }
+            ]
+        },
+        {
+            "heading": "<h2>Why Students Are Choosing Kyrgyzstan More Than Before</h2>",
+            "subcontent": [
+                {
+                    "para": "Students and parents today are looking for countries that offer quality education without extremely high tuition fees. Kyrgyzstan has become popular because it provides a balanced combination of affordability and medical education quality."
+                },
+                {
+                    "subheading": "Reasons Students Prefer Kyrgyzstan",
+                    "list": [
+                        "Affordable tuition fees",
+                        "English-medium MBBS programs",
+                        "NMC & WHO recognized universities",
+                        "Low living expenses",
+                        "Simple admission procedure",
+                        "Good student-teacher ratio",
+                        "Practical hospital exposure",
+                        "Comfortable hostel facilities",
+                        "Large Indian student community"
+                    ]
+                },
+                {
+                    "para": "Students also prefer Kyrgyzstan because the overall academic process is comparatively smooth and student-friendly."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Quick Overview of MBBS in Kyrgyzstan</h3>",
+            "subcontent": [
+                {
+                    "table": {
+                        "theading": ["Particulars", "Details"],
+                        "rows": [
+                            {
+                                "colum": ["Course Duration", "6 Years"]
+                            },
+                            {
+                                "colum": ["Medium of Teaching", "English"]
+                            },
+                            {
+                                "colum": ["Eligibility", "PCB + NEET Qualification"]
+                            },
+                            {
+                                "colum": ["Average Tuition Fees", "₹15 – ₹30 Lakhs"]
+                            },
+                            {
+                                "colum": ["Recognition", "NMC, WHO"]
+                            },
+                            {
+                                "colum": ["Intake", "September/October"]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "heading": "<h3>What Students Usually Like About the Academic Environment</h3>",
+            "subcontent": [
+                {
+                    "para": "Medical universities in Kyrgyzstan focus on building strong medical concepts and practical healthcare understanding."
+                },
+                {
+                    "subheading": "Students Commonly Experience",
+                    "list": [
+                        "Interactive classroom sessions",
+                        "Laboratory-based learning",
+                        "Clinical hospital training",
+                        "Anatomy practicals",
+                        "Research-based assignments",
+                        "Medical workshops and seminars"
+                    ]
+                },
+                {
+                    "para": "The academic environment is designed to support both theoretical and practical development."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Student Life in Kyrgyzstan: What to Expect</h3>",
+            "subcontent": [
+                {
+                    "para": "Kyrgyzstan offers a peaceful and student-friendly atmosphere. Cities with medical universities are generally affordable and comfortable for international students."
+                },
+                {
+                    "subheading": "Student Lifestyle Highlights",
+                    "list": [
+                        "Affordable transportation",
+                        "Hostel facilities near campuses",
+                        "Indian food availability",
+                        "Multicultural student communities",
+                        "Safe accommodation systems",
+                        "Student support services"
+                    ]
+                },
+                {
+                    "para": "Students usually find it easier to manage daily expenses and academic life simultaneously."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Indian Students Rarely Feel Isolated Here</h3>",
+            "subcontent": [
+                {
+                    "para": "One major reason Indian students select Kyrgyzstan is that thousands of Indian students are already studying there."
+                },
+                {
+                    "subheading": "Why Students Feel Comfortable",
+                    "list": [
+                        "Indian mess facilities in hostels",
+                        "Indian festivals celebrated by student communities",
+                        "Easy access to Indian groceries",
+                        "English-speaking academic environment",
+                        "Friendly local atmosphere"
+                    ]
+                },
+                {
+                    "para": "This helps new students settle more comfortably in a foreign country."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Practical Training & Hospital Exposure</h3>",
+            "subcontent": [
+                {
+                    "para": "Medical universities in Kyrgyzstan focus on practical healthcare learning and patient interaction throughout the course."
+                },
+                {
+                    "subheading": "Practical Learning Includes",
+                    "list": [
+                        "Clinical rotations",
+                        "Patient case discussions",
+                        "Hospital observation sessions",
+                        "Laboratory practical training",
+                        "Emergency healthcare exposure"
+                    ]
+                },
+                {
+                    "para": "Students gradually gain medical confidence through hands-on healthcare experience."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Top Medical Universities in Kyrgyzstan</h3>",
+            "subcontent": [
+                {
+                    "subheading": "Osh State University",
+                    "para": "Popular among international students because of affordable fees and good clinical exposure."
+                },
+                {
+                    "subheading": "Jalal-Abad State University",
+                    "para": "Known for budget-friendly medical education and student-friendly campus facilities."
+                },
+                {
+                    "subheading": "International School of Medicine (ISM)",
+                    "para": "Recognized for modern infrastructure and international student programs."
+                },
+                {
+                    "subheading": "Kyrgyz State Medical Academy",
+                    "para": "One of the oldest and most recognized medical institutions in Kyrgyzstan."
+                },
+                {
+                    "subheading": "Asian Medical Institute",
+                    "para": "Preferred by many Indian students for affordable tuition and English-medium education."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Cost of Studying & Living in Kyrgyzstan</h3>",
+            "subcontent": [
+                {
+                    "para": "Kyrgyzstan is considered one of the most affordable destinations for medical education abroad."
+                },
+                {
+                    "table": {
+                        "theading": ["Expense Type", "Approximate Cost"],
+                        "rows": [
+                            {
+                                "colum": ["Tuition Fees", "₹15 – ₹30 Lakhs"]
+                            },
+                            {
+                                "colum": ["Hostel & Accommodation", "₹8,000 – ₹15,000/month"]
+                            },
+                            {
+                                "colum": ["Food & Daily Expenses", "₹6,000 – ₹12,000/month"]
+                            },
+                            {
+                                "colum": ["Transportation", "₹1,500 – ₹3,000/month"]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "para": "The affordable cost structure makes it accessible for many middle-income families."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Eligibility Criteria for Admission</h3>",
+            "subcontent": [
+                {
+                    "para": "Students applying for admission should fulfill the following conditions:",
+                    "list": [
+                        "Minimum age of 17 years",
+                        "10+2 with Physics, Chemistry, and Biology",
+                        "Minimum required marks in PCB subjects",
+                        "NEET qualification mandatory",
+                        "Valid academic documents and a passport"
+                    ]
+                },
+                {
+                    "para": "Eligibility requirements may vary depending on the university."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Admission Process for MBBS in Kyrgyzstan</h3>",
+            "subcontent": [
+                {
+                    "subheading": "Step 1 – University Selection",
+                    "para": "Students shortlist universities based on fees, recognition, and facilities."
+                },
+                {
+                    "subheading": "Step 2 – Document Submission",
+                    "para": "Academic documents and NEET scorecards are submitted online."
+                },
+                {
+                    "subheading": "Step 3 – Admission Confirmation",
+                    "para": "Universities issue admission letters after eligibility verification."
+                },
+                {
+                    "subheading": "Step 4 – Visa Processing",
+                    "para": "Students apply for student visas and prepare financial documents."
+                },
+                {
+                    "subheading": "Step 5 – Travel & Hostel Arrangements",
+                    "para": "Accommodation booking and travel planning are completed before departure."
+                },
+                {
+                    "para": "The admission process is comparatively simple and less complicated for international students."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Documents Required for Admission</h3>",
+            "subcontent": [
+                {
+                    "para": "Students generally need the following documents:",
+                    "list": [
+                        "10th & 12th Mark Sheets",
+                        "NEET Scorecard",
+                        "Passport",
+                        "Birth Certificate",
+                        "Passport-size Photographs",
+                        "Medical Fitness Certificate",
+                        "Admission Letter",
+                        "Visa Documents"
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "<h3>MBBS in Kyrgyzstan vs MBBS in India</h3>",
+            "subcontent": [
+                {
+                    "table": {
+                        "theading": ["Factors", "Kyrgyzstan", "India"],
+                        "rows": [
+                            {
+                                "colum": ["Tuition Fees", "Affordable", "High in private colleges"]
+                            },
+                            {
+                                "colum": ["Competition Level", "Moderate", "Extremely High"]
+                            },
+                            {
+                                "colum": ["Student Exposure", "International environment", "Mostly domestic"]
+                            },
+                            {
+                                "colum": ["Living Expenses", "Lower", "Higher in metro cities"]
+                            },
+                            {
+                                "colum": ["Admission Process", "Simple", "Highly competitive"]
+                            },
+                            {
+                                "colum": ["Infrastructure", "Good in major universities", "Depends on the institution"]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "para": "Kyrgyzstan is often selected by students searching for affordable international medical education opportunities."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Career Opportunities After Graduation</h3>",
+            "subcontent": [
+                {
+                    "para": "Graduates from medical universities in Kyrgyzstan can pursue careers in multiple countries after clearing licensing examinations."
+                },
+                {
+                    "subheading": "Career Options Include",
+                    "list": [
+                        "FMGE/NExT for India",
+                        "USMLE for USA",
+                        "PLAB for UK",
+                        "MD/MS specializations",
+                        "Hospital and clinical practice",
+                        "Public healthcare & research sectors"
+                    ]
+                },
+                {
+                    "para": "Students also pursue postgraduate medical education and international healthcare opportunities after graduation."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Safety & Student Support in Kyrgyzstan</h3>",
+            "subcontent": [
+                {
+                    "para": "Medical universities in Kyrgyzstan provide support services for international students, including hostel security, academic guidance, and emergency assistance."
+                },
+                {
+                    "para": "Most universities also have dedicated international departments that help students with accommodation, documentation, and campus-related support."
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "que": "Q1. Why is Kyrgyzstan considered affordable for MBBS abroad?",
+            "ans": "Kyrgyzstan offers comparatively lower tuition fees and living expenses than many other countries. Students can access recognized medical universities, hostel facilities, and English-medium education without spending extremely high amounts on overall education costs."
+        },
+        {
+            "que": "Q2. Is Kyrgyzstan suitable for Indian students?",
+            "ans": "Yes, Kyrgyzstan has become highly popular among Indian students because of affordable education, Indian food availability, student communities, and a comfortable academic environment. Many universities also provide an Indian hostel mess and student support facilities."
+        },
+        {
+            "que": "Q3. Do students receive practical clinical training during the course?",
+            "ans": "Medical universities in Kyrgyzstan provide practical exposure through hospital training, patient interaction, laboratory practicals, and clinical rotations. This helps students improve practical healthcare understanding throughout the medical program."
+        },
+        {
+            "que": "Q4. Can students practice in India after completing MBBS in Kyrgyzstan?",
+            "ans": "Students graduating from recognized universities in Kyrgyzstan can appear for FMGE/NExT examinations to continue their medical careers in India. Graduates can also explore international licensing examinations and postgraduate opportunities abroad."
+        }
+    ]
+},
+
+{
+    "img": rus,
+    "title": "MBBS in Russia",
+    "metatitle": "Study MBBS in Russia | Fees & Top Universities",
+    "metakey": "MBBS in Russia",
+    "metadesc": "Explore MBBS in Russia with affordable fees, NMC-approved universities, modern medical education, and global career opportunities.",
+    "content": [
+        {
+            "subcontent": [
+                {
+                    "para": "Russia has remained one of the leading destinations for international medical education for decades. Thousands of Indian students choose Russian medical universities every year because of affordable tuition fees, globally recognized degrees, and advanced educational infrastructure. The country is home to several prestigious government medical universities that provide high-quality education along with strong practical exposure."
+                },
+                {
+                    "para": "Medical universities in Russia focus on research-based learning, modern clinical training, and international academic standards. Students also benefit from multicultural exposure and globally accepted medical degrees."
+                }
+            ]
+        },
+        {
+            "heading": "<h2>Why Choose Russia for Medical Studies?</h2>",
+            "subcontent": [
+                {
+                    "para": "Russia offers a balanced combination of quality education, affordable expenses, and international recognition. The universities are equipped with advanced laboratories, digital classrooms, and highly experienced faculty members."
+                },
+                {
+                    "subheading": "Key Highlights",
+                    "list": [
+                        "NMC and WHO-recognized universities",
+                        "Affordable tuition fees compared to private Indian colleges",
+                        "Globally accepted medical degrees",
+                        "Modern hospitals and practical learning exposure",
+                        "English-medium MBBS programs available",
+                        "Advanced research and medical technology",
+                        "Safe campuses with hostel facilities",
+                        "Opportunity to study with international students",
+                        "High FMGE coaching support in many universities"
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "<h2>Quick Facts About Medical Education in Russia</h2>",
+            "subcontent": [
+                {
+                    "table": {
+                        "theading": ["Particulars", "Details"],
+                        "rows": [
+                            {
+                                "colum": ["Course Duration", "6 Years"]
+                            },
+                            {
+                                "colum": ["Medium of Teaching", "English"]
+                            },
+                            {
+                                "colum": ["Eligibility", "50% in PCB + NEET"]
+                            },
+                            {
+                                "colum": ["Average Fees", "₹18–₹40 Lakhs"]
+                            },
+                            {
+                                "colum": ["Recognition", "NMC, WHO, ECFMG, FAIMER"]
+                            },
+                            {
+                                "colum": ["Intake", "September"]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Top Medical Universities in Russia</h3>",
+            "subcontent": [
+                {
+                    "table": {
+                        "theading": ["University Name", "Established", "Location", "Approx Fees"],
+                        "rows": [
+                            {
+                                "colum": ["Kazan Federal University", "1804", "Kazan", "₹30 – ₹35 Lakhs"]
+                            },
+                            {
+                                "colum": ["Bashkir State Medical University", "1932", "Ufa", "₹22 – ₹28 Lakhs"]
+                            },
+                            {
+                                "colum": ["Crimea Federal University", "1918", "Simferopol", "₹20 – ₹25 Lakhs"]
+                            },
+                            {
+                                "colum": ["Orenburg State Medical University", "1944", "Orenburg", "₹22 – ₹30 Lakhs"]
+                            },
+                            {
+                                "colum": ["Perm State Medical University", "1916", "Perm", "₹28 – ₹35 Lakhs"]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Advantages for Indian Students</h3>",
+            "subcontent": [
+                {
+                    "para": "Indian students prefer Russia because of its affordable education system and simplified admission process. Universities provide Indian food facilities, separate hostel arrangements, and support services for international students."
+                },
+                {
+                    "subheading": "Student Benefits",
+                    "list": [
+                        "Low cost of living",
+                        "Indian mess available in most universities",
+                        "Comfortable hostel accommodation",
+                        "Direct admission without donation",
+                        "Strong Indian student communities",
+                        "Internationally recognized curriculum"
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Eligibility Requirements</h3>",
+            "subcontent": [
+                {
+                    "para": "Students applying for admission must fulfill the following conditions:",
+                    "list": [
+                        "Completed 10+2 with Physics, Chemistry, and Biology",
+                        "Minimum 50% marks in PCB",
+                        "Qualified NEET examination",
+                        "Minimum age should be 17 years"
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Admission Process</h3>",
+            "subcontent": [
+                {
+                    "subheading": "Step 1 – University Selection",
+                    "para": "Choose the medical university based on ranking, budget, location, and academic facilities."
+                },
+                {
+                    "subheading": "Step 2 – Application Submission",
+                    "para": "Fill out the admission form and submit documents such as passport copies, mark sheets, and NEET scorecards."
+                },
+                {
+                    "subheading": "Step 3 – Admission Letter",
+                    "para": "After document verification, students receive the official admission letter from the university."
+                },
+                {
+                    "subheading": "Step 4 – Visa Invitation",
+                    "para": "Universities issue visa invitation documents required for student visa applications."
+                },
+                {
+                    "subheading": "Step 5 – Visa Processing",
+                    "para": "Apply for the Russian student visa through the embassy with all required documents."
+                },
+                {
+                    "subheading": "Step 6 – Departure",
+                    "para": "Book flight tickets and complete hostel arrangements before traveling to Russia."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Documents Required</h3>",
+            "subcontent": [
+                {
+                    "list": [
+                        "10th & 12th Mark Sheets",
+                        "NEET Scorecard",
+                        "Passport",
+                        "Passport-size Photographs",
+                        "Birth Certificate",
+                        "Medical Fitness Certificate",
+                        "Admission Letter",
+                        "Visa Documents"
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Hostel & Student Life in Russia</h3>",
+            "subcontent": [
+                {
+                    "para": "Russian universities provide modern hostel facilities with all essential amenities for international students."
+                },
+                {
+                    "subheading": "Facilities Available",
+                    "list": [
+                        "Fully furnished hostel rooms",
+                        "Central heating systems",
+                        "Wi-Fi and study rooms",
+                        "Indian food availability",
+                        "Sports and recreational facilities",
+                        "24/7 security and CCTV monitoring"
+                    ]
+                },
+                {
+                    "para": "Students also enjoy cultural festivals, university events, and exposure to students from different countries."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Career Opportunities After Graduation</h3>",
+            "subcontent": [
+                {
+                    "para": "Graduates from Russian medical universities can pursue careers across multiple countries after qualifying required licensing exams."
+                },
+                {
+                    "subheading": "Career Pathways",
+                    "list": [
+                        "Practice in India after FMGE/NExT",
+                        "Apply for USMLE in the USA",
+                        "Prepare for PLAB in the UK",
+                        "Pursue postgraduate medical studies",
+                        "Work in hospitals and healthcare organizations",
+                        "Enter medical research and academics"
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Climate in Russia</h3>",
+            "subcontent": [
+                {
+                    "para": "Russia experiences cold winters and mild summers. Most universities are equipped with centralized heating systems, making hostel and classroom environments comfortable for international students throughout the year."
+                }
+            ]
+        },
+        {
+            "heading": "<h3>Interesting Facts About Russia</h3>",
+            "subcontent": [
+                {
+                    "para": "Russia is the world’s largest country by land area and is known for its rich scientific and medical advancements. The country has a strong educational heritage and is home to several globally ranked universities. Cities like Moscow, Kazan, and Saint Petersburg attract thousands of international students annually."
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "que": "Q1. Do Russian universities provide FMGE coaching support to Indian students?",
+            "ans": "Yes, many Russian medical universities offer additional FMGE/NExT preparation support for Indian students through special classes, mock tests, and guidance programs. This helps students prepare for licensing examinations alongside their regular medical studies and improves their understanding of the Indian medical examination pattern."
+        },
+        {
+            "que": "Q2. Is learning the Russian language necessary during the course?",
+            "ans": "Although the MBBS program is available in English, students are usually taught basic Russian language skills during the initial years. Learning Russian helps students communicate effectively with local patients during hospital training and clinical practice, making practical learning smoother and more effective."
+        },
+        {
+            "que": "Q3. Are medical universities in Russia government-funded?",
+            "ans": "Most top medical universities in Russia are government-funded institutions with strong academic infrastructure and experienced faculty. These universities maintain high educational standards and provide globally recognized medical degrees accepted by major international medical councils and healthcare organizations worldwide."
+        },
+        {
+            "que": "Q4. Can Indian students work part-time while studying in Russia?",
+            "ans": "International students may work part-time in Russia according to university and visa regulations. However, students are generally advised to focus primarily on academics because medical education requires regular practical training, classroom attendance, and clinical exposure throughout the course duration."
+        }
+    ]
+}
+]

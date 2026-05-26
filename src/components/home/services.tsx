@@ -48,6 +48,7 @@ export default function ServiceSlider() {
               nextEl: `.${uniqueId}-next`,
               prevEl: `.${uniqueId}-prev`,
             }}          autoplay={{ delay: 5000, disableOnInteraction: false }}
+            loop={true}
           spaceBetween={20}
           breakpoints={{
             0:    { slidesPerView: 1 },
@@ -55,7 +56,7 @@ export default function ServiceSlider() {
             1024: { slidesPerView: 3, spaceBetween: 20},
           }}
         >
-          {data?.service?.map((service, index) => (
+          {data?.services?.map((service, index) => (
             <SwiperSlide key={index} >
            <div className="group block h-full ">
   <Link href={service?.title || "#"} className="block h-full">
@@ -87,11 +88,14 @@ export default function ServiceSlider() {
 
         {/* Description */}
         <p className="text-gray-600 leading-relaxed mb-6 flex-1 text-sm line-clamp-3">
-          {service?.text}
+          {service?.text.slice(0, 30)}
         </p>
 
         {/* Full Width Premium Button */}
-        <div className="w-full mt-auto pt-2">
+        <Link href={`/services/${service?.title.trim()
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "")}`} className="w-full mt-auto pt-2">
           <div className="group/btn relative w-full inline-flex items-center justify-between gap-3 text-sm  font-bold tracking-[0.12em] text-white transition-all bg-gradient-to-r from-color4 to-color5 duration-300  rounded-xl px-5 py-2 overflow-hidden">
             {/* Hover Background */}
             <span className="absolute inset-0 bg-zinc-900 transform -translate-x-full group-hover/btn:translate-x-0 transition-transform duration-500" />
@@ -102,7 +106,7 @@ export default function ServiceSlider() {
               <FiArrowRight className="text-sm group-hover/btn:translate-x-0.5 transition-transform duration-300" />
             </span>
           </div>
-        </div>
+        </Link>
       </div>
     </div>
   </Link>

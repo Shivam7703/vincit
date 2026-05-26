@@ -86,9 +86,12 @@ export default function Countryslider({data, uniqueId}:any) {
       </p>
 
       {/* Get Details Button */}
-      <div className="inline-block w-full">
+      <Link href={`/mbbs-abroad/${card?.link.trim()
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "")}`} className="inline-block w-full">
         <div className="group/btn inline-flex items-center justify-center gap-2 w-full bg-color2 hover:bg-color4 text-white font-semibold text-sm px-4 py-2.5 rounded-lg transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-0.5">
-          <span>Get Details</span>
+          <span>Know More</span>
           <svg 
             className="w-4 h-4 transition-transform duration-300 group-hover/btn:translate-x-1" 
             fill="none" 
@@ -98,7 +101,7 @@ export default function Countryslider({data, uniqueId}:any) {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
           </svg>
         </div>
-      </div>
+      </Link>
     </div>
   </Link>
 </div>

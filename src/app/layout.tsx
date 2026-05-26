@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-// Suppress TypeScript error for side-effect CSS import when no declaration file is present
-// @ts-ignore
+// @ts-ignore: side-effect CSS import
 import "./globals.css";
 import Header from "@/components/header/Header";
 import Footer from "@/components/Footer";

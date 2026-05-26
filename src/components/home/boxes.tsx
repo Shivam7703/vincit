@@ -30,7 +30,7 @@ export default function Homeboxes() {
             className={`
               ${box.bg}
               relative overflow-hidden
-              flex flex-col gap-5 sm:p-7 
+              flex flex-col gap-5 p-5  sm:p-7 
               group
               transition-transform duration-300 ease-out
               hover:-translate-y-1

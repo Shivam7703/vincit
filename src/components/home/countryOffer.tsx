@@ -14,8 +14,7 @@ export const data = {
       img: rus,
       flag: rusflg,
       heading: "Russia",
-      text: "Globally trusted universities with affordable tuition and strong clinical exposure.",
-      link: "/canada-pnp",
+      link: "MBBS in Russia",
     },
     {
       id: 2,
@@ -23,7 +22,7 @@ export const data = {
       flag: georflg,
       heading: "Georgia",
       text: "European-standard education with modern campuses and English-medium programs.",
-      link: "/canada-pnp",
+      link: "MBBS in Georgia",
     },
     {
       id: 3,
@@ -31,7 +30,7 @@ export const data = {
       flag: kazakflg,
       heading: "Kazakhstan",
       text: "High-quality medical education with budget-friendly fee structures.",
-      link: "/canada-pnp",
+      link: "MBBS in Kazakhstan",
     },
     {
       id: 4,
@@ -39,23 +38,16 @@ export const data = {
       flag: uzbeflg,
       heading: "Uzbekistan",
       text: "Rapidly growing MBBS destination with globally recognized universities.",
-      link: "/canada-pnp",
+      link: "MBBS in Uzbekistan",
     },
-    {
-      id: 5,
-      img: phil,
-      flag: philflg,
-      heading: "Philippines",
-      text: "US-based medical curriculum with a strong English-speaking environment.",
-      link: "/canada-pnp",
-    },
+    
     {
       id: 6,
       img: kyrg,
       flag: kyrgflg,
       heading: "Kyrgyzstan",
       text: "Affordable medical programs ideal for students seeking quality education within budget.",
-      link: "/canada-pnp",
+      link: "MBBS in Kyrgyzstan",
     },
   ],
 };

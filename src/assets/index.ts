@@ -30,6 +30,8 @@ import p12 from "@/assets/home/logo12.png";
 import admission from "@/assets/home/admission.jpg";
 import uni from "@/assets/home/uni.jpg";
 import visa from "@/assets/home/visa.jpg";
+import cou from "@/assets/home/country.jpg";
+import inter from "@/assets/home/interv.jpg";
 
 
 import cl1 from "@/assets/home/cl-1.jpg";
@@ -51,9 +53,15 @@ import rusflg from "@/assets/home/russia.png";
 import rus from "@/assets/home/russia-img.jpg";
 import uzbeflg from "@/assets/home/Uzbekistan.png";
 import uzbe from "@/assets/home/Uzbekistan-img.jpg";
+import malay from "@/assets/home/malaysia.jpg";
+import ger from "@/assets/home/germany.jpg";
+import poland from "@/assets/home/poland.jpg";
+import china from "@/assets/home/china.jpg";
+import arm from "@/assets/home/armenia.jpg";
+import bel from "@/assets/home/bela.jpg";
 
 export {
-     banner, banner2, banner3, cl1, cl2,cl3,cl4,logo2, logo ,about, world, about2, choose, choose2, choose3, admission, uni, visa, georflg, geor, kazakflg, kazak, kyrgflg, kyrg, philflg, phil, rusflg, rus, uzbeflg, uzbe, contact,
+     banner, banner2, banner3, cl1, cl2,cl3,cl4,logo2, logo ,about, world, about2, choose, choose2, choose3, admission, uni, visa, cou,inter, georflg, geor, kazakflg, kazak, kyrgflg, kyrg, philflg, phil, rusflg, rus, uzbeflg, uzbe, contact, malay, ger, poland, china, arm, bel,
      // civil
   
   // partner

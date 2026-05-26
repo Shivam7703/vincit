@@ -43,7 +43,7 @@ export default function WorkProcess() {
 
       <div className="absolute top-10 -left-10 bg-color4/10 rotate-45 h-[500px] w-56" />
       {/* <div className="absolute top-10 -left-10 bg-color4/10 rotate-45 h-[500px] w-56"/> */}
-      <div className="absolute -bottom-20 -right-10 bg-color4 -rotate-45 h-[500px] w-56" />
+      <div className="absolute -bottom-20 -right-10 bg-color4/70 -rotate-45 h-[500px] w-56" />
 
       <div className="max-w-7xl mx-auto">
 

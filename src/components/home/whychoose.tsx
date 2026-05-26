@@ -66,7 +66,7 @@ export default function WhyChoose({data}:any) {
               >
                 
                 {/* Icon circle with gradient and animation */}
-                <div className={`flex-shrink-0 w-14 h-14 rounded-xl bg-gradient-to-br ${f.color} flex items-center justify-center text-white text-2xl shadow-lg group-hover:scale-110 group-hover:rotate-6 transition-all duration-300`}>
+                <div className={`flex-shrink-0 w-14 h-14 rounded-xl bg-gradient-to-r from-color4 to-color5 flex items-center justify-center text-white text-2xl shadow-lg group-hover:scale-110 group-hover:rotate-6 transition-all duration-300`}>
                   {f.icon}
                 </div>
                 

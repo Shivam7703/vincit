@@ -26,26 +26,25 @@ export default function Blogs({ isHome }: BlogsProps) {
   const displayBlogs = isHome ? data?.blog?.slice(0, 4) : data?.blog;
 
   return (
-    <section className={`w-full bg-slate-50 text-slate-900 py-16 px-6 md:px-16 lg:px-20 xl:px-28`}>
+    <section className="w-full bg-slate-50 text-slate-900 py-16 px-6 md:px-16 lg:px-20 xl:px-28">
       
       {/* ── HEADER ── */}
       {isHome ? (
-        <div className=" mb-12 md:mb-16 text-left">
+        <div className="mb-12 md:mb-16 text-left">
           {data?.title1 && (
             <p className="text-xs font-semibold tracking-[0.2em] uppercase text-color2 mb-3">
               {data.title1}
             </p>
           )}
-          <div className="flex justify-between w-full gap-4">
-          <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-zinc-900">
-            {data.title2}
-          </h2>
-
-          {isHome && <Buttonmain href={"/blogs"} text1={"Read More"} />}
+          <div className="flex justify-between items-center w-full gap-4">
+            <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-zinc-900">
+              {data.title2}
+            </h2>
+            <Buttonmain href="/blogs" text1="Read More" />
           </div>
         </div>
-      ):(
-        <div className=" mb-12 md:mb-16 text-center">
+      ) : (
+        <div className="mb-12 md:mb-16 text-center">
           {data?.title1 && (
             <p className="text-xs font-semibold tracking-[0.2em] uppercase text-color2 mb-3">
               {data.title1}
@@ -58,7 +57,7 @@ export default function Blogs({ isHome }: BlogsProps) {
       )}
 
       {/* ── GRID ── */}
-      <div className={`grid gap-8 sm:grid-cols-2 max-w-[1450px] mx-auto ${isHome ? "lg:grid-cols-4" : "lg:grid-cols-3 "}`}>
+      <div className={`grid gap-8 sm:grid-cols-2 max-w-[1450px] mx-auto ${isHome ? "lg:grid-cols-4" : "lg:grid-cols-3"}`}>
         {displayBlogs?.map((blog: BlogItem, index: number) => {
           const blogLink = `/blogs/${getSlug(blog.heading)}`;
 
@@ -74,8 +73,8 @@ export default function Blogs({ isHome }: BlogsProps) {
                     src={banner3}
                     alt={blog.heading}
                     fill
-                    sizes="(max-w-640px) 100vw, (max-w-1024px) 50vw, 25vw"
-                    className="object-cover group-hover:scale-102 transition-transform duration-500"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   
                   {/* Minimal Badges */}

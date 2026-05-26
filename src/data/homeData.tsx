@@ -6,10 +6,13 @@ import {
    visa,
    about,
    about2,
+   cou,
+   inter,
   
 } from "@/assets";
 import { BsPeopleFill } from "react-icons/bs";
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaGlobeAmericas, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { GiConversation } from "react-icons/gi";
 
 import { GrVisa } from "react-icons/gr";
 import { LiaPassportSolid } from "react-icons/lia";
@@ -27,32 +30,32 @@ export const navItemsArray = [
   {
     id: 3,
     label: "Our Services",
-    href: "/our-services",
+    href: "/services",
     subNav: [
       {
         id: 1,
         label: "University & Course Selection",
-        href: "/our-services/university-and-course-selection",
+        href: "/services/university-course-selection",
       },
       {
         id: 2,
         label: "Country Selection",
-        href: "/our-services/country-selection",
+        href: "/services/country-selection",
       },
       {
         id: 3,
         label: "Selection & Profile Applications",
-        href: "/our-services/selection-and-profile-applications",
+        href: "/services/selection-profile-applications",
       },
       {
         id: 4,
         label: "Interview Preparation",
-        href: "/our-services/interview-preparation",
+        href: "/services/interview-preparation",
       },
       {
         id: 5,
         label: "Visa Assistance",
-        href: "/our-services/visa-assistance",
+        href: "/services/visa-assistance",
       },
     ],
   },
@@ -115,7 +118,7 @@ export const navItemsArray = [
       {
         id: 2,
         label: "Terms & Conditions",
-        href: "/terms-and-conditions",
+        href: "/terms-conditions",
       },
       {
         id: 3,
@@ -210,32 +213,78 @@ export const Servicedata = {
   title1: "OUR SERVICES",
   title2: "Complete Support For Your MBBS Abroad Journey",
   para: "Helping students with counseling, university admissions, visa process, and every important step towards studying medicine abroad successfully.",
-  service: [
-    {
-      title: "Career Counseling & Guidance",
-      text: "Get proper counseling and personalized support to choose the right country, university, and medical career path based on your future goals.",
-      img: uni,  // आपके original structure के अनुसार यहाँ variable है, आप इसे अपनी actual image file se replace कर सकते हैं
-      icon: <RiCommunityFill />,
-    },
-    {
-      title: "Admissions In Recognized Universities",
-      text: "We help students secure admission in trusted and globally recognized medical universities with complete application and documentation support.",
-      img: admission,
-      icon: <MdOutlineStickyNote2 />,
-    },
-    {
-      title: "Visa Assistance & Travel Support",
-      text: "From visa processing to travel planning, we assist students throughout the entire relocation process for a smooth transition abroad.",
-      img: visa,
-      icon: <GrVisa />,
-    },
-    {
-      title: "FMGE / NExT / USMLE / PLAB Preparation",
-      text: "Get guidance for major medical licensing exams with proper academic support to help students prepare for future medical careers globally.",
-      img: uni,  
-      icon: <RiCommunityFill />, // 
-    },
-  ],
+  services: [
+  {
+    title: "University & Course Selection",
+    text: "Vincit Edupath helps students choose the right medical university based on their academic profile, budget, career goals, and preferred destination. We guide students through trusted university options across multiple countries to help them make informed decisions for their future.",
+    img: uni,
+    icon: <RiCommunityFill />,
+    features: [
+      "Guidance based on budget and career goals",
+      "Support in selecting recognized universities",
+      "Information about fees, facilities, and curriculum",
+      "Assistance with shortlisting suitable options",
+      "Student-focused counseling and admission support",
+      "Universities with global recognition and practical exposure"
+    ]
+  },
+  {
+    title: "Country Selection",
+    text: "Selecting the right country for MBBS abroad can directly impact a student’s education, lifestyle, and future career opportunities. Vincit Edupath helps students understand different study destinations based on affordability, education standards, safety, climate, and overall student experience.",
+    img: cou,
+    icon: <FaGlobeAmericas />,
+    features: [
+      "Compare tuition fees and living expenses",
+      "Understand student lifestyle and safety factors",
+      "Learn about career opportunities after graduation",
+      "Get guidance based on budget and preferences",
+      "Know admission requirements and eligibility criteria",
+      "Choose destinations with recognized medical education"
+    ]
+  },
+  {
+    title: "Selection & Profile Applications",
+    text: "A well-prepared student profile is one of the most important parts of the MBBS abroad admission process. At Vincit Edupath, we help students build strong applications by organizing their academic records, personal details, and required documents carefully according to university requirements.",
+    img: admission,
+    icon: <MdOutlineStickyNote2 />,
+    features: [
+      "Assistance with profile evaluation and application planning",
+      "Proper support for the admission documentation process",
+      "Guidance for accurate form filling and submissions",
+      "Personalized application support for different universities",
+      "Timely updates regarding application deadlines",
+      "Help in preparing organized academic records and documents"
+    ]
+  },
+  {
+    title: "Interview Preparation",
+    text: "Many international medical universities conduct student interviews as part of their admission process. These interviews help universities understand a student’s academic interest, communication ability, and future goals. Vincit Edupath helps students prepare confidently for these interactions through proper guidance and preparation support.",
+    img: inter,
+    icon: <GiConversation />,
+    features: [
+      "Guidance for university interview rounds",
+      "Mock interview sessions for better preparation",
+      "Tips to improve confidence and communication",
+      "Understanding commonly asked interview questions",
+      "Support for professional student presentation",
+      "Preparation guidance based on university requirements"
+    ]
+  },
+  {
+    title: "Visa Assistance",
+    text: "The visa process is one of the most important steps for students planning to study MBBS abroad. Many students and parents face confusion regarding documentation, application procedures, and embassy requirements. Vincit Edupath provides complete visa assistance to make the process easier and more organized.",
+    img: visa,
+    icon: <GrVisa />,
+    features: [
+      "Complete guidance for student visa applications",
+      "Support with visa documentation and formalities",
+      "Assistance with the application preparation process",
+      "Updates about embassy procedures and requirements",
+      "Help in reducing common visa application errors",
+      "Continuous support until visa approval and travel preparation"
+    ]
+  }
+]
 };
 
 export const Homechoose = {
@@ -247,19 +296,17 @@ para:"Vincit Edupath supports students with proper guidance, trusted university 
     icon: <BsPeopleFill />,
     title: "Trusted Guidance At Every Step",
     text: "We provide clear information, honest counseling, and simple admission support to help students feel confident throughout the process.",
-    color: "from-blue-500 to-cyan-500",
   },
   {
     icon: <MdOutlineFactCheck />,
     title: "Helping Students Choose Better Opportunities",
     text: "Our team helps students find suitable universities, affordable options, and the right path for their medical career goals.",
-    color: "from-green-500 to-emerald-500",
+   
   },
   {
     icon: <LiaPassportSolid />,
     title: "Complete Support Beyond Admissions",
     text: "From documentation and visa assistance to travel planning and student support, we guide students throughout their journey abroad.",
-    color: "from-purple-500 to-pink-500",
   },
 ]
 
@@ -311,27 +358,27 @@ links:[
       {
         id: 1,
         label: "University & Course Selection",
-        href: "/our-services/university-and-course-selection",
+        href: "/services/university-course-selection",
       },
       {
         id: 2,
         label: "Country Selection",
-        href: "/our-services/country-selection",
+        href: "/services/country-selection",
       },
       {
         id: 3,
         label: "Selection & Profile Applications",
-        href: "/our-services/selection-and-profile-applications",
+        href: "/services/selection-profile-applications",
       },
       {
         id: 4,
         label: "Interview Preparation",
-        href: "/our-services/interview-preparation",
+        href: "/services/interview-preparation",
       },
       {
         id: 5,
         label: "Visa Assistance",
-        href: "/our-services/visa-assistance",
+        href: "/services/visa-assistance",
       },
   {
     id: 6,
@@ -391,7 +438,7 @@ links:[
       {
         id: 7,
         label: "Terms & Conditions",
-        href: "/terms-and-conditions",
+        href: "/terms-conditions",
       },
       {
         id: 8,

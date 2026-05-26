@@ -4,9 +4,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectFade } from "swiper/modules";
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/pagination";
+// import "swiper/css/pagination";
+// navigation CSS import removed: avoid "Cannot find module or type declarations" TS error for side-effect import
 import "swiper/css/navigation";
-import "swiper/css/effect-fade";
+// import "swiper/css/effect-fade";
 import { motion } from "framer-motion";
 import React, { useState } from "react";
 import Link from "next/link";
