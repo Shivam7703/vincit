@@ -63,7 +63,7 @@ export const navItemsArray = [
   {
     id: 4,
     label: "MBBS Abroad",
-    href: "/mbbs-abroad",
+    href: "#",
     subNav: [
       {
         id: 1,
