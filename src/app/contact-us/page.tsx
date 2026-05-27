@@ -6,7 +6,7 @@ import React from 'react'
 function page() {
   return (
     <div>
-            <Banner title="Contact Us" para="Learn more about our company and mission. lorem ipsum dolor sit amet, consectetur adipiscing elit. " slug="Contact Us" />
+            <Banner title="Contact Us" para="Vincit Edupath provides trusted guidance, transparent admission support, and reliable study abroad solutions focused on helping students build successful medical careers overseas."  slug="Contact Us" />
            <Choosecontact/>
             <Contactform />
       

@@ -10,7 +10,7 @@ import React from 'react'
 function page() {
   return (
     <div>
-      <Banner title="About Us" para="Learn more about our company and mission. lorem ipsum dolor sit amet, consectetur adipiscing elit. " slug="About Us" />
+      <Banner title="About Us" para="We believe in transparency, student-focused guidance, professional ethics, and continuous support to help students and parents make confident decisions for their future."  slug="About Us" />
             <AboutSection data={Homeabout}/>
             <MVVCards/>
             <Count2 />
