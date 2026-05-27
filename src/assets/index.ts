@@ -9,6 +9,7 @@ import choose from "@/assets/home/choose.jpg";
 import choose2 from "@/assets/home/choose2.jpg";
 import choose3 from "@/assets/home/choose3.jpg";
 import contact from "@/assets/home/contact.jpg";
+import career from "@/assets/home/career.jpg";
 
 import world from "@/assets/home/world.jpg";
 
@@ -65,5 +66,5 @@ export {
      // civil
   
   // partner
-  p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12
+  p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, career 
    }
