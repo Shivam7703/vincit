@@ -1,6 +1,7 @@
 import { arm, bel, china, geor, ger, kazak, kyrg, malay, poland, rus, uzbe } from "@/assets";
 
 export const Mbbsdata = [
+
 {
     "img": uzbe,
     "title": "MBBS in Uzbekistan",
@@ -428,7 +429,6 @@ export const Mbbsdata = [
         }
     ]
 },
-
 {
     "img": kazak,
     "title": "MBBS in Kazakhstan",

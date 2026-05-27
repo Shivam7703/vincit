@@ -31,7 +31,7 @@ const Menu = ({ activeItemId, onItemClick , onTop}: any) => {
                 <Link
                   key={nav.id}
                   href={nav.href || "#"}
-                  className={`hover:bg-white bg-opacity-30 flex cursor-pointer items-center py-1 pl-2 pr-8 hover:text-orange-600 
+                  className={`hover:bg-white bg-opacity-30 flex cursor-pointer items-center py-1 pl-2 pr-8 hover:text-color2 
                    `}
                   onClick={() => onItemClick(nav.id, nav.href)}
                 >
