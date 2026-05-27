@@ -205,7 +205,7 @@ function RightSide() {
             Office Address
           </p>
           <p className="text-xs font-bold text-zinc-900 line-clamp-2">
-            Lorem ipsum dolor sit amet<br/> consectetur adipisicing elit.
+            714, Block B, alt f Mohan<br/> Estate, New Delhi - 110044
           </p>
         </div>
       </div>
