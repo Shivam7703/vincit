@@ -98,7 +98,7 @@ const Header = ({ header }: HeaderProps) => {
                   onItemClick={handleNavItemClick}
                 />
                 <Link
-                  href="/apply"
+                  href="/contact-us"
                   className="bg-color2 hover:bg-orange-600 text-white px-6 py-2 rounded-md text-sm font-semibold transition-all duration-200 shadow-lg hover:shadow-xl uppercase transform hover:scale-105"
                 >
                   Apply Now

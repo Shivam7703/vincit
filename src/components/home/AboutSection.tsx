@@ -180,7 +180,7 @@ function AboutSection({data}:any) {
               </ul>
             </motion.div>
           </AnimatePresence>
-          <Buttonmain href="/about" text1="Discover More" />
+          <Buttonmain href="/about-us" text1="Discover More" />
         </motion.div>
       </div>
     </section>

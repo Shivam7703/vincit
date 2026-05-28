@@ -12,6 +12,7 @@ import {
 } from "@/assets";
 import { BsPeopleFill } from "react-icons/bs";
 import { FaFacebookF, FaGlobeAmericas, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { GiConversation } from "react-icons/gi";
 
 import { GrVisa } from "react-icons/gr";
@@ -344,7 +345,7 @@ export const footData = {
       href: "https://www.linkedin.com/company/vincitedupath",
     },
     {
-      label: <FaTwitter />,
+      label: <FaXTwitter />,
       href: "https://twitter.com/vincitedupath",
     }
   ],

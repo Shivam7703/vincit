@@ -167,13 +167,13 @@ export default function Footer() {
                 © 2026 Vincit Edupath. All Rights Reserved.
               </p>
 
-              <p className="text-zinc-500 text-xs sm:text-sm text-center sm:text-left">
+              <a href={"https://skywarddigitalsolutions.com"} className="text-zinc-500 text-xs sm:text-sm text-center sm:text-left">
                 Designed By{" "}
 
                 <span className="text-white font-medium">
                   Skyward Digital Solutions
                 </span>
-              </p>
+              </a>
             </div>
           </div>
         </div>

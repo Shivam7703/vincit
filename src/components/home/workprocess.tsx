@@ -70,7 +70,7 @@ Your MBBS Abroad Journey Simplified
 
             </p>
 
-            <Buttonmain href="/about" text1="Get Started" />
+            <Buttonmain href="/contact-us" text1="Get Started" />
 
 
             {/* Image Card */}
@@ -135,7 +135,7 @@ Your MBBS Abroad Journey Simplified
                 </p>
 
                 {/* Learn More */}
-                <button
+                <Link href={"/contact-us"}
                   className={`group sm:mt-6 mt-4  inline-flex items-center gap-3 text-xs sm:text-sm font-semibold uppercase tracking-[0.12em] ${index === 1 || index === 2
                       ? "text-white"
                       : "text-color5"
@@ -151,7 +151,7 @@ Your MBBS Abroad Journey Simplified
                   >
                     <FiArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
                   </span>
-                </button>
+                </Link>
               </div>
             ))}
           </div>
